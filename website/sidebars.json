@@ -1,0 +1,12 @@
+{
+  "docs": {
+    "Getting Started": ["getting-started"],
+    "Docusaurus": ["doc1"],
+    "First Category": ["doc2"],
+    "Second Category": ["doc3"],
+    "Third Category": ["doc4"]
+  },
+  "docs-other": {
+    "First Category": ["doc5" ]
+  }
+}
