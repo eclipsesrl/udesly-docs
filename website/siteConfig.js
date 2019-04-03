@@ -25,7 +25,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'getting-started', label: 'Docs'},
+    {doc: 'wordpress-overview', label: 'Docs'},
     {page: 'help', label: 'Help'},
   ],
 

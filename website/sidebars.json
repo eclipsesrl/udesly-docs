@@ -1,10 +1,6 @@
 {
-  "docs": {
-    "Getting Started": ["getting-started"],
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"],
-    "Third Category": ["doc4"]
+  "wordpress-docs": {
+    "Getting Started": ["wordpress-overview", "wordpress-setup", "wordpress-template-management", "wordpress-pages-configuration", "wordpress-conversion", "wordpress-configuration", "udesly-plugin" ]
   },
   "docs-other": {
     "First Category": ["doc5" ]
