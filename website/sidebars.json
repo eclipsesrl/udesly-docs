@@ -1,8 +1,27 @@
 {
   "wordpress-docs": {
-    "Getting Started": ["wordpress-overview", "wordpress-setup", "wordpress-template-management", "wordpress-pages-configuration", "wordpress-conversion", "wordpress-configuration", "udesly-plugin" ]
+    "Getting Started": ["wordpress-overview", "wordpress-setup", "wordpress-template-management", "wordpress-pages-configuration", "wordpress-conversion", "wordpress-configuration", "udesly-plugin", "requirements" ],
+    "Blog": ["blog-page", "single-post-page", "misc"],
+    "WooCommerce": ["shop-page", "single-product-page", "woocommerce-misc"],
+    "Easy Digital Downloads": ["archive-page", "single-download-page", "edd-misc"],
+    "ACF": ["acf-overview", "acf-items"],
+    "Search Box": ["search-results-number", "search-query", "search-navigation", "search-results", "search-form"],
+    "Custom Post Types": ["cpt-archive-page", "cpt-misc", "cpt-single-page"],
+    "Login Area": ["login-form", "register-form", "logout-action", "lost-reset-password"],
+    "Restrict Content Pro": ["rcp-shortcodes"],
+    "General": ["wordpress-sidebar", "custom-fields", "lists", "forms", "shortcode"],
+    "Menu": ["list-menu", "navbar-menu", "dropdown-menu"],
+    "Page Creator": ["page-creator-overview"],
+    "Social Share": ["social-share-links"],
+    "TranslatePress": ["translatepress-overview"],
+    "Boxes": ["how-to-use-boxes", "dynamic-slider", "dynamic-box"]
   },
-  "docs-other": {
-    "First Category": ["doc5" ]
+  "shopify-docs": {
+    "Getting Started": ["shopify-overview","shopify-mandatory-pages"],
+    "Account Pages": ["account-page", "register-page", "activate-account-page", "addresses-page", "login-page", "reset-password-page", "order-page"],
+    "Shop Pages": ["gift-card-page", "product-template", "collections-template", "collection-lists", "cart-page", "product-image-size"],
+    "Blog Pages":["blogs-template", "articles-template"],
+    "Search Pages":["search-results-page"],
+    "Template Pages": ["shopify-default pages"]
   }
 }

@@ -25,7 +25,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'wordpress-overview', label: 'Docs'},
+    {doc: 'wordpress-overview', label: 'Webflow to WordPress'},
+    {doc: 'shopify-overview', label: 'Webflow to Shopify'},
     {page: 'help', label: 'Help'},
   ],
 
