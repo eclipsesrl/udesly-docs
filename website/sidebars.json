@@ -32,5 +32,12 @@
     "RCP Plugins": ["rcp-coupon-generator", "rcp-taxes-multicurrency"],
     "Mailchimp Plugins": ["mailchimp-automation"]
 
+  },
+  "webflow-csv-converters": {
+    "Squarespace to Webflow": ["squarespace-to-webflow"],
+    "Wix to Webflow": ["wix-to-webflow"],
+    "BigCommerce to Webflow": ["bigcommerce-to-webflow"],
+    "WooCommerce to Webflow": ["woocommerce-to-webflow"],
+    "Shopify to Webflow": ["shopify-to-webflow"]
   }
 }
