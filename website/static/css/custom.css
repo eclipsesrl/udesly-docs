@@ -175,6 +175,10 @@ p {
     #footer section {
         grid-template-columns: 1fr 1fr;
         justify-items: center;
+        text-align: center;
+    }
+    #footer h2.title-logo {
+        padding: 0;
     }
 }
 
