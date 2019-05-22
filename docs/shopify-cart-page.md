@@ -13,7 +13,8 @@ Insert a **Div Block** and assign the attributes:
 
 Insert a **Collection List** in it and link it to the products. The Collection List item can contain several optional elements:
 
-a Div for the Featured Image with the attribute:
+## Featured Image
+a Div for the **Featured Image** with the attribute:
 
 > el-child=featured-image
 
@@ -21,19 +22,21 @@ A Link Block:
 
 > el-child=remove
 
-A Text Block for the Title:
+## Title
+A Text Block for the **Title**:
 
 > el-child=title
 
-In the case you have a variable product, you can also set the title of the variation (in a Text Block):
+In the case you have a **variable product**, you can also set the title of the variation (in a Text Block):
 
 > el-child=variant-title
 
-A Text Block for the Quantity:
+## Quantity
+A Text Block for the **Quantity**:
 
 > el-child=quantity
 
-A text Block for the Price:
+A text Block for the **Price**:
 
 > el-child=price
 
@@ -41,7 +44,8 @@ and if you have to show 2 different prices:
 
 > el-child=original-price
 
-A Text Block for the Total price:
+## Total Price
+A Text Block for the **Total price**:
 
 > el-child=total-line
 
@@ -64,7 +68,7 @@ and 2 buttons with the attributes:
 > el-child=checkout (the other)
 
 
-#### Empty Cart
+## Empty Cart
 To draw the Empty Cart page (that will appear when no items are present in the cart), insert a **Div Block** and assign the attribute:
 
 > el-child=empty-cart

@@ -6,7 +6,7 @@ title: Addresses Page
 The Addresses page is used is used by visitors to manage their addresses used in the checkout.
 It consists in a **Form** to put in a new address and another one to manage the current user’s address.
 
-#### New Address Form
+## New Address Form
 Insert a **Form Block** and assign the following attributes:
 
 > shopify=account
@@ -17,7 +17,7 @@ The form must have a **Label** field, a **Text input** and a **Select** field th
 
 ![](assets/addresses.png)
 
-#### User Addresses Form
+## User Addresses Form
 
 Insert a **Div Block** and assign the following attributes:
 

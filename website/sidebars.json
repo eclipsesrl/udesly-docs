@@ -2,8 +2,8 @@
   "wordpress-docs": {
     "Getting Started": ["wordpress-overview", "wordpress-setup", "wordpress-template-management", "wordpress-pages-configuration", "wordpress-conversion", "wordpress-configuration", "udesly-plugin", "requirements" ],
     "Blog": ["blog-page", "single-post-page", "misc"],
-    "WooCommerce": ["shop-page", "single-product-page", "woocommerce-misc"],
-    "Easy Digital Downloads": ["archive-page", "single-download-page", "edd-misc"],
+    "WooCommerce": ["woocommerce-setup", "shop-page", "single-product-page", "woocommerce-misc"],
+    "EDD": ["archive-page", "single-download-page", "edd-misc"],
     "ACF": ["acf-overview", "acf-items"],
     "Search Box": ["search-results-number", "search-query", "search-navigation", "search-results", "search-form"],
     "Custom Post Types": ["cpt-archive-page", "cpt-misc", "cpt-single-page"],
@@ -17,11 +17,18 @@
     "Boxes": ["how-to-use-boxes", "dynamic-slider", "dynamic-box"]
   },
   "shopify-docs": {
-    "Getting Started": ["shopify-overview","shopify-mandatory-pages"],
+    "Getting Started": ["setup-guide","shopify-mandatory-pages"],
     "Account Pages": ["account-page", "register-page", "activate-account-page", "addresses-page", "login-page", "reset-password-page", "order-page"],
     "Shop Pages": ["gift-card-page", "product-template", "collections-template", "collection-lists", "cart-page", "product-image-size"],
     "Blog Pages":["blogs-template", "articles-template"],
     "Search Pages":["search-results-page"],
-    "Template Pages": ["shopify-default pages"]
+    "Template Pages": ["shopify-default pages"],
+    "Links": ["blog-links", "page-links", "shop-links"],
+    "Menu": ["list-menu", "nav-menu", "dropdown-menu"]
+  },
+  "wordpress-plugins-docs": {
+    "Woo Plugins": ["woocommerce-kit"],
+    "EDD Plugins": ["download-expiration", "documentation", "multicurrency", "changelog"],
+    "RCP Plugins": ["coupon-generator", "rcp-multicurrency", "taxes"]
   }
 }

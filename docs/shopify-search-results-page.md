@@ -28,7 +28,7 @@ Select Collection List Wrapper in the navigator and insert these attributes:
 
 Select now the Collection Item from the navigation and customize your posts/products. You can add all elements or only the one you desire:
 
-#### Title
+## Title
 This will be the title of your search result. To create it select a **Text Block** and insert the attribute:
 
 > el-child=title
@@ -37,17 +37,17 @@ connect it to the field **name** of the CMS
 
 ![](assets/shopify-search.png)
 
-#### Link
+## Link
 This is the link to the search result, select a **Link Block**, a **Button** or a **Link Text** element and insert the attribute:
 
 > el-child=permalink
 
-#### Date
+## Date
 This is the publishing date of your search result. Select a **Text Block** and insert the attribute:
 
 > el-child=date
 
-#### Featured Image
+## Featured Image
 This is the featured image of your search result. You can select a **Div Block** or an **Image** and insert the attribute:
 
 > el-child=featured-image
@@ -56,7 +56,7 @@ Connect the image or the background image to the field **full_image** of the CMS
 
 ![](assets/shopify-search-1.png)
 
-#### Excerpt
+## Excerpt
 This is the excerpt of your search result. Select a **Text Block** element and insert the attribute:
 
 > el-child=excerpt
@@ -65,7 +65,7 @@ Connect it to the field **excerpt** of the CMS.
 
 ![](assets/shopify-search-2.png)
 
-#### Author
+## Author
 This is the author link of your search result. Select a **Text Block** or a **Text Link** element if you want the url linking to blog posts created by that author and insert the attribute:
 
 > el-child=author
@@ -74,7 +74,7 @@ Connect it to the field **authors_name** of the CMS
 
 ![](assets/shopify-search-3.png)
 
-#### Avatar
+## Avatar
 This is the gravatar of the search result. You can select a **Div Block** or an **Image** and insert the attribute:
 
 > el-child=avatar
@@ -83,12 +83,12 @@ Connect the image or the background image to the field **authors** of the CMS
 
 ![](assets/shopify-search-4.png)
 
-#### Tags
+## Tags
 Insert a **List** element and add a link (Tags) within it. The list will have the attribute:
 
 > el-child=tags
 
-#### Pagination
+## Pagination
 The Pagination buttons must be contained in the parent **Search Container** necessarily, otherwise the pagination does not work.
 Assign the appropriate attributes to the corresponding button. They are:
 
@@ -102,14 +102,14 @@ and
 >
 > el=next-page
 
-#### Search Count
+## Search Count
 To enable the Search Count feature, insert a **Text Block** and assign the attributes:
 
 > shopify=search
 >
 > el=search-results-count
 
-#### Search Terms
+## Search Terms
 To enable the Search Terms feature, insert a **Text Block** and assign the attributes:
 
 > shopify=search

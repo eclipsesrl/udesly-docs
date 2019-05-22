@@ -6,7 +6,7 @@ title: Login Page
 The Login page is used by visitors to log in to their customer account page.
 It consists in a **Login Form** and a **Lost Password Form**. 
 
-#### Login Form
+## Login Form
 Insert a **Form Block** and assign the following attributes:
 
 > shopify=account
@@ -24,7 +24,7 @@ Password (password)
 ![](assets/login2.png)
 
 
-#### Lost Password Form
+## Lost Password Form
 Insert a **Form Block** and assign the following attributes:
 
 > shopify=account

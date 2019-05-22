@@ -39,7 +39,7 @@ Select now the Collection Item and insert a **Link Block** and assign the attrib
 
 Now, you can add all elements or only the one you desire to products in your Collections:
 
-#### Title
+## Title
 
 This is the title of the Product. You can insert a **Text Block**, or **Link Block** if you want also the link.
 Insert the attribute:
@@ -48,7 +48,7 @@ Insert the attribute:
 
 and connect it to **name** field of the CMS.
 
-#### Description
+## Description
 This is the description of the product. You can insert a **Text Block**, a **Header** or a **Paragraph**.
 Insert the attribute:
 
@@ -56,7 +56,7 @@ Insert the attribute:
 
 and connect it to the **description** field of the CMS.
 
-#### Featured Image
+## Featured Image
 This is the featured image of the product. You can select a **Div Block** or an **Image**.
 Insert the attribute:
 
@@ -64,22 +64,22 @@ Insert the attribute:
 
 Connect the image or the background image to the field **image** of the CMS.
 
-#### Price
+## Price
 Select a **Text Block** and insert the attribute:
 
 > el-child=price
 
-#### On Sale
+## On Sale
 Insert the element you wish. It will only appear when a product is on sale (a Div Block with a text, for example). Insert the attribute:
 
 > el-child=on-sale
 
-#### Sold-out
+## Sold-out
 Insert the element you wish. It will only appear when a product is sold-out (a Div Block with a text, for example). Insert the attribute:
 
 > el-child=sold-out
 
-#### Tags and Collections
+## Tags and Collections
 Insert a **List** item and add a link (Tags) within it. The list will have the attribute:
 
 > el-child=tags
@@ -88,7 +88,7 @@ A second list will have a second link (Collections). Assign the following attrib
 
 > el-child=collections
 
-#### Pagination
+## Pagination
 The Pagination buttons must be contained in the Parent Div Block necessarily, otherwise the pagination does not work.
 Assign the appropriate attributes to the corresponding button. They are:
 

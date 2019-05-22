@@ -6,21 +6,21 @@ title: Order Page
 The Order page is used to display the details of a visitor’s past order.
 There are several elements you can insert in the Order page in order to get a complete summary of the past orders made by a certain user. Let’s see all of them:
 
-#### Order Name
+## Order Name
 Insert a **Text Block** and assign the following attributes:
 
 > shopify=account
 >
 > el=order-name
 
-#### Order Date
+## Order Date
 Insert a **Text Block** and assign the following attributes:
 
 > shopify=account
 >
 > el=order-date
 
-#### Order Cancelled
+## Order Cancelled
 Insert a **Div Block** and assign the following attributes:
 
 > shopify=account
@@ -33,7 +33,7 @@ You can show the deletion date and the reasons behind. In the Div Block insert 2
 >
 > el-child=reason
 
-#### Order Table
+## Order Table
 Insert a **Div Block** and assign the following attributes:
 
 > shopify=account

@@ -6,7 +6,7 @@ title: Account Page
 The Account page is used to display a summary of the visitor’s customer account.
 In consists in an **Order Table** and a **User Address** field.
 
-#### Order Table
+## Order Table
 Insert a **Div Block** and assign the following attributes:
 
 > shopify=account
@@ -58,7 +58,7 @@ This element shows the amount of the payment. Select a **Text Block** and insert
 
  
 
-#### User Address
+## User Address
 It shows the default address of the user. Insert a **Div Block** or a **Text Block** and assign the attributes:
 
 > shopify=account

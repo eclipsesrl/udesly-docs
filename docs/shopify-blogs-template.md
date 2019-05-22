@@ -35,40 +35,40 @@ Select Collection List Wrapper in the navigator and insert these attributes:
 
 Select now the Collection Item from the navigation and customize your posts. You can add all the elements or only the one you desire:
 
-#### Title
+## Title
 This will be the title of your blog post. To create it insert a **Text Block** and add the attribute:
 
 > el-child=title
 
 connect it to the field **name** of the CMS
 
-#### Link
+## Link
 This is the link to the post. Select a **Link Block**, a **Button** or a **Link Text** and insert the attribute:
 
 > el-child=link
 
-#### Date
+## Date
 This is the publishing date of your post. Select a **Text Block** and insert the attribute:
 
 > el-child=date
 
 Connect it to the field **created on** of the CMS
 
-#### Featured Image
+## Featured Image
 This is the featured image of your post. Insert a **Div Block** or an **Image** with the attribute:
 
 > el-child=featured-image
 
 Connect the image or the background image to the field **main_image** of the CMS
 
-#### Excerpt
+## Excerpt
 This is the excerpt of your post. Select a **Text Block** and insert the attribute:
 
 > el-child=excerpt
 
 Connect it to the field **excerpt** of the CMS
 
-#### Author
+## Author
 This is the author link of your post. Select a **Text Block** or a **Text Link** item if you want the url linking to blog posts created by that author.
 Insert the attribute:
 
@@ -76,19 +76,19 @@ Insert the attribute:
 
 Connect it to the field **author** of the CMS
 
-#### Avatar
+## Avatar
 This is the gravatar of the post author. You can select a **Div Block** or a **Image** with the attribute:
 
 > el-child=avatar
 
 Connect the image or the background image to the field **author_image** of the CMS
 
-#### Tags
+## Tags
 These are the tags of your post, insert a **Text Blog** with the attribute:
 
 > el-child=tags
 
-#### Pagination
+## Pagination
 The Pagination buttons must be contained in the Blog Container necessarily, otherwise the pagination does not work.
 Assign the appropriate attributes to the correspondent button. They are:
 

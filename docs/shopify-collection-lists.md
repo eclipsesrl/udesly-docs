@@ -28,31 +28,31 @@ Select now the Collection Item and insert a **Link Block** with the the attribut
 
 Now, you can add all elements or only the one you desire to your Collections:
 
-#### Title
+## Title
 This will be the title of your product. To create it select a **Text Block** and insert the attribute:
 
 > el-child=title
 
 connect it to the field **name** of the CMS
 
-#### Featured Image
+## Featured Image
 This is the featured image of the product. You can select a **Div Block** or an **Image** with the attribute:
 
 > el-child=featured-image
 
 Connect the image or the background image to the field **full_image** of the CMS
 
-#### Description
+## Description
 Select a **Text Block** and insert the attribute:
 
 > el-child=description
 
-#### Products Count
+## Products Count
 Select a **Text Block** and insert the attribute:
 
 > el-child=products-count
 
-#### Empty Collection List
+## Empty Collection List
 To draw the Empty Collection List page (that will appear when no items are present in the Collection), insert a **Div Block** and assign the attributes:
 
 > shopify=collection
