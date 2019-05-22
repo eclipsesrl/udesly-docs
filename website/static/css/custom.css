@@ -109,6 +109,11 @@ h2.title-logo {
     color: white;
     text-align: center;
 }
+
+h2 p {
+    color:black;
+}
+
 p {
     color: #717171;
 }
