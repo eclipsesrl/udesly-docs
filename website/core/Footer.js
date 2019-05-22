@@ -24,76 +24,47 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="nav-footer" id="footer">
-        <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
-            {this.props.config.footerIcon && (
-              <img
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
-                alt={this.props.config.title}
-                width="66"
-                height="58"
-              />
-            )}
+        <section>
+          <div className="copyright-wrapper">
+          <a href={this.props.config.baseUrl} className="nav-title-logo">
+           <h2 className="title-logo">udesly</h2>
           </a>
+          <div className="copyright">{this.props.config.copyright}</div>
+          </div>
           <div>
-            <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+            <h5>Utility Links</h5>
+            <a href="https://www.udesly.com/udesly-adapter-overview/" target="_blank">
+              Overview
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+            <a href="https://www.udesly.com/webflow-to-wordpress/" target="_blank">
+              Webflow to WordPress
             </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+            <a href="https://www.udesly.com/webflow-to-shopify/" target="_blank">
+              Webflow to Shopify
             </a>
           </div>
           <div>
-            <h5>Community</h5>
-
+            <h5>Help</h5>
             <a
-              href="http://stackoverflow.com/questions/tagged/"
+              href="hhttps://www.udesly.com/help-center/"
               target="_blank"
-              rel="noreferrer noopener">
-              Stack Overflow
+              >
+              Help Center
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener">
-              Twitter
-            </a>
+            <a href="https://www.facebook.com/groups/373995326416699/"  target="_blank">Facebook Community</a>
+            <a href="https://www.youtube.com/channel/UCcuEG-IjaeHRgePmiJ0f8GA"  target="_blank">Youtube Channel</a>
           </div>
           <div>
-            <h5>More</h5>
+            <h5>Shop</h5>
            
-            <a href="https://github.com/">GitHub</a>
-            <a
-              className="github-button"
-              href={this.props.config.repoUrl}
-              data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
-              data-show-count="true"
-              data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
-              Star
-            </a>
+            <a href="https://www.udesly.com/shop/category/webflow/udesly-adapter/" target="_blank">Udesly Adapter</a>
+            <a href="https://www.udesly.com/shop/category/webflow/tools/" target="_blank">Webflow Tools</a>
+            <a href="https://www.udesly.com/shop/category/webflow/templates/" target="_blank">Webflow Templates</a>
           </div>
         </section>
 
-        <a
-          href="https://www.udesly.com"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="logo">
-          <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
-          />
-        </a>
-        <section className="copyright">{this.props.config.copyright}</section>
+  
+        
       </footer>
     );
   }

@@ -30,10 +30,12 @@ class HomeSplash extends React.Component {
     );
 
     const ProjectTitle = () => (
-      <h2 className="projectTitle">
-        {siteConfig.title}
-        <small>{siteConfig.tagline}</small>
+      <div className="intro-section">
+      <h2 className="promo-title">
+        What are you looking for?
       </h2>
+        <p>In this documentation you will find all you need to use Webflow with other CMS</p>
+      </div>
     );
 
     const PromoSection = props => (
@@ -55,11 +57,10 @@ class HomeSplash extends React.Component {
     return (
       <SplashContainer>
         <div className="inner">
-          <ProjectTitle siteConfig={siteConfig} />
+        <ProjectTitle></ProjectTitle>
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('wordpress-overview')}>Webflow to WordPress</Button>
+            <Button href={docUrl('setup-guide')}>Webflow to Shopify</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -78,7 +79,7 @@ class Index extends React.Component {
         id={props.id}
         background={props.background}>
         <GridBlock
-          align="center"
+          align="left"
           contents={props.children}
           layout={props.layout}
         />
@@ -95,27 +96,13 @@ class Index extends React.Component {
     );
 
     const TryOut = () => (
-      <Block id="try">
+      <Block id="shopify-section">
         {[
           {
-            content: 'Talk about trying this out',
-            image: `${baseUrl}img/docusaurus.svg`,
+            content: 'Create your Shopify template in Webflow and customize each single part of it without writing a line of code. It will let you use Webflow to design the template and handle the store from Shopify admin panel. It’s simple, you find whatever it takes in this documentation section.',
+            image: `${baseUrl}img/shopify.png`,
             imageAlign: 'left',
-            title: 'Try it Out',
-          },
-        ]}
-      </Block>
-    );
-
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'right',
-            title: 'Description',
+            title: 'Convert to Shopify',
           },
         ]}
       </Block>
@@ -125,29 +112,29 @@ class Index extends React.Component {
       <Block background="light">
         {[
           {
-            content: 'Talk about learning how to use this',
-            image: `${baseUrl}img/docusaurus.svg`,
+            content: 'With the Udesly Adapter you can use the best visual design tool as a WordPress themebuilder to create sophisticated layouts with limitless functionality. Step by step we’ll guide you to convert your Webflow template to a WordPress one.',
+            image: `${baseUrl}img/wordpress.png`,
             imageAlign: 'right',
-            title: 'Learn How',
+            title: 'Convert to WordPress',
           },
         ]}
       </Block>
     );
 
     const Features = () => (
-      <Block layout="fourColumn">
+      <Block layout="threeColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'top',
-            title: 'Feature One',
+            content: 'Want to start from scratch? In this documentation you find all you need to convert your Webflow template to a WordPress or Shopify one.',
+            title: 'Custom Attribute',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/docusaurus.svg`,
-            imageAlign: 'top',
-            title: 'Feature Two',
+            content: 'To save your time we have introduced complete Elements Pack that you only have to copy and paste into your Webflow template.',
+            title: 'Ready to use elements',
+          },
+          {
+            content: 'At your disposal, also our ready to use Starter Themes. Customize each single aspect of them and convert it through the Adapter.',
+            title: 'Starter Theme',
           },
         ]}
       </Block>
@@ -180,13 +167,10 @@ class Index extends React.Component {
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
-        <div className="mainContainer">
+        <div className="mainContainer home">
           <Features />
-          <FeatureCallout />
           <LearnHow />
           <TryOut />
-          <Description />
-          <Showcase />
         </div>
       </div>
     );

@@ -11,14 +11,14 @@
 // List of projects/orgs using your project for the users page.
 
 const siteConfig = {
-  title: 'udesly', // Title for your website.
-  tagline: 'Udesly Adapter ',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'Udesly', // Title for your website.
+  tagline: 'Udesly Documentation',
+  url: 'https://docs.udesly.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
-
+  
   // Used for publishing and more
-  projectName: 'udesly-adapter',
-  organizationName: 'facebook',
+  projectName: 'udesly',
+  organizationName: '',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -27,13 +27,11 @@ const siteConfig = {
   headerLinks: [
     {doc: 'wordpress-overview', label: 'Webflow to WordPress'},
     {doc: 'setup-guide', label: 'Webflow to Shopify'},
-    {doc: 'woocommerce-kit', label: 'WordPress Plugins'},
-    {page: 'help', label: 'Help'},
+    {search: true}
   ],
 
   /* path to images for header/footer */
   headerIcon: '',
-  footerIcon: 'img/docusaurus.svg',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
@@ -42,6 +40,7 @@ const siteConfig = {
     secondaryColor: '#0d0d0d',
   },
 
+  docsUrl: '',
 
   fonts: {
     myFont: [
@@ -68,7 +67,7 @@ const siteConfig = {
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [''],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -76,9 +75,10 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: 'img/udesly.jpg',
+  twitterImage: 'img/udesly.jpg',
 
+  scrollToTop: true,
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
 
