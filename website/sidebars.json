@@ -29,6 +29,8 @@
   "wordpress-plugins-docs": {
     "Woo Plugins": ["woocommerce-kit"],
     "EDD Plugins": ["edd-download-expiration", "edd-documentation", "edd-multicurrency", "edd-changelog"],
-    "RCP Plugins": ["rcp-coupon-generator", "rcp-taxes-multicurrency"]
+    "RCP Plugins": ["rcp-coupon-generator", "rcp-taxes-multicurrency"],
+    "Mailchimp Plugins": ["mailchimp-automation"]
+
   }
 }
