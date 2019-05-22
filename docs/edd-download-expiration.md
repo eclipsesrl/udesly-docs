@@ -1,5 +1,5 @@
 ---
-id: download-expiration
+id: edd-download-expiration
 title: EDD Download Expiration
 ---
 

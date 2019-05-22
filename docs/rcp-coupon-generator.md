@@ -1,5 +1,5 @@
 ---
-id: coupon-generator
+id: rcp-coupon-generator
 title: RCP Coupon Generator
 ---
 

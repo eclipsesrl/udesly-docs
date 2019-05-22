@@ -1,5 +1,5 @@
 ---
-id: changelog
+id: edd-changelog
 title: EDD Changelog
 ---
 

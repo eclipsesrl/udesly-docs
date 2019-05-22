@@ -1,5 +1,5 @@
 ---
-id: multicurrency
+id: edd-multicurrency
 title: EDD Multicurrency
 ---
 

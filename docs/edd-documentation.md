@@ -1,5 +1,5 @@
 ---
-id: documentation
+id: edd-documentation
 title: EDD Documentation
 ---
 
