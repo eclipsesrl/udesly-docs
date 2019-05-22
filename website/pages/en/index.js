@@ -59,7 +59,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
         <ProjectTitle></ProjectTitle>
           <PromoSection>
-            <Button href={docUrl('wordpress-overview')}>Webflow to WordPress</Button>
+            <Button href={docUrl('wordpress-setup')}>Webflow to WordPress</Button>
             <Button href={docUrl('setup-guide')}>Webflow to Shopify</Button>
           </PromoSection>
         </div>

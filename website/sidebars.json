@@ -1,6 +1,6 @@
 {
   "wordpress-docs": {
-    "Getting Started": ["wordpress-overview", "wordpress-setup", "wordpress-template-management", "wordpress-pages-configuration", "wordpress-conversion", "wordpress-configuration", "udesly-plugin", "requirements" ],
+    "Getting Started": ["wordpress-setup", "wordpress-template-management", "wordpress-pages-configuration", "wordpress-conversion", "wordpress-configuration", "udesly-plugin", "requirements" ],
     "Blog": ["blog-page", "single-post-page", "misc"],
     "WooCommerce": ["woocommerce-setup", "shop-page", "single-product-page", "woocommerce-misc"],
     "EDD": ["archive-page", "single-download-page", "edd-misc"],
