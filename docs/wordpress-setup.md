@@ -4,7 +4,7 @@ title: Setup
 ---
 
 ## Download the APP
-Download the app and plugins from [this page](https://www.udesly.com/udesly-adapter-overview/).
+Download the app and plugins from [this page](https://www.udesly.com/shop/category/webflow/udesly-adapter/).
 
 ![Download the App](assets/download-the-app.png)
 

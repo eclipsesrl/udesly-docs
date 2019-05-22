@@ -1,5 +1,5 @@
 ---
-id: setup-guide
+id: shopify-setup
 title: Setup Guide
 ---
 

@@ -17,7 +17,7 @@
     "Boxes": ["how-to-use-boxes", "dynamic-slider", "dynamic-box"]
   },
   "shopify-docs": {
-    "Getting Started": ["setup-guide","shopify-mandatory-pages"],
+    "Getting Started": ["shopify-setup","shopify-mandatory-pages"],
     "Account Pages": ["account-page", "register-page", "activate-account-page", "addresses-page", "login-page", "reset-password-page", "order-page"],
     "Shop Pages": ["gift-card-page", "product-template", "collections-template", "collection-lists", "cart-page", "product-image-size"],
     "Blog Pages":["blogs-template", "articles-template"],
