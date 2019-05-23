@@ -143,6 +143,6 @@ Now you can upload the converted theme (.zip file) from your Shopify admin panel
 
 
 ## Set the Shopify store
-Follow this full doc to learn everything about a Shopify store (products, collection, payments, shipping and other settings).
+Follow this [full doc](https://help.shopify.com/en/manual/using-themes/change-the-layout/documentation) to learn everything about a Shopify store (products, collection, payments, shipping and other settings).
 
 <iframe width="700" height="419" src="https://www.youtube.com/embed/0xiscAUFoAo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
