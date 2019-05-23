@@ -43,6 +43,11 @@ body {
     justify-content: center;
 }
 
+iframe {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .intro-section * {
     color: white;
 }
