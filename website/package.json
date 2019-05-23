@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "docusaurus": "^1.8.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0"
   }
 }

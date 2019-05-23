@@ -10,6 +10,10 @@
 
 // List of projects/orgs using your project for the users page.
 
+const config = require('dotenv').config()
+
+const {parsed: {ALGOLIA_API_KEY, ALGOLIA_INDEX}} = config; 
+
 const siteConfig = {
   title: 'Udesly', // Title for your website.
   tagline: 'Udesly Documentation',
@@ -23,10 +27,17 @@ const siteConfig = {
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
+  algolia: {
+    apiKey: ALGOLIA_API_KEY,
+    indexName: ALGOLIA_INDEX,
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
+
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'wordpress-setup', label: 'Webflow to WordPress'},
-    {doc: 'shopify-setup', label: 'Webflow to Shopify'}
+    {doc: 'shopify-setup', label: 'Webflow to Shopify'},
+    {search: true}
   ],
 
   /* path to images for header/footer */

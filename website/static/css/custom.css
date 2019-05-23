@@ -84,7 +84,6 @@ body {
 }
 
 
-
 .mainContainer h2 {
     font-size: 18px;
     margin-bottom: 12px;
@@ -109,6 +108,68 @@ h2.title-logo {
     color: white;
     text-align: center;
 }
+
+input#search_input_react {
+    background-color: rgba(189, 189, 189, 0.19);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Poppins";
+}
+
+/* Main dropdown wrapper */
+  
+  /* Main category (eg. Getting Started) */
+  .navSearchWrapper  .algolia-docsearch-suggestion--category-header {
+    color: black!important;
+    background-color: transparent!important;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size: 14px;
+  }
+
+  .navSearchWrapper .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--highlight {
+    background-color: transparent!important;
+    color: #2f52ff!important;
+  }
+
+  .navSearchWrapper .aa-dropdown-menu {
+      border:none!important;
+  }
+
+  .navSearchWrapper .aa-suggestion {
+      border: none!important;
+  }
+
+  .algolia-docsearch-suggestion__secondary {
+      border: none!important;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  
+  /* Category (eg. Downloads) */
+  .navSearchWrapper .algolia-docsearch-suggestion--subcategory-column {
+    color: #717171;
+  }
+  
+  /* Title (eg. Bootstrap CDN) */
+  .navSearchWrapper .algolia-docsearch-suggestion--title {
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Description description (eg. Bootstrap currently works...) */
+  .navSearchWrapper .algolia-docsearch-suggestion--text {
+    font-size: 0.8rem;
+    color: #717171;
+  }
+  
+  /* Highlighted text */
+  .navSearchWrapper .algolia-docsearch-suggestion--highlight {
+    color: #2f52ff;
+  }
+
+  
+
 
 h2 p {
     color:black;
