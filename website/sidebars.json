@@ -22,7 +22,7 @@
     "Shop Pages": ["gift-card-page", "product-template", "collections-template", "collection-lists", "cart-page", "product-image-size"],
     "Blog Pages":["blogs-template", "articles-template"],
     "Search Pages":["search-results-page"],
-    "Template Pages": ["shopify-default pages"],
+    "Template Pages": ["shopify-default-pages"],
     "Links": ["blog-links", "page-links", "shop-links"],
     "Menu": ["list-menu", "nav-menu", "dropdown-menu"]
   },

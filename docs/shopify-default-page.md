@@ -1,6 +1,6 @@
 ---
-id: shopify-default-page
-title: Shopify Default Page
+id: shopify-default-pages
+title: Shopify Default Pages
 ---
 
 You can add other pages to your project starting from this default template.
