@@ -39,5 +39,8 @@
     "BigCommerce to Webflow": ["bigcommerce-to-webflow"],
     "WooCommerce to Webflow": ["woocommerce-to-webflow"],
     "Shopify to Webflow": ["shopify-to-webflow"]
+  },
+  "udesly-styler": {
+    "Udesly Styler Overview": ["styler-overview"]
   }
 }
