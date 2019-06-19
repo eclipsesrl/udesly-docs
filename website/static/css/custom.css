@@ -105,6 +105,18 @@ iframe {
     margin-bottom: 0;
 }
 
+header a[href="/versions"] {
+    margin-left: 60px;
+}
+
+header a[href="/versions"] h3 {
+    text-decoration: none;
+    margin-top: 3px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+
 h2.title-logo {
     font-family: "Leckerli One";
     font-weight: 100;
