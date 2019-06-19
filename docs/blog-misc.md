@@ -189,3 +189,87 @@ Don’t forget that you need to set the Main Category for each post if you want 
 
 <iframe width="700" height="419" src="https://www.youtube.com/embed/8_Ih7jcRW4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+## Posts Slider
+Insert a Slider element and assign the attributes:
+
+> wp=blog
+>
+> el=posts-slider
+>
+> udesly-slug=the slug of the content
+
+Delete all the slides present in the slider but one. You can add all the elements of Recent Posts in it:
+
+#### Title
+This will be the title of your post. To create it select a **Text Block** and insert the attribute:
+
+> el-child=title
+
+connect it to the field **name** of the CMS
+
+#### Permalink
+This is the link to the post. Select a **Link Block**, a **Button** or a **Link Text** element and insert the attribute:
+
+> el-child=permalink
+
+#### Date
+This is the publishing date of your post. Select a **Text Block** and insert the attribute:
+
+> el-child=date
+
+Connect it to the field **created on** of the CMS
+By default, it gets format from your WordPress settings (You can change it, following the path **Settings -> General -> Date Format**). Otherwise, you can set another format using the attribute:
+
+> udesly-data=your format
+
+You find all the available formats [here](https://codex.wordpress.org/Formatting_Date_and_Time)
+
+#### Time
+This is the publishing time of your post. Select a **Text Block** and insert the attribute:
+
+> el-child=time
+
+Connect it to the field **created on** of the CMS
+By default, it gets format from your WordPress settings (You can change it, following the path Settings -> General -> Time Format). Otherwise, you can set another format using the attribute
+
+> udesly-data=your format
+
+You find all the available formats [here](https://codex.wordpress.org/Formatting_Date_and_Time)
+
+#### Featured Image
+This is the featured image of your post. You can select a **Div Block** or an **Image** and insert the attribute:
+
+> el-child=featured-image
+
+Connect the image or the background image to the field **full_image** of the CMS
+
+#### Excerpt
+This is the excerpt of your post. Select a **Rich Text** element and insert the attribute:
+
+> el-child=excerpt
+
+Connect it to the field **excerpt** of the CMS
+You can customize the length of the excerpt and the last word from **Udesly Plugin->Settings->Blog**
+
+#### Author
+This is the author link of your post. Select a **Text Block** or a **Text Link** element if you want the url linking to blog posts created by that author and insert the attribute:
+
+> el-child=author
+
+Connect it to the field **author** of the CMS 
+
+#### Avatar
+This is the gravatar of the post author. You can select a **Div Block** or an **Image** and insert the attribute:
+
+> el-child=avatar
+
+Connect the image or the background image to the field **author_image** of the CMS
+
+#### Main Category
+This is the main category of the post. Select a **Link Block**, a **Button**, a **Link Text** element or simply a text block if you don’t need the link.
+Insert the attribute:
+
+> el-child=main-category
+
+Don’t forget that you need to set the Main Category for each post if you want to use it.

@@ -24,7 +24,8 @@
     "Search Pages":["search-results-page"],
     "Template Pages": ["shopify-default-pages"],
     "Links": ["blog-links", "page-links", "shop-links"],
-    "Menu": ["list-menu", "nav-menu", "dropdown-menu"]
+    "Menu": ["list-menu", "nav-menu", "dropdown-menu"],
+    "Contact Form": ["shopify-contact-form"]
   },
   "wordpress-plugins-docs": {
     "Woo Plugins": ["woocommerce-kit"],
@@ -41,6 +42,6 @@
     "Shopify to Webflow": ["shopify-to-webflow"]
   },
   "udesly-styler": {
-    "Udesly Styler Overview": ["styler-overview"]
+    "Udesly Styler": ["styler-overview"]
   }
 }
