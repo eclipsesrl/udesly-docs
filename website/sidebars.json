@@ -18,7 +18,7 @@
   },
   "shopify-docs": {
     "Getting Started": ["shopify-overview","shopify-pages-structure"],
-    "Blog":["shopify-blog-page", "shopify-article-page", "shopify-blog-elements"]
+    "Blog":["shopify-blog-page", "shopify-article-page", "shopify-article-elements", "shopify-misc-elements"]
   },
   "wordpress-plugins-docs": {
     "Woo Plugins": ["woocommerce-kit"],
