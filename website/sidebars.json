@@ -18,7 +18,13 @@
   },
   "shopify-docs": {
     "Getting Started": ["shopify-overview","shopify-pages-structure"],
-    "Blog":["shopify-blog-page", "shopify-article-page", "shopify-article-elements", "shopify-misc-elements"]
+    "Blog":["shopify-blog-page", "shopify-article-page", "shopify-article-elements", "shopify-misc-elements"],
+    "Menu": ["shopify-menu"],
+    "Social": ["shopify-social-share"],
+    "General": ["shopify-forms", "shopify-page-links"],
+    "Template Pages": ["shopify-page-items"],
+    "Conditional": ["shopify-conditional-items"]  
+
   },
   "wordpress-plugins-docs": {
     "Woo Plugins": ["woocommerce-kit"],
