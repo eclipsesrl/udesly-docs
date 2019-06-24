@@ -21,7 +21,7 @@ Select the Collection List Wrapper in the navigator and insert these attributes:
 
 > shopify=collection
 >
-> el=collection-lists
+> el=collections-list
 
 Select now the Collection Item and insert a **Link Block** with the the attribute:
 
@@ -53,14 +53,14 @@ Select a **Text Block** and insert the attribute:
 
 > el-child=products-count
 
-## Empty Collection List
-To draw the Empty Collection List page (that will appear when no items are present in the Collection), insert a **Div Block** and assign the attributes:
+## Pagination
+Insert a **Div Block** and assign the attributes:
 
 > shopify=collection
 >
-> el=collection-lists-container
+> el=collections-list-container
 
-you can also insert two button that redirects to other Collection List pages. They must have the attributes:
+Then insert two button that redirects to other Collection List pages. They must have the attributes:
 
 > shopify=collection
 >
