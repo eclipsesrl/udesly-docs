@@ -21,9 +21,11 @@
     "Blog":["shopify-blog-page", "shopify-article-page", "shopify-article-elements", "shopify-misc-elements"],
     "Menu": ["shopify-menu"],
     "Social": ["shopify-social-share"],
-    "General": ["shopify-forms", "shopify-page-links"],
+    "General": ["shopify-account", "shopify-order-page", "shopify-forms", "shopify-page-links", "shopify-sections", "shopify-liquid-elements", "shopify-page-types", "shopify-addresses"],
     "Template Pages": ["shopify-page-items"],
-    "Conditional": ["shopify-conditional-items"]  
+    "Conditional": ["shopify-conditional-items"],
+    "Shop Pages": ["shopify-gift-card"],
+    "Search": ["shopify-search-page", "shopify-search-items"]  
 
   },
   "wordpress-plugins-docs": {

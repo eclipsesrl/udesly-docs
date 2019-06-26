@@ -1,141 +1,126 @@
 ---
-id: order-page
+id: shopify-order-page
 title: Order Page
 ---
 
-The Order page is used to display the details of a visitor’s past order.
-There are several elements you can insert in the Order page in order to get a complete summary of the past orders made by a certain user. Let’s see all of them:
+The Order page is used to display the details of a visitor’s past order. The following elements can be set only on the **Order page**.
 
-## Order Name
-Insert a **Text Block** and assign the following attributes:
+#### Order Date
 
-> shopify=account
+It is the date of publication of the order. Insert a text element and enter the attribute:
+
+> item=date
+
+To handle the date format, you can use the following optional attribute:
+
+> format={date-format}
+
+For date format type use [strfti.me](http://www.strfti.me/)
+
+#### Cancel Date
+It is the date of cancellation of the order. Insert a text element and enter the attribute:
+
+> item=cancelled-date
+
+To handle the date format, you can use the following optional attribute:
+
+> format={date-format}
+
+For date format type use [strfti.me](http://www.strfti.me/)
+
+#### Cancel Reason
+This is the reason behind the cancellation of the order. Insert a Text item and add the attribute:
+
+> item=cancel-reason
+
+#### Billing Address
+Insert a Text item and add the attribute:
+
+> item=billing-address
+
+#### Shipping Address
+Insert a Text item and add the attribute:
+
+> item=shipping-address
+
+#### Subtotal
+Insert a Text item and add the attribute:
+
+> item=subtotal
+
+#### Total
+Insert a Text item and add the attribute:
+
+> item=total
+
+#### Taxes
+Insert a Div element that gets repeated and add the attribute:
+
+> item=taxes
+
+    Inside you can add on Text items:
+    
+    > item=tax-title
+
+    and
+
+    > item=tax-price
+
+
+#### discounts
+Insert a Div element that gets repeated and add the attribute:
+
+> item=discounts
+
+    Inside you can add on Text items:
+    
+    > item=discount-code
+
+    and
+
+    > item=discount-savings
+
+
+#### shipping
+Insert a Div element that gets repeated and add athe attribute:
+
+> item=shipping
+
+    Inside you can add on Text items:
+    
+    > item=shipping-title
+
+    and
+
+    > item=shipping-price
+
+
+#### Name
+Insert a Text item and add the attribute:
+
+> item=name
+
+
+##### Items
+Insert a Collection List wrapper. On the Collection List items you can add the following attributes.
+
+On Text elements:
+
+> item=title
 >
-> el=order-name
-
-## Order Date
-Insert a **Text Block** and assign the following attributes:
-
-> shopify=account
+> item=tracking-company
 >
-> el=order-date
-
-## Order Cancelled
-Insert a **Div Block** and assign the following attributes:
-
-> shopify=account
+> item=sku
 >
-> el=order-cancelled
-
-You can show the deletion date and the reasons behind. In the Div Block insert 2 **Text Blocks** and assign the following attributes to the corresponding block:
-
-> el-child=cancelled-date
+> item=quantity
 >
-> el-child=reason
-
-## Order Table
-Insert a **Div Block** and assign the following attributes:
-
-> shopify=account
+> item=total
 >
-> el=order
-
-Insert a **Collection List** element. You can add all the following elements or only the ones you desire:
-
-- **Title:**
-This will be the title of the order. To create it select a **Text Block** and insert the attribute:
-
-> el-child=title
+> item=item-price
 
 
-- **Fullfillment Date:**
-This is the finalisation date of the order. Select a **Text Block** and insert the attribute:
+On Link elements:
 
-> el-child=fullfillment-date
-
-
-- **Tracking URL:**
-This link allows to follow the order trail. Insert a **Text Link** and assign the attribute:
-
-> el-child=tracking-url
-
-
-- **Tracking Company:**
-It is the name of the Tracking Company. Insert a **Text Block** and assign the attribute:
-
-> el-child=company
-
-
-- **Tracking Number:**
-It’s the tracking number of a given order. Insert a **Text Block** and assign the attribute:
-
-> el-child=tracking-number
-
-
-- **Sku:**
-This is the order identification code. Insert a **Text Block** and assign the attribute:
-
-> el-child=sku
-
-
-- **Price:**
-Select a **Text Block** and insert the attribute:
-
-> el-child=price
-
-
-- **Quantity:**
-Select a **Text Block** and insert the attribute:
-
-> el-child=quantity
-
-
-- **Total:**
-Select a **Text Block** and insert the attribute:
-
-> el-child=total
-
-- **Order Details:**
-In order to get a complete financial record of orders made by a certain user, you can insert several elements:
-
-*Subtotal:* 
-Select a **Text Block** and insert the attribute:
-
-> el-child=subtotal
-
-*Discount Saving:* 
-Select a **Text Block** and insert the attribute:
-
-> el-child=discount-saving
-
-*Shipping Total:*
-Select a **Text Block** and insert the attribute:
-
-> el-child=shipping-total
-
-*Tax Total:*
-Select a **Text Block** and insert the attribute:
-
-> el-child=tax-total
-
-*Order Total:*
-Select a **Text Block** and insert the attribute:
-
-> el-child=order-total
-
-- **Billing and Shipping Addresses**
-Lastly, you can insert the billing address and the shipping address related to a specific user.
-
-*Billing Address:*
-Select a **Text Block** and insert the attributes:
-
-> shopify=account
+> item=tracking-url
 >
-> el=billing-address
-
-*Shipping Address:*
-Select a **Text Block** and insert the attributes:
-
-> shopify=account
->
-> el=shipping-address
+> item=link  // this is the link to the ordered product
