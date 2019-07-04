@@ -6,7 +6,7 @@ title: Account
 To enable accounts follow the path **Shopify > settings > Checkout > Select**. 
 
 
-#### Login
+## Login
 This attribute can be entered in the Login page only. 
 Insert a Form block and add the attribute:
 
@@ -17,7 +17,7 @@ It needs specific type fields:
 - 1 input name=email type=email
 - 1 input type=submit
 
-#### Activate
+## Activate
 This attribute can be entered in the Activate Account page only.
 Insert a Form block and add the attribute:
 
@@ -29,7 +29,7 @@ It needs specific type fields:
 - 1 input type=submit
 - 1 input type=submit and atrtibute item=decline
 
-#### Reset
+## Reset
 This attribute can be entered in the Reset Password page only.
 Insert a Form block and add the attribute:
 
@@ -40,7 +40,7 @@ It needs specific type fields:
 - 1 input name=password_confirmation type=password
 - 1 input type=submit
 
-#### Recover
+## Recover
 This can be entered anywhere you want. It serves to ask for the password recovering.
 Insert a Form block and add the attribute:
 
@@ -50,7 +50,7 @@ It needs specific type fields:
 - 1 input name=email type=email
 - 1 input type=submit
 
-#### Register
+## Register
 This attribute can be entered in the Register page only.
 Insert a Form block and add the attribute:
 
@@ -64,49 +64,49 @@ It needs specific type fields:
 - 1 input type=submit
 
 
-#### User Default Address
+## User Default Address
 This attribute can be entered in the Account page only.
 Insert a Text item and add the attribute:
 
 > account=user-default-address
 
-#### User Name
+## User Name
 This attribute can be entered in the Account page only.
 Insert a Text item and add the attribute:
 
 > account=user-name
 
-#### User First Name
+## User First Name
 This attribute can be entered in the Account page only.
 Insert a Text item and add the attribute:
 
 > account=user-first-name
 
-#### User Last Name
+## User Last Name
 This attribute can be entered in the Account page only.
 Insert a Text item and add the attribute:
 
 > account=user-last-name
 
-#### User Email
+## User Email
 This attribute can be entered in the Account page only.
 Insert a Text item and add the attribute:
 
 > account=user-email
 
-#### User Orders Count
+## User Orders Count
 This attribute can be entered in the Account page only.
 Insert a Text item and add the attribute:
 
 > account=user-orders-count
 
-#### User Total Spent
+## User Total Spent
 This attribute can be entered in the Account page only.
 Insert a Text item and add the attribute:
 
 > account=user-total-spent
 
-#### orders
+## Orders
 This attribute can be entered in the Account page only.
 Insert a Text item and add the attribute:
 
@@ -129,7 +129,7 @@ On Link elements:
 > item=link
 
 
-#### Logout Link
+## Logout Link
 This attribute can be entered in all the pages.
 Insert a Link item and add the attribute:
 

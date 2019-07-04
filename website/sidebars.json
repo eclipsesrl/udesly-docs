@@ -18,14 +18,16 @@
   },
   "shopify-docs": {
     "Getting Started": ["shopify-overview","shopify-pages-structure"],
-    "Blog":["shopify-blog-page", "shopify-article-page", "shopify-article-elements", "shopify-misc-elements"],
+    "General": ["shopify-forms", "shopify-page-links", "shopify-sections", "shopify-liquid-elements", "shopify-page-types"],
+    "Account Pages": ["shopify-account", "shopify-addresses", "shopify-order-page"],
+    "Blog Pages":["shopify-blog-page", "shopify-article-page", "shopify-article-elements", "shopify-misc-elements"],
+    "Shop Pages": ["shopify-gift-card", "shopify-product-items", "shopify-shop-items"],
+    "Search Pages": ["shopify-search-page", "shopify-search-items"],  
     "Menu": ["shopify-menu"],
     "Social": ["shopify-social-share"],
-    "General": ["shopify-account", "shopify-order-page", "shopify-forms", "shopify-page-links", "shopify-sections", "shopify-liquid-elements", "shopify-page-types", "shopify-addresses"],
     "Template Pages": ["shopify-page-items"],
-    "Conditional": ["shopify-conditional-items"],
-    "Shop Pages": ["shopify-gift-card"],
-    "Search": ["shopify-search-page", "shopify-search-items"]  
+    "Conditional": ["shopify-conditional-items"]
+ 
 
   },
   "wordpress-plugins-docs": {

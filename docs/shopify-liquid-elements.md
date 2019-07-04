@@ -5,25 +5,25 @@ title: Liquid Elements
 
 Liquid elements are advanced elements that can help you to achieve custom functionalities without modifying directly the exported theme. They can be used in all the theme and are meant for advanced users who knows how liquid templating works.
 
-#### If
+## If
 
 > liquid:if={expression}
 
 It wraps the element inside the condition.
 
-#### For
+## For
 
 > liquid:for={expression}
 
 It wraps the elements inside a for cycle.
 
-#### Unless
+## Unless
 
 > liquid:unless={expression}
 
 It wraps the element inside an unless.
 
-#### object
+## object
 
 > liquid:object={expression}
 
@@ -32,7 +32,7 @@ Option:
 
 It sets the content of the element to object if `where` attribute is not set, otherwise will set the object inside the html attribute defined with the `where` attribute.
 
-#### tag
+## tag
 
 > liquid:tag={expression}
 

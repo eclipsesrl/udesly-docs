@@ -3,7 +3,7 @@ id: shopify-page-types
 title: Page Types
 ---
 
-### Mandatory Pages
+## Mandatory Pages
 The first step in building a theme for Shopify is to create several pages, each serving their own unique purpose. All of them are required to have a well-functioning Shopify theme.
 They are totally customizable and you can add more but the following are essential.
 They are:
@@ -20,7 +20,7 @@ They are:
 > 
 > Product
 
-### All Pages
+## All Pages
 With the Adapter 2.0 you decide the page type in Webflow through some attributes on body (but it's automatic in almost all pages, it's necessary only for cms pages and even not in all of them):
 
 **index =>** no attribute
@@ -77,7 +77,7 @@ The list below indicates all the attributes you can use to define the page type,
 >
 > page=gift-card
 
-### Page Links
+## Page Links
 You can't link directly from webflow to page set as:
 
 > article

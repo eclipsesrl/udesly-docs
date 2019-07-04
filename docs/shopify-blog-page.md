@@ -9,7 +9,7 @@ Some of these items can be used only in the page set as **blog page** (Blog page
 > page=blog
 
 
-#### Blog Title
+## Blog Title
 
 This is the blog title (**e.g:** News) and it can be added on every text element.
 
@@ -18,7 +18,7 @@ The attribute to enter is:
 > blog=title
 
 
-#### Blog Archive Articles
+## Blog Archive Articles
 
 It must be inserted on a Collection List Wrapper and it's the list of archive posts. To enable pagination just add the pagination to the collection and you can control the number of posts from *shopify -> customize theme*
 
@@ -26,10 +26,9 @@ The attribute to enter is:
 
 > blog=archive-posts
 
-tutti gli elementi chepuoi settare nel collection item di questo elemento le trovi qui
+All the elements you can add in the Collection Item are available here.
 
-
-#### Blog Tags
+## Blog Tags
 
 This element returns all tags in a blog. Similar to **all_tags** but it only returns tags of articles that are in the filtered view.
 

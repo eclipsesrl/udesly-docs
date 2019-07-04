@@ -9,7 +9,7 @@ This page must have the following attribute on the Body:
 
 > page=article
 
-### Navigation
+## Navigation
 The following items can be inserted in the Single Article page exclusively.
 
 #### Previous Article

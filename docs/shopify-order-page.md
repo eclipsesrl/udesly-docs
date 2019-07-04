@@ -1,6 +1,6 @@
 ---
 id: shopify-order-page
-title: Order Page
+title: Order 
 ---
 
 The Order page is used to display the details of a visitor’s past order. The following elements can be set only on the **Order page**.
@@ -101,7 +101,7 @@ Insert a Text item and add the attribute:
 > item=name
 
 
-##### Items
+#### Items
 Insert a Collection List wrapper. On the Collection List items you can add the following attributes.
 
 On Text elements:

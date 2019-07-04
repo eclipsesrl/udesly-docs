@@ -2,7 +2,7 @@
 id: shopify-sections
 title: Sections
 ---
-#### Sections
+## Sections
 
 Sections are blocks that can be added in Shopify to enable options: they are customizable blocks of content that determine the layout of different pages on your online store. Each type of page has its own sections. For example, the product page section determines the layout of each product page on your online store.
 
@@ -24,7 +24,7 @@ N.B: Remember that if you create a dynamic section you MUST set in the home page
 this is the place where all the sections added to the page will be shown.
 
 
-### Sections Options
+## Sections Options
 
 Inside sections you can add several options to allow your customer to modify different settings of it.
 
