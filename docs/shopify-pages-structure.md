@@ -1,7 +1,12 @@
 ---
-id: shopify-page-types
-title: Page Types
+id: shopify-pages-structure
+title: Pages Structure
 ---
+
+The first step in building a Shopify theme is to create several pages, each serving a unique purpose. Shopify itself necessary involves pages without which the very concept of Shopify template would to come to an end.
+We'll see in this documentation what these pages are and what kind of purpose they serve.
+
+The following step, thus, involves the acknowledgment of the page type, as very significant as easy shift in the conversion process.
 
 ## Mandatory Pages
 The first step in building a theme for Shopify is to create several pages, each serving their own unique purpose. All of them are required to have a well-functioning Shopify theme.
@@ -109,5 +114,4 @@ If you want to link a specific collection use the attribute:
 Finally, to link the product page use the attribute:
 
 > product-link={handle}
-
 
