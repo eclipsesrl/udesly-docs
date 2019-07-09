@@ -1,5 +1,5 @@
 ---
-id: shopify-overview
+id: shopify-setup
 title: How the Adapter works
 ---
 

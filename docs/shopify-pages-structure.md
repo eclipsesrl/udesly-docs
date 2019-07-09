@@ -9,9 +9,6 @@ We'll see in this documentation what these pages are and what kind of purpose th
 The following step, thus, involves the acknowledgment of the page type, as very significant as easy shift in the conversion process.
 
 ## Mandatory Pages
-The first step in building a theme for Shopify is to create several pages, each serving their own unique purpose. All of them are required to have a well-functioning Shopify theme.
-They are totally customizable and you can add more but the following are essential.
-They are:
 
 > Index
 >

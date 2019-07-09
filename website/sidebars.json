@@ -1,6 +1,6 @@
 {
   "wordpress-docs": {
-    "Getting Started": ["wordpress-setup", "wordpress-template-management", "wordpress-pages-configuration", "wordpress-conversion", "wordpress-configuration", "udesly-plugin", "requirements" ],
+    "Getting Started": ["wordpress-setup", "wordpress-pages-structure"],
     "Blog": ["blog-page", "single-post-page", "misc"],
     "WooCommerce": ["woocommerce-setup", "shop-page", "single-product-page", "woocommerce-misc"],
     "EDD": ["archive-page", "single-download-page", "edd-misc"],
@@ -17,7 +17,7 @@
     "Boxes": ["how-to-use-boxes", "dynamic-slider", "dynamic-box"]
   },
   "shopify-docs": {
-    "First Steps": ["shopify-overview", "shopify-pages-structure", "shopify-conversion-steps"],
+    "First Steps": ["shopify-setup", "shopify-pages-structure", "shopify-conversion-steps"],
     "General": ["shopify-forms", "shopify-page-links", "shopify-sections", "shopify-liquid-elements", "shopify-page-types"],
     "Account Pages": ["shopify-account", "shopify-addresses", "shopify-order-page"],
     "Blog Pages":["shopify-blog-page", "shopify-article-page", "shopify-article-elements", "shopify-misc-elements"],

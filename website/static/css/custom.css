@@ -1,6 +1,6 @@
 /* your custom css */
-body {
-    font-family: "Poppins";
+body * {
+    font-family: "mr-eaves-xl-modern";
 }
 .fixedHeaderContainer {
     background-color: black;

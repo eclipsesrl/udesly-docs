@@ -54,18 +54,19 @@ const siteConfig = {
 
   fonts: {
     myFont: [
-      "Poppins",
+      "mr-eaves-xl-modern",
       "Sans Serif"
     ],
     myOtherFont: [
-      "Poppins",
+      "mr-eaves-xl-modern",
       "Sans Serif"
     ]
   },
   docsSideNavCollapsible: true,
   
   stylesheets: [
-    "https://fonts.googleapis.com/css?family=Poppins|Leckerli+One"
+    "https://fonts.googleapis.com/css?family=Leckerli+One",
+    "https://use.typekit.net/kyq6xoo.css"
   ],
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
