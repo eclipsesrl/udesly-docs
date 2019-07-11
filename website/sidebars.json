@@ -5,7 +5,7 @@
     "Blog": ["wordpress-blog-overview", "wordpress-blog-archive-page", "wordpress-blog-single-page", "wordpress-blog-misc", "wordpress-author-page"],
     "WooCommerce": ["woocommerce-setup", "shop-page", "single-product-page", "woocommerce-misc"],
     "ACF": ["acf-overview", "acf-items"],
-    "Search Box": ["search-results-number", "search-query", "search-navigation", "search-results", "search-form"],
+    "Search Box": ["wordpress-search-results", "wordpress-search-misc"],
     "Custom Post Types": ["cpt-archive-page", "cpt-items"],
     "Login Area": ["login-form", "register-form", "logout-action", "lost-reset-password"],
     "Restrict Content Pro": ["rcp-shortcodes"],
@@ -16,19 +16,14 @@
     "Boxes": ["wordpress-boxes"]
   },
   "shopify-docs": {
-    "First Steps": ["shopify-setup", "shopify-pages-structure", "shopify-conversion-steps"],
-    "General": ["shopify-forms", "shopify-page-links", "shopify-sections", "shopify-liquid-elements", "shopify-page-types"],
-    "Account Pages": ["shopify-account", "shopify-addresses", "shopify-order-page"],
-    "Blog Pages":["shopify-blog-page", "shopify-article-page", "shopify-article-elements", "shopify-misc-elements"],
-    "Shop Pages": ["shopify-gift-card", "shopify-product-items", "shopify-shop-items"],
-    "Search Pages": ["shopify-search-page", "shopify-search-items"],  
-    "Menu": ["shopify-menu"],
-    "Social": ["shopify-social-share"],
-    "Template Pages": ["shopify-page-items"],
-    "Conditional": ["shopify-conditional-items"]
- 
-
-  },
+    "First Steps": ["shopify-setup", "shopify-pages-structure", "shopify-page-types", "shopify-conversion-steps"],
+    "General": ["shopify-forms", "shopify-page-links", "shopify-sections", "shopify-liquid-elements", "shopify-menu", "shopify-social-share", "shopify-conditional-items", "shopify-page-items"],
+    "Account Pages": ["shopify-account", "shopify-login", "shopify-activate", "shopify-reset", "shopify-recover", "shopify-register", "shopify-addresses", "shopify-order-page"],
+    "Blog Pages":["shopify-blog-page", "shopify-article-page", "shopify-misc-elements"],
+    "Shop Pages": ["shopify-product-items", "shopify-shop-items", "shopify-gift-card"],
+    "Search Pages": ["shopify-search-page", "shopify-search-items"]
+    
+   },
   "wordpress-plugins-docs": {
     "Woo Plugins": ["woocommerce-kit"],
     "EDD Plugins": ["edd-download-expiration", "edd-documentation", "edd-multicurrency", "edd-changelog"],

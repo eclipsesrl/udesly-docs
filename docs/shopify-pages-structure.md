@@ -80,35 +80,39 @@ The list below indicates all the attributes you can use to define the page type,
 > page=gift-card
 
 ## Page Links
-You can't link directly from webflow to page set as:
+Some pages cannot be linked directly from Webflow because they are dymanic:
+
+> collection
+>
+> product
+
+
+If you want to link a specific **Collection** use the attribute:
+
+> collection-link={handle}
+
+
+To link the **Product page** use the attribute:
+
+> product-link={handle}
+
+
+Let us pause on how to link a **Template page.** It is automatically linked if its handle on Webflow matches with the corresponded handle on Shopify. Otherwise you need to insert this attribute:
+
+> page-link={handle}
+
+**Don't forget that Template pages must be created in Shopify!**
+
+Other pages are not linkable at all because they are dynamic or accesible only from email link::
 
 > article
 >
 > search
 >
-> collection
->
 > activate
 >
 > gift-card
 >
-> product
->
 > reset-password
 >
 > default-page
-
-because they are either dynamic or accessible only from email link.
-
-To link the template pages you need to insert this attribute:
-
-> page-link={handle}
-
-If you want to link a specific collection use the attribute:
-
-> collection-link={handle}
-
-Finally, to link the product page use the attribute:
-
-> product-link={handle}
-

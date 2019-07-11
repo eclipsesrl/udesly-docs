@@ -1,33 +1,21 @@
 ---
-id: search-form
-title: Search Form
+id: wordpress-search-misc
+title: Search Misc Elements
 ---
 
-## How to configure Search Form
+## Search Form
+This element can be entered wherever you prefer within your Webflow project.
 
-Users can search for anything anywhere in the site. A new search bar will allow them to filter their search and narrow the results within the site pages, posts and products.
+No attribute is necessary because the Search Form is automatically converted. 
 
-Select the **Search** Element and add the attributes:
+You can use an optional attribute if you want to query specific post types. 
+Insert a **Search** item and add the attribute:
 
-> wp=search
->
-> el=search-form
+> post-type={list of post types separated by comma}
 
+**E.g:** 
+> post-type=post,product
 
-You can add the attribute **udesly-data** followed by the post types you want to enable to the research, separated by a comma, to search only in some specific post types.
+To search between posts and WooCommerce products exclusively. 
 
-**E.g.** To search only in Blog posts the search form should have these attributes:
-
-> wp=search
->
-> el=search-form
->
-> udesly-data=post
-
-**E.g.** To search in Blog posts and in WooCommerce products, the search form should have these attributes:
-
-> wp=search
->
-> el=search-form
->
-> udesly-data=post, product
+If you don't define this attribute, it will search everywhere.

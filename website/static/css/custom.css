@@ -96,7 +96,7 @@ iframe {
 
 
 .mainContainer h2 {
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 12px;
 }
 .imageAlignSide .blockContent {
@@ -281,4 +281,9 @@ p {
 }
 
 @media only screen and (min-width: 1500px) {
+}
+
+.mainContainer .wrapper .post .postHeaderTitle {
+    font-size: 30px;
+    margin-bottom: 12px;
 }

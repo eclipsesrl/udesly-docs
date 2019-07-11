@@ -1,0 +1,155 @@
+---
+id: wordpress-search-results
+title: Search Results
+---
+
+## Search Results
+
+Search Results is an element that can be inserted only in the **Search Page**.
+
+Webflow search results cannot be exported, so we suggest to set *"display none"* and insert a **Collection List** element to build your search results structure. It can be paginated and also the count item can be activated.
+
+Select the Collection List Wrapper and insert this attribute:
+
+> search=results
+
+
+All the elements you can add in the Collection Item are available below:
+- ### Date & Time
+    It is the date and the time of publication of the search result. Insert a text element and enter the attribute:
+
+    > item=date
+
+    To show the time of publication,  Insert a text element and enter the attribute:
+
+    > item=time
+
+    To handle the date format, you can use the following optional attribute:
+
+    > format={date-format}
+
+    For date format type use [this guide](https://wordpress.org/support/article/formatting-date-and-time/)
+
+- ### Featured Image
+    It's the featured image of the search result. It can be added to an image or to any other element as background image, will also add the link if set on a link block.
+    Insert the attribute:
+
+    > item=featured-image
+
+    To handle featured image settings, there are an optional attribute you can use:
+
+    > dimension={dimension}
+
+    Dimension can be 'full', 'medium', 'thumbnail', 'large' or defined in width and height (e.g 300, 500... don't forget spaces between values!)
+
+- ### Title
+    It's the title of the search result and can be added to any text element, will also add the link if set on a link text.
+    Insert the attribute:
+
+    > item=title
+
+- ### Excerpt
+    It's the excerpt of the search result and can be added to any text element. Insert the attribute:
+
+    > item=excerpt
+
+- ### Avatar
+    It's the image of the author from Gravatar. It can be set on a Image or Div. Insert the attribute:
+
+    > item=avatar
+
+- ### Author Data
+    It displays author data and can be set on a text element. Attributes available are:
+
+    > item=author-display-name
+    >
+    > item=author-nickname
+    >
+    > item=author-first-name
+    >
+    > item=author-last-name
+
+- ### Author Description
+    It displays the author description and can be set o a text element. Insert the attribute:
+
+    > item=author-description
+
+- ### Author Url
+    It allows to link to the page showing posts of that specific author. Insert a Link element and add the attribute:
+
+    > item=author-url
+
+- ### Author Contacts
+    To link to social or email accounts of a specific author, you have to insert a Link element and add the attributes regarding the contact you want to link among these:
+
+    > item=author-email
+    > 
+    > item=author-facebook
+    >
+    > item=author-linkedin
+    >
+    > item=author-youtube 
+    >
+    > item=author-twitter
+    >
+    > item=author-dribble
+    >
+    > item=author-instagram
+    >
+    > item=author-phone
+
+- ### Main Category 
+    This is the link to the main category of a specific post. Insert a Button or a Link element and add the attribute:
+
+    > item=main-category
+
+- ### Permalink
+    This is a link to a specific post. Insert a link element and add the attribute:
+
+    > item=permalink
+
+- ### Categories
+    It shows categories of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
+    Insert he attribute:
+
+    > item=categories
+
+- ### Tags
+    It shows tags of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
+    Insert he attribute:
+
+    > item=tags
+
+
+## Search Results Count
+
+Results count is an element that shows the number of search results. It can be used only in the **Search Page.**
+
+Insert a Text element and insert these attributes:
+
+> search=results-count
+
+
+## Search Query
+
+Search Query is the element that shows the keywords user inserted inside the Search Form. It can be inserted only in the **Search Page**.
+Insert a Text element and insert these attributes:
+
+> search=query
+
+## Search Max Pages
+
+It indicates the maximum number of pages found in a search query.
+
+Insert a Text element and add the attribute:
+
+> search=max-pages
+
+## Search Current Page
+
+It indicates the search results page currently displayed.
+
+Insert a Text element and add the attribute:
+
+> search=current-page
+
