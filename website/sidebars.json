@@ -2,7 +2,7 @@
   "wordpress-docs": {
     "Getting Started": ["wordpress-setup", "wordpress-pages-structure", "wordpress-conversion-steps"],
     "General": ["wordpress-sidebar", "wordpress-menu", "wordpress-custom-fields", "wordpress-widget", "wordpress-forms", "wordpress-shortcode"],
-    "Blog": ["wordpress-blog-archive-page", "wordpress-blog-single-page", "wordpress-blog-misc", "wordpress-author-page"],
+    "Blog": ["wordpress-blog-overview", "wordpress-blog-archive-page", "wordpress-blog-single-page", "wordpress-blog-misc", "wordpress-author-page"],
     "WooCommerce": ["woocommerce-setup", "shop-page", "single-product-page", "woocommerce-misc"],
     "ACF": ["acf-overview", "acf-items"],
     "Search Box": ["search-results-number", "search-query", "search-navigation", "search-results", "search-form"],
