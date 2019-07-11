@@ -1,10 +1,37 @@
 ---
-id: wordpress-blog-items
-title: Blog elements
+id: wordpress-blog-single-page
+title: Post Single Page
 ---
-This guide aims to show all the items that characterize an "post" object in WordPress. 
 
-*These elements can be added within a Collection List item or in the Single Post page of your blog.*
+In WordPress that are several type of pages that can display a single post of your Blog. Don't forget to define your page accordingly to the list below:
+
+## Single Post Pages
+
+- **Single Post Page**
+
+    This page is used for each Post of your WordPress Blog. This page must have the following attribute on the Body:
+
+    > page=single
+
+- **Specific Post**
+
+    This page is used for a *specific* post of your WordPress Blog. This page must have the following attribute on the Body:
+
+    > page=single
+    >
+    > specific={slug of your post or ID of your post}
+
+- **Single Post Template**
+
+    This page is a template that can be used instead of your generic single post page. To be displayed, you have to select the template from WordPress backend (for each post). This page must have the following attribute on the Body:
+
+    > page=template
+    >
+    > post-type=post
+
+
+*The following list includes all elements you can enter within these pages*
+
 
 ## Date & Time
 It is the date and the time of publication of the post. Insert a text element and enter the attribute:
@@ -70,7 +97,7 @@ It allows to link to the page showing posts of that specific author. Insert a Li
 
 > item=author-url
 
-## Author Contact
+## Author Contacts
 To link to social or email accounts of a specific author, you have to insert a Link element and add the attributes regarding the contact you want to link among these:
 
 > item=author-email
@@ -110,12 +137,6 @@ It shows tags of the post and it must be added on a link element. This one will 
 Insert he attribute:
 
 > item=tags
-
-*The following list includes all elements you can enter within the **Single Post** page of your WordPress site.*
-
-This page must have the following attribute on the Body:
-
-> page=single
 
 ## Content
 Insert a Richtext element and add the attribute:

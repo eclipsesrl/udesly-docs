@@ -1,6 +1,6 @@
 ---
 id: blog-page
-title: Blog Page
+title: Post Archive Page
 ---
 
 ## Blog Posts
