@@ -3,122 +3,102 @@ id: acf-items
 title: Advanced Custom Fields 
 ---
 
+The general structure of attributes to enter in order to add an Advanced Custom Field is:
+
+> acf:field-type=field-slug
+
 ## Text
 
 To insert an ACF Text field, you have to use a **Text Block** or **Paragraph** or **Heading** and insert the following attributes:
 
-> wp=acf
->
-> el=text
->
-> udesly-slug=slug of the acf field you want to use
-
+> acf:text={slug}
 
 ## Text Area
 
 To insert an ACF Text Area field, you have to use a **Text Block** and insert the following attributes:
 
-> wp=acf
->
-> el=textarea
->
-> udesly-slug=slug of the acf field you want to use
-
+> acf:textares={slug}
 
 ## Rich Text
 
 To insert an ACF Rich Text field, you have to use a **Rich Text** and insert the following attributes:
 
-> wp=acf
->
-> el=rich-text
->
-> udesly-slug=slug of the acf field you want to use
-
+> acf:richtext={slug}
 
 ## Number
 
 To insert an ACF Number field, you have to use a **Text Block** or **Paragraph** or **Heading** and insert the following attributes:
 
-> wp=acf
->
-> el=number
->
-> udesly-slug=slug of the acf field you want to use
-
+> acf:number={slug}
 
 ## Url
 
 To insert an ACF Url field, you have to use a **Text Link** or **Link Block** or **Button** and insert the following attributes:
 
-> wp=acf
->
-> el=url
->
-> udesly-slug=slug of the acf field you want to use
-
+> acf:url={slug}
 
 ## Image
 
 To insert an ACF Image field, you have to use a **Div Block** or **Image** and insert the following attributes:
 
-> wp=acf
->
-> el=image
->
-> udesly-slug=slug of the acf field you want to use
-
+> acf:image={slug}
 
 ## Date
 
 To insert an ACF Date field, you have to use a **Text Block** or **Paragraph** or **Heading** and insert the following attributes:
 
-> wp=acf
->
-> el=date
->
-> udesly-slug=slug of the acf field you want to use
-
+> acf:date={slug}
 
 ## Time
 
 To insert an ACF Time field, you have to use a **Text Block** or **Paragraph** or **Heading** and insert the following attributes:
 
-> wp=acf
->
-> el=time
->
-> udesly-slug=slug of the acf field you want to use
-
+> acf:time={slug}
 
 ## Datetime
 
 To insert an ACF Datetime field, you have to use a **Text Block** or **Paragraph** or **Heading** and insert the following attributes:
 
-> wp=acf
->
-> el=time
->
-> udesly-slug=slug of the acf field you want to use
-
+> acf:datetime={slug}
 
 ## Color
 
 To insert an ACF Color field, you have to use a **Text Block** or **Paragraph** or **Heading** and insert the following attributes:
 
-> wp=acf
->
-> el=color
->
-> udesly-slug=slug of the acf field you want to use
-
+> acf:color={slug}
 
 ## Background Color
 
 To insert an ACF Background Color field, you have to use a **Div Block** and insert the following attributes:
 
-> wp=acf
->
-> el=background-color
->
-> udesly-slug=slug of the acf field you want to use
+> acf:bgcolor={slug}
+
+## Link
+
+To insert an ACF Link field, you have to use a **Link** element and insert the following attribute:
+
+> acf:link={slug}
+
+## Switch
+
+To insert an ACF Switch field, you can use any element and add the following attribute:
+
+> acf:switch={slug}
+
+## File
+
+To insert an ACF File field, you have to use a **Button** or **Link** element and add the following attribute:
+
+> acf:file={slug}
+
+## Embed
+
+To insert an ACF Embed field, you have to use a **Div Block** and insert the following attribute:
+
+> acf:embed={slug}
+
+## Repeater
+
+Only for ACF PRO. You can use any element and add the following attribute:
+
+> acf:repeater={slug}

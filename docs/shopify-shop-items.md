@@ -34,7 +34,7 @@ These elements must be set on a Collection List wrapper and can be paginated. Li
 
 This is the list of all collections of your shop.
 
-Inside Collection item you can use the following attributes.
+Inside Collection item you can use the following attributes:
 
 #### Description
 

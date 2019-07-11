@@ -84,7 +84,7 @@ We want to create a page showing all post types belonging to a specific tag. Wha
 
 > page=taxonomy
 >
-> type=tag
+> post-type=tag
 >
 > specific=slug/id of that specific tag
 

@@ -3,18 +3,13 @@ id: social-share-links
 title: Social Share Links
 ---
 
-## How to configure Social Share Links
-
 Select a **Link Block**, a **Button** or a **Link Text** element and insert the attribute:
 
-> wp=social
->
-> el=social name
+> social={name of the social network}
 
 Supported Social Networks are:
 
 - facebook
-- google-plus
 - twitter
 - linkedin
 - reddit

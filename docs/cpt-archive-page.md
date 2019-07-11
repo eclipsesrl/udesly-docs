@@ -5,156 +5,96 @@ title: Archive Page
 
 ## Custom Post Types Archive Page
 
-**Archive Posts** is an element that can be inserted only in the page you set as **Archive for Custom Post Type** in the Udesly Adapter App. It is mandatory that the page must be labelled **archive-slug of your custom post type**
+**Archive Posts** is an element that can be inserted only in the page set as **Archive for Custom Post Type**. This page must have the following attributes on the body
 
-![](assets/cpt-archive-1.png)
-
-If you’ve already created a Blog Posts CMS collection in Webflow, skip the following steps.
-
-1) Click on CMS
-2) Click on Add New
-3) Select your Archive Posts Type collection (e.g. project)
-4) Customize the collection adding all the WordPress usual fields to have the perfect preview
-5) Click on Create
-6) Insert some dummy data.
-
-Insert a **Collection List** element and connect it to the **Archive Posts Collection** (for example “project”).
-Select **Collection List Wrapper** in the navigator and insert these attributes for Archive Posts
-
-> wp=custom-post-type
+> page=archive
 >
-> el=archive-posts
+> post-type={your-post type}
 
-![](assets/col-list-wrap.png)
+## Archive Title
+This will be the title of your blog archive. To create it select a Text Block and insert the attribute:
 
-Select now the Collection Item from the navigation and customize your posts. You can add all the elements or only the one you desire:
-
-#### Title
-This will be the title of your blog post. To create it select a Text Block
-insert the attribute:
-
-> el-child=title
+> cpt=archive-title
 
 connect it to the field **name** of the CMS
 ![](assets/cms-name.png)
 
-#### Permalink
-This is the link to the post. Select a **Link Block**, a **Button** or a **Link Text** element
+## Archive Image
+This is the image of your archive. You can select a **Div Block** or an **Image**
 Insert the attribute:
 
-> el-child=permalink
-
-#### Date
-This is the publishing date of your post. Select a **Text Block**
-Insert the attribute:
-
-> el-child=date
-
-Connect it to the field **created on** of the CMS
-![](assets/created-on-cms.png)
-
-By default, it gets format from your WordPress settings (You can change it, following the path **Settings -> General -> Date Format**). Otherwise, you can set another format using the attribute
-
-> udesly-data=your format
-
-You find all the available formats [here](https://codex.wordpress.org/Formatting_Date_and_Time)
-
-#### Time
-This is the publishing time of your post. Select a Text Block
-Insert the attribute:
-
-> el-child=time
-
-Connect it to the field **created on** of the CMS
-![](assets/created-on-cms.png)
-
-By default, it gets format from your WordPress settings (You can change it, following the path **Settings -> General -> Time Format**). Otherwise, you can set another format using the attribute
-
-> udesly-data=your format
-
-You find all the available formats [here](https://codex.wordpress.org/Formatting_Date_and_Time)
-
-#### Featured Image
-This is the featured image of your post. You can select a **Div Block** or an **Image**
-Insert the attribute:
-
-> el-child=featured-image
+> cpt=archive-image
 
 Connect the image or the background image to the field **main image** of the CMS
 ![](assets/main-image-cms.png)
 
-#### Excerpt
-This is the excerpt of your post. Select a **Text Block** element
+## Archive Description
+This is the description of your archive. Select a **Text** element and add the attribute:
+
+> cpt=archive-description
+
+## Archive Posts
+It must be inserted on a Collection List Wrapper and it's the list of archive posts. To enable pagination just add the pagination to the collection and you can control the number of posts from *settings --> reading*
+
+The attribute to enter is:
+
+> cpt=archive-posts
+
+All the elements you can add in the Collection Item are available here.
+
+## Taxonomies
+
+Insert a Collection List Wrapper and enter the attribute:
+
+> cpt:taxonomies={taxonomy name
+
+Inside Collection item you can use the following attributes:
+
+#### Description
+
+On Text elements:
+
+> item=description
+
+#### Title
+
+On Text or Link:
+
+> item=title
+
+#### Permalink 
+
+On Link elements:
+
+> item=permalink
+
+#### Featured Image
+
+On Div, Link or img elements:
+
+> item=featured-image
+
+
+*The following items are available for all the pages of your Webflow project and you're not forced to use them in the Archive page only:*
+
+## Archive Link
+
+This is the link to the Archive page of the post type. Insert the following attribute on link elements:
+
+> cpt=archive-link
+
+## Queried Posts
+It's a posts collection you selected using Udesly WordPress plugin from posts queries menu. Insert a Collection lists wrapper and, if you want, you can be pagination.
 Insert the attribute:
 
-> el-child=excerpt
+> cpt:posts={slug of the query in the plugin}`
 
-Connect it to the field **post summary** of the CMS
-![](assets/post-summary-cms.png)
-You can customize the length of the excerpt and the last word from **Udesly Plugin->Settings->Blog**
+Inside the Div, all you can use inside collection list item is available here.
 
-#### Author
-This is the author link of your post. Select a **Text Block** or a **Text Link** element if you want the url linking to blog posts created by that author
-Insert the attribute:
+## CPT Slider
 
-> el-child=author
+Insert a Slider item and add the attribute:
 
-Connect it to the field **author** of the CMS
+> cpt:slider={slug della query nel plugin}
 
-#### Avatar
-This is the gravatar of the post author. You can select a **Div Block** or an **Image**
-Insert the attribute:
-
-> el-child=avatar
-
-Connect the image or the background image to the field **author_image** of the CMS
-
-
-## Custom Post Types Archive Navigation
-
-To make a functional Archive Navigation you can use several elements like **Previous Page**, **Next Page** and **Numbers**. It’s adviced to use all the elements but you can decide to use only some as well.
-
-> Previous Page, Next Page and Numbers can be used only in the page you set as **Archive for Custom Post Type** in the Udesly Adapter App.
-
-#### Previous Page
-This is the previous page link. Select a **Link Block**, a **Button**, a **Link Text** element and insert the attributes:
-
-> wp=custom-post-type
->
-> el=prev-page
-
-#### Next Page
-This is the next page link. Select a **Link Block**, a **Button**, a **Link Text** element and insert the attributes:
-
-> wp=custom-post-type
->
-> el=next-page
-
-#### Numbers
-Insert a **List** element and add the attributes:
-
-> wp=custom-post-type
->
-> el=numbers
-
-The list must have 3 List items.
-
-- **Current:**
-This element gives the current page position. To create it select a **Text Block** and insert it inside the List Item.
-Select the List Item from the navigator and insert the attribute:
-
-> el-child=current
-
-- **Number:**
-This element gives the link to a specific page. To create it select a **Button**, **Link Block** or **Text Link** and insert it inside the List Item.
-Select the List Item from the navigator and insert the attribute:
-
-> el-child=number
-
-- **Dots:**
-This element is the dots separator that appears when you have a lot of pages. To create it insert an element inside the List Item.
-Select the List Item from the navigator and insert the attribute:
-
-> el-child=dots
-
-
+Inside the Slide, all you can use inside collection list item is available here.

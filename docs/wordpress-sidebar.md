@@ -4,10 +4,8 @@ title: WordPress Sidebar
 ---
 
 ## How to enable the WordPress Sidebar
-Insert a **Text Block** with the following attributes:
+Insert a **Text Block** with the following attribute:
 
-> wp=general
->
-> el=sidebar
+> sidebar={your sidebar name}
 
-Populate the Text Block with the slug of the sidebar (you can choose the slug you prefer the most, the Adapter will register it automatically).
+You can choose the name you prefer the most, the Adapter will register it automatically.

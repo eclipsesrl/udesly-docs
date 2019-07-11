@@ -21,5 +21,10 @@ Which Custom Fields are actually available?
 - Datetime
 - Color
 - Background Color
+- Link
+- Switch *(this is an on/off button)*
+- Repeater *(this is a multiple field availavle for ACF PRO only. It allows to repeat a field)*
+- File *(it allows to upload a file)*
+- Embed *(to use if you want to insert an embed code).
 
 You find a single documentation for each single Custom Field listed above by browsing this category.

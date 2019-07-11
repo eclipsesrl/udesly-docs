@@ -1,20 +1,19 @@
 {
   "wordpress-docs": {
-    "Getting Started": ["wordpress-setup", "wordpress-pages-structure"],
-    "Blog": ["blog-page", "single-post-page", "misc"],
+    "Getting Started": ["wordpress-setup", "wordpress-pages-structure", "wordpress-conversion-steps"],
+    "General": ["wordpress-sidebar", "wordpress-menu", "wordpress-custom-fields", "wordpress-widget", "wordpress-forms", "wordpress-shortcode"],
+    "Blog": ["wordpress-blog", "wordpress-blog-items", "wordpress-blog-misc"],
     "WooCommerce": ["woocommerce-setup", "shop-page", "single-product-page", "woocommerce-misc"],
-    "EDD": ["archive-page", "single-download-page", "edd-misc"],
     "ACF": ["acf-overview", "acf-items"],
     "Search Box": ["search-results-number", "search-query", "search-navigation", "search-results", "search-form"],
-    "Custom Post Types": ["cpt-archive-page", "cpt-misc", "cpt-single-page"],
+    "Custom Post Types": ["cpt-archive-page", "cpt-items"],
     "Login Area": ["login-form", "register-form", "logout-action", "lost-reset-password"],
     "Restrict Content Pro": ["rcp-shortcodes"],
-    "General": ["wordpress-sidebar", "custom-fields", "lists", "forms", "shortcode"],
     "Menu": ["list-menu", "navbar-menu", "dropdown-menu"],
     "Page Creator": ["page-creator-overview"],
     "Social Share": ["social-share-links"],
     "TranslatePress": ["translatepress-overview"],
-    "Boxes": ["how-to-use-boxes", "dynamic-slider", "dynamic-box"]
+    "Boxes": ["wordpress-boxes"]
   },
   "shopify-docs": {
     "First Steps": ["shopify-setup", "shopify-pages-structure", "shopify-conversion-steps"],

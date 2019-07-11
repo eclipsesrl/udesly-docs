@@ -1,6 +1,12 @@
 /* your custom css */
 body * {
     font-family: "mr-eaves-xl-modern";
+    font-size: 18px;
+}
+
+.onPageNav a {
+    color: #717171;
+    font-size: 14px;
 }
 .fixedHeaderContainer {
     background-color: black;
@@ -26,7 +32,7 @@ body * {
     content: "docs";
     position: absolute;
     top: 8px;
-    font-family: "Poppins";
+    font-family: "mr-eaves-xl-modern";
     font-size: 10px;
     padding: 4px 8px;
     background-color: #2f52ff;
@@ -135,7 +141,7 @@ input#search_input_react {
     border-radius: 20px;
     color: #fff;
     font-size: 12px;
-    font-family: "Poppins";
+    font-family: "mr-eaves-xl-modern";
 }
 
 /* Main dropdown wrapper */
