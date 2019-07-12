@@ -3,13 +3,11 @@ id: shopify-pages-structure
 title: Pages Structure
 ---
 
-The first step in building a Shopify theme is to create several pages, each serving a unique purpose. Shopify itself necessary involves pages without which the very concept of Shopify template would to come to an end.
-We'll see in this documentation what these pages are and what kind of purpose they serve.
 
-The following step, thus, involves the acknowledgment of the page type, as very significant as easy shift in the conversion process.
+
+If you’re new to Shopify, maybe you don’t know there are some mandatory pages you must include to have your Shopify store working properly: 
 
 ## Mandatory Pages
-
 > Index
 >
 > Cart
@@ -22,62 +20,66 @@ The following step, thus, involves the acknowledgment of the page type, as very 
 > 
 > Product
 
-## All Pages
-With the Adapter 2.0 you decide the page type in Webflow through some attributes on body (but it's automatic in almost all pages, it's necessary only for cms pages and even not in all of them):
+**The first step in building a Shopify theme is to create those pages in Webflow.**
 
-**index =>** no attribute
 
-**404 =>** no attribute
+## Page Types
+In order to have a Webflow template ready to be converted to a Shopify one, Adapter must understand what kind of pages you created in your Template, so to help it, you have to add some custom attributes to the **Body** element of your Webflow page. Below you can find all page types that can be used in Shopify:
 
-**401 =>** no attribute
+### All Page Types
 
-**checkout, order confirmation and detail_sku =>** automatically removed because not exportable by Webflow
 
-**search =>** no attribute
+**Page Type**             | **Required Attribute** | **Page Purpose**
+-------------             | ---------------------- | ----------------------
+Blog                      | *page=blog*            | Shows all articles of your blog
+Article                   | *page=article*         | Includes the content of a single blog article
+Collection                | *page=collection*      | Shows all products of a single collection
+Collections List          | *page=list-collections*| Shows all of the collections in your store
+Product                   | *page=product*         | Shows a product and its variants. It includes product images, pricing information, a product description, and an Add to cart button.
+Cart                      | *page=cart*            | Shows a summary of all of the products that a customer has added to the cart, a subtotal and a total price for the order, and a Checkout button that directs customers to Shopify's secure checkout pages. 
+Gift Card                 | *page=gift-card*       | Shows a single gift card
+Account                   | *page=account*         | Shows the customer account page. It's accessible only if you've enabled customer accounts in the Settings > Checkout area of your Shopify admin.
+Login                     | *page=login*           | Shows the customer login page. It's accessible only if you've enabled customer accounts in the Settings > Checkout area of your Shopify admin. 
+Activate Account          | *page=activate*        | Shows a form with which the customer can activate an account. Includes the customer login page. It's accessible only if you've enabled customer accounts in the Settings > Checkout area of your Shopify admin.
+Register                  | *page=register*        | Shows the customer register page. It's accessible only if you've enabled customer accounts in the Settings > Checkout area of your Shopify admin.
+Reset Password            | *page=reset-password*  | Page allowing customer to reset its password. Includes the customer login page. It's accessible only if you've enabled customer accounts in the Settings > Checkout area of your Shopify admin.
+Order                     | *page=order*           | This page shows the details of an Order place by your customers
+Addresses                 | *page=addresses*       | Includes the customer's shipping addresses. It's accessible only if you've enabled customer accounts in the Settings > Checkout area of your Shopify admin.
+Default                   | *page=default*         | Template page by default. 
+Template                  | *page=template*        | It's a template that can be used in any page that you create in the Pages section of your Shopify admin
+Remove                    | *page=remove*          | It's a page you don't want to convert
 
-**detail_product =>** it automatically takes the attribute: page=product
+This may seem tricky but we did our best to make your workflow smoother so custom attributes are required only for some pages. In fact a lot of pages are automatically recognized as stated below:
 
-**detail_category =>** it automatically takes the attribute: page=collection
+### Automatically Recognized Pages
+Some pages are automatically recognized based on their name and they do not need any attribute in their Body element: 
 
-**detail_article || detail_post =>** It automatically takes the attribute: page=article
+**Page Name** | **Page Type**
+------------- | ----------------------
+Index         | Home 
+404           | Not found 
+Password      | 401 
+Search        | Search results 
 
-All page without attribute that are not CMS related automatically takes the attribute: page=template.
+#### Automatically Recognized CMS Pages
+The list below indicates CMS pages that are automatically recognized based on their name and they do not need any attribute in their Body element:
 
-The list below indicates all the attributes you can use to define the page type, by inserting them in the body of the Webflow page:
+**Page Name**                   | **Page Type**
+-------------                   | ----------------------
+detail_product                  | Product 
+detail_category                 | Collection 
+detail_article                  | Article 
+detail_post                     | Article 
+detail_sku                      | Remove
+checkout                        | Remove
+order-confirmation              | Remove
 
-> page=template
->
-> page=default   => it's the default page used for new pages created in Shopify
->
-> page=cart
->
-> page = remove => do not convert
->
-> page=article
->
-> page=product
->
-> page=blog
->
-> page=collection
->
-> page=list-collections
->
-> page=account
->
-> page=activate (page where you activate the account)
->
-> page=login
->
-> page=register
->
-> page=reset-password
->
-> page=order
->
-> page=addresses
->
-> page=gift-card
+**NB:** CMS pages are named with the prefix **detail_** followed by the singular name of your CMS collection by Webflow itself. For example, **detail_product** and **detail_category** pages are created by Webflow if you enable e-commerce and you find them with the names **Products Template** and **Categories Template** in Webflow pages menu.
+
+All pages without attribute that are not CMS related are automatically recognized as **Template**.
+Otherwise you can define the page type by inserting the required attribute in the Body of the Webflow page, following the schema below:
+
+**N.B:** All CMS pages that cannot be automatically recognized *must* have the correct attribute on the Body element, otherwise the template will not be converted.
 
 ## Page Links
 Some pages cannot be linked directly from Webflow because they are dymanic:

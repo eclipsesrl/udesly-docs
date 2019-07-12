@@ -287,3 +287,12 @@ p {
     font-size: 30px;
     margin-bottom: 12px;
 }
+
+table {
+    display: table;
+}
+
+
+table th, table td {
+    width: 20%;
+}
