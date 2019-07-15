@@ -5,6 +5,12 @@ title: Template and Default Pages Items
 
 The following elements can be added to page set as **Template page** or **Default page template**. 
 
+To define a page as *Default page* add the following attribute on the Body element:
+
+> page=default
+
+All pages without attribute that are not CMS related are automatically recognized as **Template**.
+
 #### Title
 
 This is the page title. Insert a text item and add the attribute:
