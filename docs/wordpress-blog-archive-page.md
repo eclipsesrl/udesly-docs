@@ -73,11 +73,21 @@ To see all the elements you can enter in the Author page, check the relative gui
 
 ## Archive Title
 
-This is the blog title (**e.g:** News) and it can be added on every text element.
+This is the archive page title (**e.g:** Category: My Category) and it can be added on every text element.
 
 The attribute to enter is:
 
 > blog=archive-title
+
+This item is customizable from the Udesly plugin. In **Settings** option, you can manage how the title has to be displayed in the blog page, category page, tag page and all the other post archive page of your site. 
+
+## Archive Description
+
+This is the archive page description and it can be added on every text element.
+
+The attribute to enter is:
+
+> blog=archive-description
 
 This item is customizable from the Udesly plugin. In **Settings** option, you can manage how the title has to be displayed in the blog page, category page, tag page, specific category page, specific tag page and all the other post archive page of your site. 
 
