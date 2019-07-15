@@ -206,11 +206,19 @@ All the elements you can add in the Collection Item are available below:
 
     > item=categories
 
+    Optionally, you can limit the number of categories to show adding the attribute
+
+    >limit={number}
+
 - ### Tags
     It shows tags of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
     Insert he attribute:
 
     > item=tags
+
+    Optionally, you can limit the number of tags to show adding the attribute
+
+    >limit={number}
 
 ## Archive Categories & Tags
 
