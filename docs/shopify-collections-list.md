@@ -10,7 +10,7 @@ Collections List page must have the following attribute entered on the body:
 
 ## Collections
 
-These elements must be set on a Collection List wrapper and can be paginated. Limit will be set on **Shopify --> Customize Theme.** Collection list wrapper must have this attribute:
+These elements must be set on a Collection List wrapper and can be paginated. Limit will be set on *Shopify -> Online Store > Themes > Customize* Collection list wrapper must have this attribute:
 
 > shop=collections
 

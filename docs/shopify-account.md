@@ -52,7 +52,7 @@ Insert a Collection List Wrapper item and add the attribute:
 
 > account=orders
 
-To enable pagination just add the pagination to the collection and you can control the number of orders from *shopify -> customize theme*.
+To enable pagination just add the pagination to the collection and you can control the number of orders from *Shopify -> Online Store > Themes > Customize*.
 
 Inside each single collection item you can add the following attributes on Text elements:
 

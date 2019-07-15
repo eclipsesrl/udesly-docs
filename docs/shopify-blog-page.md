@@ -20,7 +20,7 @@ The attribute to enter is:
 
 ## Blog Archive Posts
 
-It must be inserted on a Collection List Wrapper and it's the list of archive posts. To enable pagination just add the pagination to the collection and you can control the number of posts from *shopify -> customize theme*
+It must be inserted on a Collection List Wrapper and it's the list of archive posts. To enable pagination just add the pagination to the collection and you can control the number of posts from *Shopify -> Online Store > Themes > Customize*
 
 The attribute to enter is:
 
