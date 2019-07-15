@@ -8,11 +8,8 @@
     "Search Box": ["wordpress-search-results", "wordpress-search-misc"],
     "Custom Post Types": ["cpt-archive-page", "cpt-items"],
     "Login Area": ["login-form", "register-form", "logout-action", "lost-reset-password"],
-    "Restrict Content Pro": ["rcp-shortcodes"],
-    "Menu": ["list-menu", "navbar-menu", "dropdown-menu"],
     "Page Creator": ["page-creator-overview"],
     "Social Share": ["social-share-links"],
-    "TranslatePress": ["translatepress-overview"],
     "Boxes": ["wordpress-boxes"]
   },
   "shopify-docs": {
