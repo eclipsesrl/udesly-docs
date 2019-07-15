@@ -4,9 +4,11 @@ title: Conversion Steps
 ---
 ## Export & Convert
 
-Once your design is finished, all the custom attributes has been entered and page types has been defined, you can finally export your template.
+Once your design is finished, the page types and the page elements are defined with their attributes, you can finally export your template.
 
 ![](assets/shopify-overview-7.png)
+
+If you forgot to add some attributes or added the wrong ones, the conversion process will end with an error message like the one in the screenshot. You’ll find all the missing attributes and the wrong ones that you’re required to fix. This will help you go back to your project and correct everything to launch a new, successful, conversion. 
 
 Open the Udesly Adapter Web APP you can find on [udesly.com](https://www.udesly.com/) and choose the Shopify section to upload your template.
 
@@ -30,4 +32,3 @@ Now you can upload the converted theme (.zip file) from your Shopify admin panel
 ## Set the Shopify store
 Follow this [full doc](https://help.shopify.com/en/manual/using-themes/change-the-layout/documentation) to learn everything about a Shopify store (products, collection, payments, shipping and other settings).
 
-<iframe width="700" height="419" src="https://www.youtube.com/embed/0xiscAUFoAo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

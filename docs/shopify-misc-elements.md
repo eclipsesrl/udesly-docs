@@ -7,7 +7,7 @@ The following elements are not a prerogative of the Blog page and can be inserte
 
 ## Blog Link
 
-It's the link to the blog and it can be used everywhere in the project.
+Shopify allows to create several blogs. It's the link to a blog and it can be used everywhere in the project.
 
 Insert a link or a button element and enter the attribute:
 

@@ -34,3 +34,19 @@ this is the place where all the sections added to the page will be shown.
 
 - From your Shopify admin, go to *Online Store > Themes*.
 - Find the theme that you want to edit and click *Customize*.
+
+## Why can't I customize the Checkout?
+
+Basic Shopify Accounts are not allowed to modify Checkout template, but they can customize the checkout page in the theme editor. The checkout.liquid asset is available to *Shopify Plus* merchants only and requires manual intervention whenever Shopify makes an upgrade.
+
+## I copied Blog Articles from the Elements pack, why they don't show up?
+
+The Blog articles creates a Blog picker, so you have to select a Blog following the path *Online Store > Themes > Customize > Theme settings*.
+
+## I copied Shop Products from the Elements pack, why they don't show up?
+
+The Shop products creates a Collection picker, so you have to select a Collection following the path *Online Store > Themes > Customize > Theme settings*.
+
+
+
+
