@@ -1,6 +1,6 @@
 ---
 id: shopify-menu
-title: Shopify Menu
+title: Menu
 ---
 You can insert a dynamic menu anywhere in your Shopify site. 
 
