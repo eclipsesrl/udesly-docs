@@ -8,37 +8,37 @@ Collection page must have the following attribute entered on the body:
 
 > page=collection
 
-### Collection Title
+## Collection Title
 
 It's the current collection title, can be used on every text elements:
 
 > shop=collection-title
 
-### Collection Description
+## Collection Description
 
 It's the current collection description, can be used on every text elements:
 
 > shop=collection-description
 
-### Collection Image
+## Collection Image
 
 It's the current collection featured image, can be used on image or div elements
 
 > shop=collection-image
 
-### Collection Type
+## Collection Type
 
 It's the current collection type, can be used on every text elements:
 
 > shop=collection-type
 
-### Collection Vendor
+## Collection Vendor
 
 It's the current collection vendor, can be used on every text elements:
 
 > shop=collection-vendor
 
-### Archive Products
+## Archive Products
 
 These elements must be set on a Collection List wrapper and can be paginated. Limit will be set on **Shopify --> Customize Theme.** Collection list wrapper must have this attribute:
 
@@ -127,25 +127,25 @@ Inside Collection item you can use the following attributes:
 
 
 
-### Tags
+## Tags
    It shows tags of the collection in the current pagination and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
    Insert he attribute:
 
    >shop=tags
 
-### All Tags
+## All Tags
    It shows all tags of the collection and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
    Insert he attribute:
 
    >shop=all-tags
 
-### types
+## Types
    It shows all types of the collection and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
    Insert he attribute:
 
    >shop=types
 
-### Vendors
+## Vendors
    It shows vendors of the collection and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
    Insert he attribute:
 

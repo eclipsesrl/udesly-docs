@@ -9,7 +9,7 @@ Cart page must have the following attribute entered on the body:
 > page=cart
 
 
-### Cart
+## Cart
 Insert a Form block with the following fields:
 
 - 1 submit with the attribute:
@@ -23,7 +23,7 @@ The Form block needs 2 Text elements with these attributes, respectively:
 >
 > item=cart-discounts
 
-It also need a Collection Lists Wrapper inside which you can insert:
+**It also need a Collection Lists Wrapper inside which you can insert:**
 
 - ### Title
 

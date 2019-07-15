@@ -11,7 +11,9 @@ The following elements can be entered in the Account page only. This page is def
 To enable accounts follow the path **Shopify > settings > Checkout > Select**. 
 
 ## User Default Address
-Insert a Text item and add the attribute:
+Shopify gives you the opportunity to add several shipping addresses and set one of them as main address: this is the Default address.
+
+In Webflow, insert a Text item and add the attribute:
 
 > account=user-default-address
 
@@ -46,9 +48,11 @@ Insert a Text item and add the attribute:
 > account=user-total-spent
 
 ## Orders
-Insert a Text item and add the attribute:
+Insert a Collection List Wrapper item and add the attribute:
 
 > account=orders
+
+To enable pagination just add the pagination to the collection and you can control the number of orders from *shopify -> customize theme*.
 
 Inside each single collection item you can add the following attributes on Text elements:
 

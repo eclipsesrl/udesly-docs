@@ -5,20 +5,20 @@ title: Misc Items
 
 These elements can be added on all pages of your Website
 
-### Checkout Link
+## Checkout Link
 
 On links and button you can use the following attribute to link to the checkout:
 
 > shop=checkout-link
 
-### Cart Link
+## Cart Link
 
 On links and button you can use the following attribute to link to the cart:
 
 > shop=cart-link
 
 
-### Collection Link
+## Collection Link
 
 On links and button you can use the following attribute to link to a collection of your shop:
 
@@ -27,7 +27,7 @@ On links and button you can use the following attribute to link to a collection 
 e.g: collection-link=shoes will link to a collection with handle shoes
 
 
-### Product Link
+## Product Link
 
 On links and button you can use the following attribute to link to a product of your shop:
 
@@ -36,14 +36,14 @@ On links and button you can use the following attribute to link to a product of 
 e.g: product-link=blue-shoes will link to a Product with handle blue-shoes
 
 
-### Cart Count
+## Cart Count
 
 The number of items in the Cart
 
 > shop=carts-count
 
 
-### Mini Cart
+## Mini Cart
 
 Use Webflow native mini cart needs this attribute:
 
@@ -193,7 +193,7 @@ Inside Collection item you can use the following attributes:
    No need for attributes, use the Add to Cart of Webflow
 
 
-### Shop Notifications
+## Shop Notifications
 
 It can be entered only once in the project, if not set it will fallback to unstyled notifications.
 

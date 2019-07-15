@@ -8,7 +8,7 @@ Gift Card page must have the following attribute entered on the body:
 
 > page=gift-card
 
-#### Expiration Date
+## Expiration Date
 
 This is the expiration date of the card. Insert a Text item and add the following attribute:
 
@@ -20,31 +20,31 @@ To handle the date format, you can use the following optional attribute:
 
 For date format type use [strfti.me](http://www.strfti.me/)
 
-#### Initial balance
+## Initial balance
 
 This is the initial balance of the card. Insert a Text item and add the attribute:
 
 > gift-card=initial-balance
 
-#### Code
+## Code
 
 It represents the gift card code. Insert a Text item and add the attribute:
 
 > gift-card=code
 
-#### balance
+## balance
 
 This is the current balance of the card. Insert a Text item and add the attribute:
 
 > gift-card=balance
 
-#### Qr code
+## Qr code
 
 This is the QR code of the card Insert a Text item and add the attribute:
 
 > gift-card=qr-code
 
-#### Image
+## Image
 
 To insert the gift card image, insert a Image item or a Div with the attribute:
 

@@ -4,7 +4,7 @@ title: Sections
 ---
 ## Sections
 
-Sections are blocks that can be added in Shopify to enable options: they are customizable blocks of content that determine the layout of different pages on your online store. Each type of page has its own sections. For example, the product page section determines the layout of each product page on your online store.
+Sections are customizable blocks of content that can be added in Shopify. In each section you can add Options to customize the Section content or style.
 
 To create a section in Webflow, take a DIV BLOCK item and add attribute:
 
@@ -26,7 +26,7 @@ this is the place where all the sections added to the page will be shown.
 
 ## Sections Options
 
-Inside sections you can add several options to allow your customer to modify different settings of it.
+To make elements customizable from the admin panel you have to add the following options elements into the div block above. 
 
 #### Option Text
 It creates an option to modify the text of the section. Insert a Text item and add the attribute:
