@@ -17,7 +17,7 @@
     "General": ["shopify-forms", "shopify-page-links", "shopify-sections", "shopify-liquid-elements", "shopify-menu", "shopify-social-share", "shopify-conditional-items", "shopify-page-items"],
     "Account": ["shopify-account", "shopify-login", "shopify-activate", "shopify-reset", "shopify-recover", "shopify-register", "shopify-addresses", "shopify-order-page"],
     "Blog":["shopify-blog-page", "shopify-article-page", "shopify-misc-elements"],
-    "Shop": ["shopify-product-items", "shopify-shop-items", "shopify-gift-card"],
+    "Shop": ["shopify-collections-list", "shopify-gift-card"],
     "Search": ["shopify-search-page", "shopify-search-misc"]
     
    },

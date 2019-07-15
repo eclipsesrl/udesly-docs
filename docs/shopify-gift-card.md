@@ -4,6 +4,9 @@ title: Gift Card
 ---
 
 The following elements can be added only in the page set as **Gift Card**.
+Gift Card page must have the following attribute entered on the body:
+
+> page=gift-card
 
 #### Expiration Date
 

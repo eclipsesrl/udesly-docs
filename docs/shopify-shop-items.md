@@ -22,55 +22,6 @@ Attributes you can add on Text elements:
 > shop=carts-count
 
 
-## List Collections Page Elements
-
-These element can be used only in List collections page. This page must have the following attribute on the body:
-
-> page=list-collections
-
-These elements must be set on a Collection List wrapper and can be paginated. Limit will be set on **Shopify --> Customize Theme.** Collection list wrapper must have this attribute:
-
-> shop=collections
-
-This is the list of all collections of your shop.
-
-Inside Collection item you can use the following attributes:
-
-#### Description
-
-On Text elements:
-
-> item=description
-
-#### Title
-
-On Text or Link:
-
-> item=title
-
-#### Products Count 
-
-On Text elements:
-
-> item=products-count
-
-#### Featured Image
-
-On Div, Link or img elements:
-
-> item=featured-image
-
-To handle featured image settings, there are several optional attributes you can use.
-
-> dimension={dimension}
-
-> scale={scale}
-
-> format={format}
-
-> crop={crop}
-
-
 ## Shop Page elements
 
 Elements below can be added only in page set as Collection page. This page automatically get the following attribute on the body:

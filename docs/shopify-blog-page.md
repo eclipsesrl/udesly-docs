@@ -4,7 +4,7 @@ title: Blog Page
 ---
 
 This guide aims to show the use of attributes for the configuration of the blog in Webflow and make it convertible to Shopify through the Udesly Adapter.
-Some of these items can be used only in the page set as **blog page** (Blog page must have the following attribute entered on the body):
+These items can be used only in the page set as **blog page** (Blog page must have the following attribute entered on the body):
 
 > page=blog
 
