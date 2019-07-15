@@ -1,6 +1,6 @@
 ---
 id: shopify-activate
-title: Activate Account 
+title: Activate Account Page
 ---
 
 Activate Account page is defined with the following attribute attached to the Body:

@@ -9,19 +9,6 @@ This page must have the following attribute on the Body:
 
 > page=article
 
-## Navigation
-These elements help you to browse among posts:
-
-- ### Previous Article
-  To create a link to the previous article, insert a Link or a button item and assign the attribute:
-
-  > item=previous-article
-
-- ### Next Article
-  To create a link to the next article, insert a Link or a button item and assign the attribute:
-
-  > item=next-article
-
 ## Date
 It is the date of publication of the article. Insert a text element and enter the attribute:
 
@@ -54,12 +41,6 @@ It's the title of the article and can be added to any text element, will also ad
 Insert the attribute:
 
 > item=title
-
-## Link
-It's the link to the article and can be added to any a element.
-Insert the attribute:
-
-> item=link
 
 ## Excerpt
 It's the excerpt of the article and can be added to any text element.
@@ -103,3 +84,16 @@ It's the content of the post and can be set on a richtext element.
 Insert the attribute:
 
 > item=content
+
+## Navigation
+These elements help you to browse among posts:
+
+- ### Previous Article
+  To create a link to the previous article, insert a Link or a button item and assign the attribute:
+
+  > item=previous-article
+
+- ### Next Article
+  To create a link to the next article, insert a Link or a button item and assign the attribute:
+
+  > item=next-article

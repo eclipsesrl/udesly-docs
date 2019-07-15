@@ -1,6 +1,6 @@
 ---
 id: shopify-order-page
-title: Order 
+title: Order Page
 ---
 
 The Order page is used to display the details of a visitor’s past order. The following elements can be set only on the **Order page**.

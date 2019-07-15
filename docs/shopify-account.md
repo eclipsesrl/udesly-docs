@@ -1,6 +1,6 @@
 ---
 id: shopify-account
-title: Account 
+title: Account Page
 ---
 
 

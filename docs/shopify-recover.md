@@ -1,6 +1,6 @@
 ---
 id: shopify-recover
-title: Recover Password 
+title: Recover Password Page
 ---
 
 Recover Password page can be entered anywhere you want. It serves to ask for the password recovering.

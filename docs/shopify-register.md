@@ -1,6 +1,6 @@
 ---
 id: shopify-register
-title: Register 
+title: Register Page
 ---
 
 Register page is defined with the following attribute attached to the Body:

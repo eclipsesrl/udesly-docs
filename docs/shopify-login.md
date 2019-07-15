@@ -1,6 +1,6 @@
 ---
 id: shopify-login
-title: Login  
+title: Login Page
 ---
 
 Login page is defined with the following attribute attached to the Body:

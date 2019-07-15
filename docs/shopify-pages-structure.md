@@ -24,7 +24,7 @@ If you’re new to Shopify, maybe you don’t know there are some mandatory page
 
 
 ## Page Types
-In order to have a Webflow template ready to be converted to a Shopify one, Adapter must understand what kind of pages you created in your Template, so to help it, you have to add some custom attributes to the **Body** element of your Webflow page. Below you can find all page types that can be used in Shopify:
+In order to have a Webflow template ready to be converted to a Shopify one, Adapter must understand what kind of pages you created in your Template; so, to help it, you have to add some custom attributes to the **Body** element of your Webflow page. Below you can find all page types that can be used in Shopify:
 
 ### All Page Types
 
@@ -77,35 +77,22 @@ order-confirmation              | Remove
 **NB:** CMS pages are named with the prefix **detail_** followed by the singular name of your CMS collection by Webflow itself. For example, **detail_product** and **detail_category** pages are created by Webflow if you enable e-commerce and you find them with the names **Products Template** and **Categories Template** in Webflow pages menu.
 
 All pages without attribute that are not CMS related are automatically recognized as **Template**.
-Otherwise you can define the page type by inserting the required attribute in the Body of the Webflow page, following the schema below:
+Otherwise you can define the page type by inserting the required attribute in the Body of the Webflow page.
 
 **N.B:** All CMS pages that cannot be automatically recognized *must* have the correct attribute on the Body element, otherwise the template will not be converted.
 
 ## Page Links
-Some pages cannot be linked directly from Webflow because they are dymanic:
+Some pages are dynamic and they cannot be linked directly from Webflow but they need specific attributes:
 
-> collection
->
-> product
+**Page Type**                   | **Attribute**
+-------------                   | ----------------------
+Collection                      | collection-link={handle} 
+Product                         | product-link={handle} 
+Template*                       | page-link={handle} 
 
+\* A **Template page** is automatically linked if its handle on Webflow matches with the corresponded handle on Shopify. Otherwise you need to insert the attribute in the tab above. **Don't forget that pages must be created in Shopify from where you can assign the template!**
 
-If you want to link a specific **Collection** use the attribute:
-
-> collection-link={handle}
-
-
-To link the **Product page** use the attribute:
-
-> product-link={handle}
-
-
-Let us pause on how to link a **Template page.** It is automatically linked if its handle on Webflow matches with the corresponded handle on Shopify. Otherwise you need to insert this attribute:
-
-> page-link={handle}
-
-**Don't forget that Template pages must be created in Shopify!**
-
-Other pages are not linkable at all because they are dynamic or accesible only from email link::
+Other pages are not linkable at all because they are dynamic or accessible only from email link:
 
 > article
 >

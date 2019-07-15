@@ -1,6 +1,6 @@
 ---
 id: shopify-addresses
-title: Addresses 
+title: Addresses Page
 ---
 
 Here you can modify or see user addresses

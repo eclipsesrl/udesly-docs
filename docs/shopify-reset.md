@@ -1,6 +1,6 @@
 ---
 id: shopify-reset
-title: Reset Password 
+title: Reset Password Page
 ---
 
 Reset Password page is defined with the following attribute attached to the Body:
