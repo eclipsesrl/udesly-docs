@@ -1,9 +1,13 @@
 ---
-id: shopify-product-items
-title: Product Items
+id: shopify-product-page
+title: Product Page
 ---
 
-This guide contains all the items you can assign to a product of your Shopify store. They must be used in a Collection List inside the **Product page.**
+These items can be used only in the page set as **Product page**.
+Product page must have the following attribute entered on the body:
+
+> page=product
+
 
 #### Title
 It's the title of the product and can be added to any text element, will also add the link if set on a link text.
@@ -63,7 +67,7 @@ Insert the element you wish. It will only appear when a product is on sale (a Di
 
 > item=on-sale
 
-#### Sold-out
+#### Sold Out
 Insert the element you wish. It will only appear when a product is sold-out (a Div Block with a text, for example). Insert the attribute:
 
 > item=sold-out
@@ -109,3 +113,45 @@ Webflow Add of cart gets automatically converted. Use the default Add to cart an
    > item=color
 
 You can stylize these label with combo class **"selected"** to define when the variation is selected and with combo class **"soldout"** when the variation is soldout.
+
+
+### Recommended
+
+
+Insert a Collection List wrapper with the attribute:
+
+> shop=recommended
+
+Inside the Collection item you can only put limited fields:
+
+- ### Title
+   It's the title of the product and can be added to any text element, will also add the link if set on a link text.
+   Insert the attribute:
+
+   > item=title
+
+- ### Price
+   It is the product price. Insert a text element and enter the attribute:
+
+   > item=price
+
+- ### Link
+   It's the link to the product and can be added to any a element. Insert the attribute:
+
+   > item=link
+
+- ### Vendor
+   If you want to display the vendor's name of that specific product, insert any text element and add the attribute:
+
+   > item=vendor
+
+- ### Type
+   It's the product type. Insert any text element and add the attribute:
+
+   > item=type
+
+- ### Featured Image
+   It's the featured image of the product. It can be added to an image or to any other element as background image, will also add the link if set on a link block.
+   Insert the attribute:
+
+   > item=featured-image
