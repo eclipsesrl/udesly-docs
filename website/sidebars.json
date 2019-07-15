@@ -18,7 +18,7 @@
     "Account": ["shopify-account", "shopify-login", "shopify-activate", "shopify-reset", "shopify-recover", "shopify-register", "shopify-addresses", "shopify-order-page"],
     "Blog":["shopify-blog-page", "shopify-article-page", "shopify-misc-elements"],
     "Shop": ["shopify-product-items", "shopify-shop-items", "shopify-gift-card"],
-    "Search": ["shopify-search-page", "shopify-search-items"]
+    "Search": ["shopify-search-page", "shopify-search-misc"]
     
    },
   "wordpress-plugins-docs": {
