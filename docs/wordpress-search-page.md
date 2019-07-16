@@ -1,65 +1,26 @@
 ---
-id: wordpress-blog-misc
-title: Blog Misc
+id: wordpress-search-page
+title: Search Page
 ---
 
-The following Blog items can be inserted everywhere in the site.
+The following elements can be added only in the Webflow page set as **Search Results**, that gets automatically created when you add a search form on a page and inside any pages you have set as **Search page**, using the following attribute on the Body element:
 
-## Archive Link
+> page=search
+>
+> post-type={post-type}
 
-This is the link to the Archive Blog page. Insert the following attribute on link elements:
+## Search Results
 
-> blog=archive-link
+Webflow search results cannot be exported, so we suggest to set *"display none"* and insert a **Collection List** element to build your search results structure. It can be paginated and also the count item can be activated.
 
-## Category Link
+Select the Collection List Wrapper and insert this attribute:
 
-This is the link to a specific category of your Blog. Insert a link item and add the attribute:
+> search=results
 
-> category-link={category-slug}
 
-## Tag Link
-
-This is the link to a specific tag of your Blog. Insert a link item and add the attribute:
-
-> tag-link={tag-slug}
-
-## Specific Post
-
-It allows to show up a specific post. Insert a Div element with the attribute:
-
-> blog:specific-post={slug or id}
-
-Inside the Div, you can use all the elements you can find [here](#post-elements).
-
-## Queried Posts
-
-It's a posts collection you selected using Udesly WordPress plugin from posts queries menu. Insert a Collection lists wrapper and, if you want, you can enable pagination and post count.
-Insert the attribute:
-
-> blog:posts={slug of the query created in the plugin}`
-
-Inside the Collection List item, you can use all the elements you can find [here](#post-elements).
-
-## Blog Slider
-
-Insert a Slider item and add the attribute:
-
-> blog:slider={slug of the query created in the plugin}
-
-Inside the Slide, you can use all the elements you can find [here](#post-elements).
-
-## Post Elements
-
-These elements below can be used inside:
-
-[**Div of the specific post**](#specific-post)
-
-[**Queried posts collection list item**](#queried-posts)
-
-[**Slide of Blog slider**](#blog-slider)
-
+All the elements you can add in the Collection Item are available below:
 - ### Date & Time
-    It is the date and the time of publication of the post. Insert a text element and enter the attribute:
+    It is the date and the time of publication of the search result. Insert a text element and enter the attribute:
 
     > item=date
 
@@ -74,7 +35,7 @@ These elements below can be used inside:
     For date format type use [this guide](https://wordpress.org/support/article/formatting-date-and-time/)
 
 - ### Featured Image
-    It's the featured image of the post. It can be added to an image or to any other element as background image, will also add the link if set on a link block.
+    It's the featured image of the search result. It can be added to an image or to any other element as background image, will also add the link if set on a link block.
     Insert the attribute:
 
     > item=featured-image
@@ -86,13 +47,13 @@ These elements below can be used inside:
     Dimension can be 'full', 'medium', 'thumbnail', 'large' or defined in width and height (e.g 300, 500... don't forget spaces between values!)
 
 - ### Title
-    It's the title of the post and can be added to any text element, will also add the link if set on a link text.
+    It's the title of the search result and can be added to any text element, will also add the link if set on a link text.
     Insert the attribute:
 
     > item=title
 
 - ### Excerpt
-    It's the excerpt of the post and can be added to any text element. Insert the attribute:
+    It's the excerpt of the search result and can be added to any text element. Insert the attribute:
 
     > item=excerpt
 
@@ -153,23 +114,50 @@ These elements below can be used inside:
 
 - ### Categories
     It shows categories of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
-    Insert the following attribute on the Link element:
+    Insert he attribute:
 
     > item=categories
 
-    Optionally, you can limit the number of categories to show adding the attribute
-
-    >limit={number}
-
 - ### Tags
     It shows tags of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
-    Insert the following attribute on the Link element:
+    Insert he attribute:
 
     > item=tags
 
-    Optionally, you can limit the number of tags to show adding the attribute
 
-    >limit={number}
+## Search Results Count
+
+It's the number of the found results
+Insert a Text element and insert these attributes:
+
+> search=results-count
+
+
+## Search Query
+
+Search Query is the element that shows the keywords user inserted inside the Search Form. 
+Insert a Text element and insert these attributes:
+
+> search=query
+
+## Search Max Pages
+
+It indicates the maximum number of pages found in the current search query.
+
+Insert a Text element and add the attribute:
+
+> search=max-pages
+
+## Search Current Page
+
+It indicates the search results page currently displayed.
+
+Insert a Text element and add the attribute:
+
+> search=current-page
+
+
+
 
 ---------
 > **Take in Mind**

@@ -300,3 +300,8 @@ table th, table td {
 blockquote tr {
     background-color: white!important;
 }
+
+article > div > span > blockquote:last-of-type {
+    background-color: #fafafa;
+    border-left: 8px solid #e6e6e6;
+}

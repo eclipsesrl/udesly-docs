@@ -3,108 +3,74 @@ id: wordpress-blog-archive-page
 title: Post Archive Page
 ---
 
-In WordPress that are several type of pages that can be used as an archive of post of your Blog. Don't forget to define your page accordingly to the list below:
+Custom post types are content types like posts and pages. Since WordPress evolved from a simple blogging platform into a robust CMS, the term *post* stuck to it. However, a post type can be any kind of content.
+
+The Udesly plugin controls if pages you've created as CPT already use a CPT defined by a third party plugin. If it's not already defined, the plugin gives you the possibility to create one. Just follow the path from WP admin panel: *Udesly > Custom Post Types* 
+
+In WordPress that are several type of pages that can be used as an archive of custom post type. Don't forget to define your page accordingly to the list below:
 
 ## Archive Pages
 
 - **Main Archive Page**
 
-    This page is used for Main Blog Page and for taxonomies such as: Categories, Tags, Author if not defined otherwise.
+    This page is used for Main archive for CPT Page and for CPT taxonomies.
 
     > page=archive
-
-- **Category page**
-
-    This page is used for every category of your WordPress Blog. This page must have the following attribute on the Body:
-
-    > page=taxonomy
-
-
-- **Specific Category page**
-
-    This page is used for a specific category of your WordPress Blog. This page must have the following attributes on the Body:
-
-    > page=taxonomy
     >
-    > specific={slug of your category or ID of your category}    
+    > post-type={your post type}
 
-- **Tag page**
 
-    This page is used for every tag of your WordPress Blog. This page must have the following attributes on the Body:
+## Taxonomy Pages
+
+If a third party plugin has defined a taxonomy for a CPT, you can use that taxonomy. Otherwise, if you created the CPT in the Udesly plugin, you'll find there a field allowing to define taxonomies. The Udesly plugin will define these taxonomies in a specific format: {post-type}_{taxonomy}. 
+
+E.g: if you created a post type called *event* and added taxonomies as category, the taxonomy will be **event_category**
+
+- **Taxonomy page**
+
+    This page is used for every tag of your WordPress. This page must have the following attributes on the Body:
 
     > page=taxonomy
     >
-    > post-type=tag
+    > post-type={your taxonomy}
 
 
-- **Specific Tag page**
 
-    This page is used for a specific tag of your WordPress Blog. This page must have the following attributes on the Body:
+- **Specific Taxonomy page**
+
+    This page is used for a specific taxonomy of your WordPress. This page must have the following attributes on the Body:
 
     > page=taxonomy
     >
-    > post-type=tag
+    > post-type={your taxonomy}
     >
-    > specific={slug of your tag or ID of your tag}
-
-- **Author Page**
- 
-    This page is used to show the list of posts created by a given Author. This page must have the following attribute on the Body:
-
-     > page=archive
-     >
-     > post-type=author
-    
-
-- **Specific Author Page**
- 
-    If you want to give a different style to a given Author page, you have to set it as Specific Author page. This page must have the following attribute on the Body:
-
-     > page=archive
-     >
-     > post-type=author
-     >
-     > specific={author nicename or author ID}
-
-To see all the elements you can enter in the Author page, check the relative guide [here](wordpress-author-page).
+    > specific={slug of your tag or ID of your taxonomy}
 
 
 *The following list includes all elements you can enter within these pages*
 
 ## Archive Title
+This will be the title of your blog archive. To create it select a Text Block and insert the attribute:
 
-This is the archive page title (**e.g:** Category: My Category) and it can be added on every text element.
-
-The attribute to enter is:
-
-> blog=archive-title
-
-This item is customizable from the Udesly plugin. In **Settings** option, you can manage how the title has to be displayed in the blog page, category page, tag page and all the other post archive page of your site. 
-
-## Archive Description
-
-This is the archive page description and it can be added on every text element.
-
-The attribute to enter is:
-
-> blog=archive-description
-
-This item is customizable from the Udesly plugin. In **Settings** option, you can manage how the title has to be displayed in the blog page, category page, tag page, specific category page, specific tag page and all the other post archive page of your site. 
+> cpt=archive-title
 
 ## Archive Image
+This is the image of your archive. You can select a **Div Block** or an **Image**
+Insert the attribute:
 
-To set the image of your Archive page, insert a Image item or a Div to set as background image and enter the attribute:
+> cpt=archive-image
 
-> blog=archive-image
+## Archive Description
+This is the description of your archive. Select a **Text** element and add the attribute:
 
+> cpt=archive-description
 
 ## Archive Posts
-
 It must be inserted on a Collection List Wrapper and it's the list of archive posts. To enable pagination just add the pagination to the collection and you can control the number of posts from *settings --> reading*
 
 The attribute to enter is:
 
-> blog=archive-posts
+> cpt=archive-posts
 
 All the elements you can add in the Collection Item are available below:
 - ### Date & Time
@@ -200,42 +166,20 @@ All the elements you can add in the Collection Item are available below:
 
     > item=permalink
 
-- ### Categories
-    It shows categories of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
-    Insert the following attribute on the Link element:
 
-    > item=categories
+## Taxonomies
 
-    Optionally, you can limit the number of categories to show adding the attribute
+Insert a Collection List Wrapper and enter the attribute:
 
-    >limit={number}
-
-- ### Tags
-    It shows tags of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
-    Insert the following attribute on the Link element:
-
-    > item=tags
-
-    Optionally, you can limit the number of tags to show adding the attribute
-
-    >limit={number}
-
-## Archive Categories & Tags
-
-Insert a Collection List Wrapper and enter the attributes, respectively for categories and tags:
-
-> blog=categories
-
-> blog=tags
+> cpt:taxonomies={taxonomy name}
 
 Inside Collection item you can use the following attributes:
 
--  ### Description
-    
+- ### Description
+
     On Text elements:
 
     > item=description
-
 
 - ### Title
 
@@ -254,6 +198,43 @@ Inside Collection item you can use the following attributes:
     On Div, Link or img elements:
 
     > item=featured-image
+
+---------
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|
+
+
+## Archive Link
+
+This is the link to the Archive page of the post type. Insert the following attribute on link elements:
+
+> cpt=archive-link
+
+## Queried Posts
+It's a posts collection you selected using Udesly WordPress plugin from posts queries menu. Insert a Collection lists wrapper and, if you want, you can be pagination.
+Insert the attribute:
+
+> cpt:posts={slug of the query in the plugin}`
+
+Inside the Div, all you can use inside collection list item is available here.
+
+## CPT Slider
+
+Insert a Slider item and add the attribute:
+
+> cpt:slider={slug della query nel plugin}
+
+Inside the Slide, all you can use inside collection list item is available here.
+
 
 
 ---------

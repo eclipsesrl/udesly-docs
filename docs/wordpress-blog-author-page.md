@@ -2,8 +2,20 @@
 id: wordpress-author-page
 title: Author Posts Page
 ---
+In WordPress that are two type of pages that can be used as an archive of post of a given Author. Don't forget to define your page accordingly to the list below:
 
+**Author Page**
+ 
 This page is used to show the list of posts created by a given Author. This page must have the following attribute on the Body:
+
+> page=archive
+>
+> post-type=author
+    
+
+**Specific Author Page**
+ 
+If you want to give a different style to a given Author page, you have to set it as Specific Author page. This page must have the following attribute on the Body:
 
 > page=archive
 >
@@ -121,3 +133,17 @@ All the elements you can add in the Collection Item are available below:
     Insert he attribute:
 
     > item=tags
+
+
+---------
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|

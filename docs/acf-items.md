@@ -5,7 +5,7 @@ title: Advanced Custom Fields
 
 The general structure of attributes to enter in order to add an Advanced Custom Field is:
 
-> acf:field-type=field-slug
+> acf:{field-type}={field-slug}
 
 ## Text
 
@@ -17,7 +17,7 @@ To insert an ACF Text field, you have to use a **Text Block** or **Paragraph** o
 
 To insert an ACF Text Area field, you have to use a **Text Block** and insert the following attributes:
 
-> acf:textares={slug}
+> acf:textarea={slug}
 
 ## Rich Text
 
@@ -99,6 +99,40 @@ To insert an ACF Embed field, you have to use a **Div Block** and insert the fol
 
 ## Repeater
 
-Only for ACF PRO. You can use any element and add the following attribute:
+**Only for ACF PRO.** You can use any element that will be repeated and add the following attribute:
 
 > acf:repeater={slug}
+
+Inside the element you have entered the attribute, you can insert the following subfields:
+
+- Text
+- Text Area
+- Rich Text
+- Url
+- Image
+- Date
+- Time
+- Datetime
+- Color
+- Background Color
+- Link
+- Switch 
+- File 
+- Embed
+
+These subfields must have the attribute:
+
+> subfield:{field-type}={field-slug}
+
+--------- 
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|

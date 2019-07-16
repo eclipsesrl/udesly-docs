@@ -51,3 +51,19 @@ To insert the gift card image, insert a Image item or a Div with the attribute:
 > gift-card=image
 
 Don't forget that the Gift Card page can be further customized using conditional attributes to set up the different conditions in which the card can be found (used, active, expired, etc.). Check this guide.
+
+
+
+
+---------
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|

@@ -1,10 +1,45 @@
 ---
-id: cpt-items
-title: CPT elements
+id: wordpress-cpt-single-page
+title: Single Custom Post Type Page
 ---
-This guide aims to show all the items that characterize an "CPT" object in WordPress. 
 
-*These elements can be added within a Collection List item or in the Single Post page of your blog.*
+In WordPress that are several type of pages that can display a single post of your Blog. Don't forget to define your page accordingly to the list below:
+
+## Single Post Pages
+
+- **Single CPT Page**
+
+    This page is used for each CPT of your WordPress. This page must have the following attribute on the Body:
+
+    > page=single
+    >
+    > post-type={your post type}
+
+## Specific Single CPT Pages
+
+- **Specific CPT**
+
+    This page is used for a *specific* post of your WordPress to give it a different style from the others . This page must have the following attribute on the Body:
+
+    > page=single
+    >
+    > post-type={your post type}
+    >
+    > specific={slug of your post or ID of your post}
+
+
+## Single Custom Post Type Template 
+
+- **Single Custom Post Type Template**
+
+    This page is a template that can be used instead of your generic single cpt page. To be displayed, you have to select the template from WordPress backend (for each post). This page must have the following attribute on the Body:
+
+    > page=template
+    >
+    > post-type={your post type}
+
+*The following list includes all elements you can enter within these pages*
+
 
 ## Date & Time
 It is the date and the time of publication of the post. Insert a text element and enter the attribute:
@@ -94,23 +129,6 @@ This is a link to a specific post. Insert a link element and add the attribute:
 
 > item=permalink
 
-## Categories
-It shows categories of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
-Insert he attribute:
-
-> item=categories
-
-## Tags
-It shows tags of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
-Insert he attribute:
-
-> item=tags
-
-*The following list includes all elements you can enter within the **Single Post** page of your WordPress site.*
-
-This page must have the following attribute on the Body:
-
-> page=single
 
 ## Content
 Insert a Richtext element and add the attribute:
@@ -124,3 +142,16 @@ To enable the internal pagination of a specific post, insert Link or Button item
 >
 > item=prev-page
 
+
+---------
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|

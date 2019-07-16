@@ -1,22 +1,42 @@
 ---
-id: wordpress-search-results
-title: Search Results
+id: wordpress-cpt-misc
+title: Custom Post Type Misc
 ---
 
-## Search Results
+The following Custom Post Type items can be inserted everywhere in the site.
 
-Search Results is an element that can be inserted only in the **Search Page**.
+## Archive Link
 
-Webflow search results cannot be exported, so we suggest to set *"display none"* and insert a **Collection List** element to build your search results structure. It can be paginated and also the count item can be activated.
+This is the link to the Archive CPT page. Insert the following attribute on link elements:
 
-Select the Collection List Wrapper and insert this attribute:
+> cpt:archive-link={custom post type}
 
-> search=results
+## Queried Posts
+It's a posts collection you selected using Udesly WordPress plugin from posts queries menu. Insert a Collection lists wrapper and, if you want, you can be pagination.
+Insert the attribute:
 
+> cpt:posts={slug of the query in the plugin}
 
-All the elements you can add in the Collection Item are available below:
+Inside the Collection List item, you can use all the elements you can find [here](#post-elements).
+
+## CPT Slider
+
+Insert a Slider item and add the attribute:
+
+> cpt:slider={slug of the query in the plugin}
+
+Inside the Slide, you can use all the elements you can find [here](#post-elements).
+
+## Post Elements
+
+These elements below can be used inside:
+
+[**Queried posts collection list item**](#queried-posts)
+
+[**Slide of Blog slider**](#cpt-slider)
+
 - ### Date & Time
-    It is the date and the time of publication of the search result. Insert a text element and enter the attribute:
+    It is the date and the time of publication of the post. Insert a text element and enter the attribute:
 
     > item=date
 
@@ -31,7 +51,7 @@ All the elements you can add in the Collection Item are available below:
     For date format type use [this guide](https://wordpress.org/support/article/formatting-date-and-time/)
 
 - ### Featured Image
-    It's the featured image of the search result. It can be added to an image or to any other element as background image, will also add the link if set on a link block.
+    It's the featured image of the post. It can be added to an image or to any other element as background image, will also add the link if set on a link block.
     Insert the attribute:
 
     > item=featured-image
@@ -43,13 +63,13 @@ All the elements you can add in the Collection Item are available below:
     Dimension can be 'full', 'medium', 'thumbnail', 'large' or defined in width and height (e.g 300, 500... don't forget spaces between values!)
 
 - ### Title
-    It's the title of the search result and can be added to any text element, will also add the link if set on a link text.
+    It's the title of the post and can be added to any text element, will also add the link if set on a link text.
     Insert the attribute:
 
     > item=title
 
 - ### Excerpt
-    It's the excerpt of the search result and can be added to any text element. Insert the attribute:
+    It's the excerpt of the post and can be added to any text element. Insert the attribute:
 
     > item=excerpt
 
@@ -110,46 +130,33 @@ All the elements you can add in the Collection Item are available below:
 
 - ### Categories
     It shows categories of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
-    Insert he attribute:
+    Insert the following attribute on the Link element:
 
     > item=categories
 
+    Optionally, you can limit the number of categories to show adding the attribute
+
+    >limit={number}
+
 - ### Tags
     It shows tags of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
-    Insert he attribute:
+    Insert the following attribute on the Link element:
 
     > item=tags
 
+    Optionally, you can limit the number of tags to show adding the attribute
 
-## Search Results Count
+    >limit={number}
 
-Results count is an element that shows the number of search results. It can be used only in the **Search Page.**
-
-Insert a Text element and insert these attributes:
-
-> search=results-count
-
-
-## Search Query
-
-Search Query is the element that shows the keywords user inserted inside the Search Form. It can be inserted only in the **Search Page**.
-Insert a Text element and insert these attributes:
-
-> search=query
-
-## Search Max Pages
-
-It indicates the maximum number of pages found in a search query.
-
-Insert a Text element and add the attribute:
-
-> search=max-pages
-
-## Search Current Page
-
-It indicates the search results page currently displayed.
-
-Insert a Text element and add the attribute:
-
-> search=current-page
-
+---------
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|

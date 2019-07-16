@@ -7,7 +7,7 @@ The following elements are not a prerogative of the Blog page and can be inserte
 
 ## Blog Link
 
-Shopify allows to create several blogs. It's the link to a blog and it can be used everywhere in the project.
+Shopify allows to create several blogs. This element is the link to a blog and it can be used everywhere in the project.
 
 Insert a link or a button element and enter the attribute:
 
@@ -118,3 +118,18 @@ Insert a link element. This one will be repeated and if the link is inside a **L
 The link element must have this attribute: 
 
 > blog=all-blogs
+
+
+
+---------
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|

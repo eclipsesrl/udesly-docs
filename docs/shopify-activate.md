@@ -3,17 +3,39 @@ id: shopify-activate
 title: Activate Account Page
 ---
 
-Activate Account page is defined with the following attribute attached to the Body:
+Discover how to configure the "activate account" page in Webflow to get it ready to be converted to Shopify by the Adapter. 
 
->page=activate
+As first you need to define the page type adding the custom attribute below to the Body element of the page:
 
-In this page you can add a Form: Insert a Form block and add the attribute:
+> page=activate
+
+Add a form to this page: select a Form block from the “Add panel” in Webflow *(Add panel > Elements > Forms section)* and add the attribute:
 
 > account=activate
 
-It needs specific type fields:
-- 1 input name=password type=password
-- 1 input name=password_confirmation type=password
-- 1 input type=submit
-- 1 input type=submit and attribute item=decline
+It needs the following input fields:
 
+ **Name**             | **Type** | 
+ -------------        | --------------- |
+ | password           | password |
+ | password_confirmation | password |
+ |                        | submit |
+ |                         | submit |
+
+ On one of the submit you have to add the attribute 
+
+ > item=decline
+
+
+---------
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|

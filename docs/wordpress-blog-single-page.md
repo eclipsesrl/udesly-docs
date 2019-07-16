@@ -128,7 +128,7 @@ This is a link to a specific post. Insert a link element and add the attribute:
 
 ## Categories
 It shows categories of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
-Insert he attribute:
+ Insert the following attribute on the Link element:
 
 > item=categories
 
@@ -138,7 +138,7 @@ Optionally, you can limit the number of categories to show adding the attribute
 
 ## Tags
 It shows tags of the post and it must be added on a link element. This one will be repeated and if the link is inside a **List Item**, the whole List Item will be repeated.
-Insert he attribute:
+Insert the following attribute on the Link element:
 
 > item=tags
 
@@ -175,3 +175,19 @@ Inside a Div you can add:
 > item=featured-image
 >
 > item=excerpt
+
+
+
+
+---------
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|

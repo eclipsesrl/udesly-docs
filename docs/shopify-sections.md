@@ -67,3 +67,18 @@ It creates an option to modify the href of the section. Insert a Link item and a
 It creates an option to show or hide an element of the section. Insert any item and add the attribute:
 
 > option:checkbox={Option Name}
+
+
+
+---------
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|

@@ -51,11 +51,14 @@ if you want to display the total spent by customer on the shop, insert a Text it
 > account=user-total-spent
 
 ## Orders
-if you want to list the customer’s orders in the account page, insert a Collection List Wrapper item and add the attribute:
+
+If you want to list the customer’s orders in the account page, just add a Collection List Wrapper item in Webflow and add the attribute:
 
 > account=orders
 
-To enable pagination just add the pagination to the collection and you can control the number of orders from *Shopify -> Online Store > Themes > Customize*.
+In this way the main info about the customer’s orders will be displayed dinamically after the conversion to Shopify (screenshot).
+To paginate the Collection list just enable pagination on that collection list *(Webflow Designer > Element setting panel > Paginate Items)*.
+Once converted your Webflow template to Shopify, you’ll be able to control the number of orders per page from *Shopify -> Online Store > Themes > Customize*.
 
 Inside each single collection item you can add the following attributes on Text elements:
 
@@ -75,8 +78,21 @@ On Link elements:
 
 
 ## Logout Link
-This attribute can be entered in all the pages.
-
-Insert a Link item and add the attribute:
+you can enable the “log out link” on all the pages in your Webflow project. To do so you need to insert a Link item on the Webflow page where you want to enable the log out link and add the attribute:
 
 > account=logout-link
+
+
+
+---------
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|

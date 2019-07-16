@@ -3,7 +3,7 @@ id: shopify-pages-structure
 title: Pages Structure
 ---
 
-
+In this guide you’ll se how to configure the pages of your Webflow template to have them ready to be converted to Shopify. To do this you need to go to specific page in the Webflow Designer, go to the Setting tab and add a custom attribute to the body of those pages. Once added, the custom attributes allow a proper conversion of your project to Shopify.
 
 If you’re new to Shopify, maybe you don’t know there are some mandatory pages you must include to have your Shopify store working properly: 
 

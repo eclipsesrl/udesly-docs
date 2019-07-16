@@ -35,6 +35,7 @@ Custom attributes can be used to append additional information to your elements:
 
 - Click Save
 
+---------
 > **Take in Mind**
 >
 > In our documentation you will find custom attributes in 2 formats:

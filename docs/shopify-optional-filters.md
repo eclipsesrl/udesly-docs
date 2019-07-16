@@ -59,3 +59,19 @@ You can specify a crop parameter to make sure that the resulting image's dimensi
 Converts a timestamp into another date format.
 
 This attribute accepts the same parameters as *Ruby's strftime method*. You can find a list of the shorthand formats in Ruby's documentation or use a site like [strfti.me](http://www.strfti.me/)
+
+
+
+
+---------
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|
