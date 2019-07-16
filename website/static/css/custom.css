@@ -296,3 +296,7 @@ table {
 table th, table td {
     width: 20%;
 }
+
+blockquote tr {
+    background-color: white!important;
+}

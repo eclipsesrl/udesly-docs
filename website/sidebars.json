@@ -1,6 +1,6 @@
 {
   "wordpress-docs": {
-    "Getting Started": ["wordpress-setup", "wordpress-pages-structure", "wordpress-conversion-steps"],
+    "Getting Started": ["wordpress-setup", "wordpress-pages-structure", "wordpress-pages-elements", "wordpress-conversion-steps"],
     "General": ["wordpress-sidebar", "wordpress-menu", "wordpress-custom-fields", "wordpress-widget", "wordpress-forms", "wordpress-shortcode", "wordpress-conditionals"],
     "Blog": ["wordpress-blog-overview", "wordpress-blog-archive-page", "wordpress-blog-single-page", "wordpress-blog-misc", "wordpress-author-page"],
     "WooCommerce": ["woocommerce-setup", "shop-page", "single-product-page", "woocommerce-misc"],
@@ -14,7 +14,7 @@
   },
   "shopify-docs": {
     "Getting Started": ["shopify-setup", "shopify-pages-structure", "shopify-page-elements", "shopify-conversion-steps", "shopify-glossary"],
-    "General": ["shopify-forms", "shopify-page-links", "shopify-sections", "shopify-liquid-elements", "shopify-menu", "shopify-social-share", "shopify-conditional-items", "shopify-page-items"],
+    "General": ["shopify-forms", "shopify-page-links", "shopify-sections", "shopify-liquid-elements", "shopify-menu", "shopify-social-share", "shopify-conditional-items", "shopify-page-items", "shopify-optional-filters"],
     "Account": ["shopify-account", "shopify-login", "shopify-activate", "shopify-reset", "shopify-recover", "shopify-register", "shopify-addresses", "shopify-order-page"],
     "Blog":["shopify-blog-page", "shopify-article-page", "shopify-misc-elements"],
     "Shop": ["shopify-collections-list", "shopify-collection-page", "shopify-product-page", "shopify-cart-page", "shopify-gift-card", "shopify-shop-misc"],
