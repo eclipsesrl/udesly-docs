@@ -3,19 +3,27 @@ id: wordpress-pages-structure
 title: Pages Structure
 ---
 
-WordPress works with different types of pages:
+In order to have a Webflow template ready to be converted to a WordPress one, Adapter must understand what kind of pages you created in your Template.
+You can define the type of page you created using a combination of the attributes below. 
 
-> Archive
->
-> Single
->
-> Template
->
-> Taxonomy
->
-> Search
+ > page={page-type}
 
-With the Adapter 2.0 you define the page type in Webflow through some attributes on body (it's necessary only for CMS pages). 
+ > post-type={post-type}
+
+ > specific={slug or id}
+
+
+
+## WordPress Pages Hierarchy
+
+WordPress uses a clear defined hierarchy to decide wich template should be used to display a page you are visiting. We can easily classify pages of the template based on 3 main features:
+
+ 1. **Page Type**: each page you create as a *type* that defines it's use between WordPress, like *archive*, *single*, *search*, *template*, *taxonomy*;
+ 2. **Post Type**: WordPress works with different types of content. These content types are normally described as Post Types, which may be a little confusing since it refers to all different types of content in WordPress. For example, a post is a specific Post Type, and so is a page.
+ 3. **Specificity**: A page can be *generic* (it's used to display different *object* of the same type) or be *specific* (it's used to display one *object*). For example a *single post page* it's a generic page that it's used to display several posts of your blog, a *specific post page* it's used to display only one specific post of your blog.
+
+## Page Types
+So, to help it, you have to add some custom attributes to the Body element of your Webflow page.
 
 There are 3 types of attributes you can enter on the body of your pages:
 
@@ -25,7 +33,7 @@ There are 3 types of attributes you can enter on the body of your pages:
 >
 > **specific** --> To be used only in specific cases.
 
-Static Webflow pages do not need attributes because they are not going to be converted. The same applies to Index, Search and 404 pages: they are automatic and no attribute is necessary.
+Static Webflow pages do not need attributes because. The same applies to Index, Search and 404 pages: they are automatic and no attribute is necessary.
 
 CMS pages, instead, must have appropriate attributes entered in the body, otherwise the conversion won't be possible.
 

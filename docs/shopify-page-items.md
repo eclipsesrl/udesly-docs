@@ -33,9 +33,9 @@ This is the page publishing date. Insert a text item and add the attribute:
 
 To handle the date format, you can use the following optional attribute:
 
-> format={date-format}
+> [format={date-format}](shopify-optional-filters#date-format)
 
-For date format type use [strfti.me](http://www.strfti.me/)
+*For further info on how to set this optional attribute, please take a look on this [document](shopify-optional-filters)*
 
 #### Content
 

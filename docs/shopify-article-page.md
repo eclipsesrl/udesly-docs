@@ -16,9 +16,9 @@ It is the date of publication of the article. Insert a text element and enter th
 
 To handle the date format, you can use the following optional attribute:
 
-> format={date-format}
+> [format={date-format}](shopify-optional-filters#date-format)
 
-For date format type use [strfti.me](http://www.strfti.me/)
+*For further info on how to set this optional attribute, please take a look on this [document](shopify-optional-filters)*
 
 ## Featured Image
 It's the featured image of the article. It can be added to an image or to any other element as background image, will also add the link if set on a link block.
@@ -28,13 +28,15 @@ Insert the attribute:
 
 To handle featured image settings, there are several optional attributes you can use.
 
-> dimension={dimension}
+> [dimension={dimension}](shopify-optional-filters#dimension)
 
-> scale={scale}
+> [scale={scale}](shopify-optional-filters#scale)
 
-> format={format}
+> [format={format}](shopify-optional-filters#format)
 
-> crop={crop}
+> [crop={crop}](shopify-optional-filters#crop)
+
+*For further info on how to set these optional attributes, please take a look on this [document](shopify-optional-filters)*
 
 ## Title
 It's the title of the article and can be added to any text element, will also add the link if set on a link text.

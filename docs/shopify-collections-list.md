@@ -44,10 +44,12 @@ Inside Collection item you can use the following attributes:
 
    To handle featured image settings, there are several optional attributes you can use.
 
-   > dimension={dimension}
+   > [dimension={dimension}](shopify-optional-filters#dimension)
 
-   > scale={scale}
+   > [scale={scale}](shopify-optional-filters#scale)
 
-   > format={format}
+   > [format={format}](shopify-optional-filters#format)
 
-   > crop={crop}
+   > [crop={crop}](shopify-optional-filters#crop)
+
+   *For further info on how to set these optional attributes, please take a look on this [document](shopify-optional-filters)*

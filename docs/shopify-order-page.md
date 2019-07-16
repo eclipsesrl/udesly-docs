@@ -13,9 +13,9 @@ It is the date of publication of the order. Insert a text element and enter the 
 
 To handle the date format, you can use the following optional attribute:
 
-> format={date-format}
+> [format={date-format}](shopify-optional-filters#date-format)
 
-For date format type use [strfti.me](http://www.strfti.me/)
+*For further info on how to set this optional attribute, please take a look on this [document](shopify-optional-filters)*
 
 #### Cancel Date
 It is the date of cancellation of the order. Insert a text element and enter the attribute:
@@ -24,9 +24,9 @@ It is the date of cancellation of the order. Insert a text element and enter the
 
 To handle the date format, you can use the following optional attribute:
 
-> format={date-format}
+> [format={date-format}](shopify-optional-filters#date-format)
 
-For date format type use [strfti.me](http://www.strfti.me/)
+*For further info on how to set this optional attribute, please take a look on this [document](shopify-optional-filters)*
 
 #### Cancel Reason
 This is the reason behind the cancellation of the order. Insert a Text item and add the attribute:
@@ -123,4 +123,4 @@ On Link elements:
 
 > item=tracking-url
 >
-> item=link  // this is the link to the ordered product
+> item=link

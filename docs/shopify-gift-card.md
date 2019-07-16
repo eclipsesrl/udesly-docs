@@ -16,9 +16,9 @@ This is the expiration date of the card. Insert a Text item and add the followin
 
 To handle the date format, you can use the following optional attribute:
 
-> format={date-format}
+> [format={date-format}](shopify-optional-filters#date-format)
 
-For date format type use [strfti.me](http://www.strfti.me/)
+*For further info on how to set this optional attribute, please take a look on this [document](shopify-optional-filters)*
 
 ## Initial balance
 

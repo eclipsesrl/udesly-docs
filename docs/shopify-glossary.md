@@ -21,7 +21,7 @@ You can group your products into collections to make it easier for customers to 
 
 ## Custom Attributes
 Custom attributes can be used to append additional information to your elements: they define characteristics of an HTML element.
-### Adding custom attributes
+### Adding custom attributes in Webflow
 
 - Select the element you want to add the custom attribute to
 - Go to the Element settings Panel
@@ -34,6 +34,19 @@ Custom attributes can be used to append additional information to your elements:
  ![](assets/Attributes2.png)
 
 - Click Save
+
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|
+
 
 ## Sections
 Sections are customizable blocks of content that can be added in Shopify. In each section you can add Options to customize the Section content or style.
