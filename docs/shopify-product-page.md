@@ -86,7 +86,7 @@ Insert he attribute:
 >item=tags
 
 ## Product Images
-It can be set on an Image, Div, Slider, Lightbox and on a Lightbox contained in a Collection List item. It will be repeated 1 time for image set.
+It can be set on an Image, Div, Slider, Lightbox and on a Lightbox contained in a Collection List item. It will be repeated 1 time for image set (except if you're using a Lightbox not contained in a Collection List item).
 
 > item=product-images
 

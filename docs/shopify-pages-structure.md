@@ -24,7 +24,7 @@ If you’re new to Shopify, maybe you don’t know there are some mandatory page
 
 
 ## Page Types
-In order to have a Webflow template ready to be converted to a Shopify one, Adapter must understand what kind of pages you created in your Template; so, to help it, you have to add some custom attributes to the **Body** element of your Webflow page. Below you can find all page types that can be used in Shopify:
+The list below show the pages that you need to create in Webflow to have a fully functional Shopify theme. Take in mind that the attributes relates to each page type below must be added to the **Body** of that page: 
 
 ### All Page Types
 

@@ -1,5 +1,5 @@
 ---
-id: wordpress-blog-archive-page
+id: wordpress-cpt-archive-page
 title: Post Archive Page
 ---
 

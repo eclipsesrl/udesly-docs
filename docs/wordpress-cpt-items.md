@@ -1,6 +1,6 @@
 ---
 id: wordpress-cpt-single-page
-title: Single Custom Post Type Page
+title: Single Page
 ---
 
 In WordPress that are several type of pages that can display a single post of your Blog. Don't forget to define your page accordingly to the list below:
