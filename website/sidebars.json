@@ -11,7 +11,7 @@
     "Page Creator": ["page-creator-overview"],
     "Social Share": ["social-share-links"],
     "Boxes": ["wordpress-boxes"],
-    "Udesly Plugin": ["webflow-data", "posts-queries", "terms-queries", "boxes", "custom-post-types", "settings", "rules"]
+    "Udesly Plugin": ["webflow-data", "posts-queries", "terms-queries", "boxes", "custom-post-types", "settings", "rules", "wordpress-plugin-hooks"]
   },
   "shopify-docs": {
     "Getting Started": ["shopify-setup", "shopify-pages-structure", "shopify-page-elements", "shopify-conversion-steps", "shopify-glossary"],
