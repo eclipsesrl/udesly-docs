@@ -5,6 +5,10 @@ title: Pages Structure
 
 In this guide you’ll se how to configure the pages of your Webflow template to have them ready to be converted to Shopify. To do this you need to go to specific page in the Webflow Designer, go to the Setting tab and add a custom attribute to the body of those pages. Once added, the custom attributes allow a proper conversion of your project to Shopify.
 
+<video autoplay muted playsinline="true" loop>
+<source src="/assets/page-type.webm">
+</video>
+
 If you’re new to Shopify, maybe you don’t know there are some mandatory pages you must include to have your Shopify store working properly: 
 
 ## Mandatory Pages
@@ -74,7 +78,7 @@ detail_sku                      | Remove
 checkout                        | Remove
 order-confirmation              | Remove
 
-**NB:** CMS pages are named with the prefix **detail_** followed by the singular name of your CMS collection by Webflow itself. For example, **detail_product** and **detail_category** pages are created by Webflow if you enable e-commerce and you find them with the names **Products Template** and **Categories Template** in Webflow pages menu.
+**NB:** Once exported, CMS pages are named with the prefix **detail_** followed by the singular name of your CMS collection by Webflow itself. For example, **detail_product** and **detail_category** pages are created by Webflow if you enable e-commerce and you find them with the names **Products Template** and **Categories Template** in Webflow pages menu.
 
 All pages without attribute that are not CMS related are automatically recognized as **Template**.
 Otherwise you can define the page type by inserting the required attribute in the Body of the Webflow page.

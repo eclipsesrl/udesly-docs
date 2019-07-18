@@ -9,9 +9,17 @@ This kind of attribute can be used on every element to show or hide it, based on
 
 It shows the item if the specific condition is met.
 
+<video autoplay muted playsinline="true" loop>
+<source src="/assets/conditional-shopify-show-if.webm">
+</video>
+
 > hide-if={condition}
 
 It hides the item if the specific condition is met.
+
+<video autoplay muted playsinline="true" loop>
+<source src="/assets/conditional-shopify-hide-if.webm">
+</video>
 
 
 #### Logged In

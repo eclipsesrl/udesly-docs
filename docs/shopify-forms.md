@@ -2,8 +2,12 @@
 id: shopify-forms
 title: Forms
 ---
+You can add a Webflow form in your Shopify site. Forms can be added in any page of your project.
 
-Insert a Form Block item and add this attribute:
+> **Tips:**
+> Take a look at our [elements pack](https://preview.webflow.com/preview/webflow-to-shopify-elements?utm_medium=preview_link&utm_source=designer&utm_content=webflow-to-shopify-elements&preview=71280fc62c37d44b2222bbe7b9a3e953&mode=preview). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to Shopify, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
+
+Otherwise, if you want to start from scratch, insert a Form Block item and add this attribute:
 
 > shopify=form
 
@@ -11,8 +15,7 @@ Forms will be sent via email to the admin.
 
 There can be only one form for page that includes login, register, etc.
 
-
-
+![](assets/shopify-form.png)
 
 ---------
 > **Take in Mind**

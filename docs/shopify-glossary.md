@@ -8,7 +8,7 @@ In this section you'll find the most used terms that can help you to better unde
 ## Handle
 Handles are used to identify Shopify objects, such as products, collections, blogs, articles, menus. By default, a handle is the object's title in lowercase with any spaces and special characters replaced by hyphens (-).
 
-For example, a page with the title *"About Us"* can be accessed get the handle *about-us.*
+For example, a page with the title *"About Us"* can be accessed by putting the handle *about-us.*
 
 ## Template page
 If you have a Shopify online store, then you can create webpages in your Shopify admin. Webpages contain information that rarely changes or that customers will reference often, like an *"About Us"* page or a *"Contact Us"* page. For each page you create in Shopify, you can choose the template.
@@ -27,7 +27,7 @@ Custom attributes can be used to append additional information to your elements:
 - Go to the Element settings Panel
 - Add [+] a custom attribute
 
- ![](assets/Attributes1.png)
+![](assets/Attributes1.png)
 
 - Specify the name and the value
  

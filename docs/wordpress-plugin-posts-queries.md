@@ -1,5 +1,5 @@
 ---
-id: posts-queries
+id: wordpress-plugin-posts-queries
 title: Posts queries
 ---
 Post queries retrieve posts from the database, using different parameters, so that they can be displayed on the frontend.
