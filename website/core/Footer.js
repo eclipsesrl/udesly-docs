@@ -46,7 +46,7 @@ class Footer extends React.Component {
           <div>
             <h5>Help</h5>
             <a
-              href="hhttps://www.udesly.com/help-center/"
+              href="https://www.udesly.com/help-center/"
               target="_blank"
               >
               Help Center
