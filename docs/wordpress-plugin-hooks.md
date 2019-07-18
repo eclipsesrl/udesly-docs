@@ -295,3 +295,50 @@ This filter can be used to disable the frontend editor for some user, on default
 ~~~
  apply_filters('udesly_user_can_use_frontend_editor', $can);
 ~~~
+
+
+### udesly_rules_subject_keys
+
+This filter can be used to add more subjects to the Udesly Rules. (*e.g: If page...* )
+
+~~~
+ apply_filters('udesly_rules_subject_keys', ["page", "user", "archive"]);
+~~~
+
+### udesly_rules_options_{subject}
+
+This filter can be used to add options for the rules of the *subject*
+
+~~~
+ apply_filters("udesly_rules_options_$subject", array());
+~~~
+
+For example this is the function used to add options for user
+
+~~~
+function my_plugin_custom_add_rules_options_for_user($options) {
+        $roles = [];
+        global $wp_roles;
+        foreach ($wp_roles->roles as $key => $value) {
+            $roles[] = " " . $value['name'];
+        }
+        $options['is role'] = $roles;
+        $options['is logged in'] = ["."];
+        $options['is not logged in'] = ["."];
+
+        return $options;
+}
+
+add_filter( 'udesly_rules_options_user', 'my_plugin_custom_add_rules_options_for_user' );
+~~~
+
+To evaluate the rule you need to create a function named
+
+`udesly_rule_evaluator_{subject}_{option}`
+
+For example the function below is used to check the option is logged in of the subject user
+~~~
+ function udesly_rule_evaluator_user_is_logged_in() {
+        return is_user_logged_in();
+    }
+~~~
