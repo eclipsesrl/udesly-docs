@@ -3,7 +3,12 @@ id: shopify-shop-misc
 title: Misc Items
 ---
 
-These elements can be added on all pages of your Website
+These elements can be added on all pages of your Website.
+
+> **Tips:**
+> Take a look at our [elements pack](https://preview.webflow.com/preview/webflow-to-shopify-elements?utm_medium=preview_link&utm_source=designer&utm_content=webflow-to-shopify-elements&preview=71280fc62c37d44b2222bbe7b9a3e953&mode=preview). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to Shopify, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
+>
+> Otherwise, you can start from scratch, following the guide below.
 
 ## Checkout Link
 
@@ -103,7 +108,7 @@ Inside the List Item you can insert the following elements:
 
     > item=featured-image
 
-
+![](assets/shopify-mini-cart.png)
 
 ## Products List
 
@@ -194,6 +199,7 @@ Inside Collection item you can use the following attributes:
 - ### Add to Cart
    No need for attributes, use the Add to Cart of Webflow
 
+![](assets/shopify-products-list.png)
 
 ## Shop Notifications
 
@@ -224,7 +230,7 @@ There can be two notification types:
 
 its adviced to set transition for opacity on the div for animation and set it as **Position fixed**
 
-
+![](assets/shopify-notification.png)
 
 ---------
 > **Take in Mind**

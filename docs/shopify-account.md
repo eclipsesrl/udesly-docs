@@ -5,11 +5,26 @@ title: Account Page
 
 In this guide we’re going to focus on how to configure the account page in Webflow to get it ready to be converted to Shopify by the Adapter. 
 
-The following elements can be entered in the Account page only. This page is defined with the following attribute attached to the Body:
+![](assets/shopify-account.jpg)
+
+This page is defined with the following attribute attached to the Body:
 
 > page=account
 
+<pre>
+<video autoplay muted playsinline="true" loop>
+<source src="/assets/page-type.webm">
+</video>
+</pre>
+
 To enable accounts follow the path **Shopify > settings > Checkout > Select**. 
+
+> **Tips:**
+> Take a look at our [elements pack](https://preview.webflow.com/preview/webflow-to-shopify-elements?utm_medium=preview_link&utm_source=designer&utm_content=webflow-to-shopify-elements&preview=71280fc62c37d44b2222bbe7b9a3e953&mode=preview). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to Shopify, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
+>
+> Otherwise, you can start from scratch, floowing the guide below.
+
+ **The following elements can be entered in the Account page only.** 
 
 These are the most common elements of an account page. For each element, you can find the custom attribute that you must add in Webflow to allow a proper conversion by the Adapter.
 

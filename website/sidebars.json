@@ -19,7 +19,7 @@
     "Account": ["shopify-account", "shopify-login", "shopify-activate", "shopify-reset", "shopify-recover", "shopify-register", "shopify-addresses", "shopify-order-page"],
     "Blog":["shopify-blog-page", "shopify-article-page", "shopify-misc-elements"],
     "Shop": ["shopify-collections-list", "shopify-collection-page", "shopify-product-page", "shopify-cart-page", "shopify-gift-card", "shopify-shop-misc"],
-    "Search": ["shopify-search-page", "shopify-search-misc"],
+    "Search": ["shopify-search-page", "shopify-search-form"],
     "FAQ": ["shopify-faq"]
     
    },

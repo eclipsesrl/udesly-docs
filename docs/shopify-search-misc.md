@@ -1,8 +1,8 @@
 ---
-id: shopify-search-misc
-title: Misc Elements
+id: shopify-search-form
+title: Search Form
 ---
-The following Search items can be inserted everywhere in the site.
 
-## Search Forms
-All search forms are automatically converted without attributes.
+ You can design your custom Search form in Webflow and convert it to Shopify. You can use it in any page and all search forms are **automatically converted without attributes.**
+
+ ![](assets/shopify-search-form.png)

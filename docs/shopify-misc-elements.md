@@ -5,6 +5,11 @@ title: Misc elements
 
 The following elements are not a prerogative of the Blog page and can be inserted anywhere within the site.
 
+> **Tips:**
+> Take a look at our [elements pack](https://preview.webflow.com/preview/webflow-to-shopify-elements?utm_medium=preview_link&utm_source=designer&utm_content=webflow-to-shopify-elements&preview=71280fc62c37d44b2222bbe7b9a3e953&mode=preview). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to Shopify, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
+>
+> Otherwise, you can start from scratch, following the guide below.
+
 ## Blog Link
 
 Shopify allows to create several blogs. This element is the link to a blog and it can be used everywhere in the project.
@@ -14,7 +19,6 @@ Insert a link or a button element and enter the attribute:
 > blog-link={blog handle}
 
 **e.g:** blog-link=news
-
 
 ## Blog Articles
 
@@ -108,6 +112,12 @@ All the elements you can add in the Collection Item are available below:
   Insert the attribute:
 
   > item=content
+
+<pre>
+
+![](assets/shopify-blog-page.png)
+
+</pre>
 
 ## Blog All Blogs
 
