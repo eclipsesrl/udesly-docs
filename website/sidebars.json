@@ -3,7 +3,7 @@
     "Getting Started": ["wordpress-setup", "wordpress-pages-structure", "wordpress-pages-elements", "wordpress-conversion-steps"],
     "General": ["wordpress-sidebar", "wordpress-menu", "wordpress-custom-fields", "wordpress-widget", "wordpress-forms", "wordpress-shortcode", "wordpress-conditionals"],
     "Blog": ["wordpress-blog-overview", "wordpress-blog-archive-page", "wordpress-blog-single-page", "wordpress-blog-misc", "wordpress-author-page"],
-    "WooCommerce": ["woocommerce-setup", "shop-page", "single-product-page", "woocommerce-misc"],
+    "WooCommerce": ["woocommerce-overview", "woocommerce-shop-page", "woocommerce-single-product-page", "woocommerce-cart-page", "woocommerce-my-account-page", "woocommerce-checkout-page", "woocommerce-misc"],
     "ACF": ["acf-overview", "acf-items"],
     "Search Box": ["wordpress-search-page", "wordpress-search-misc"],
     "Custom Post Types": ["wordpress-cpt-overview", "wordpress-cpt-archive-page", "wordpress-cpt-single-page", "wordpress-cpt-misc"],

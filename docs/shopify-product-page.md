@@ -106,7 +106,7 @@ It can be set on an Image, Div, Slider, Lightbox and on a Lightbox contained in 
 > item=product-images
 
 ## Add to Cart
-Webflow Add of cart gets automatically converted. Use the default Add to cart and enter these elements inside it:
+Webflow Add to cart gets automatically converted. Use the default Add to cart and enter these elements inside it:
 
 - A Text element with
 
