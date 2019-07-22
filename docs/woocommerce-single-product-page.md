@@ -340,6 +340,8 @@ Add the attribute on the Collection List Wrappers
 
 Inside the Collection List Item, you can use all the elements you can find [here](#product-elements).
 
+**The number of upsells can be managed from the Udesly plugin settings.**
+
 ## Related Products
 
 They are products with same category or tag of the current product
@@ -351,6 +353,9 @@ Add the attribute on the Collection List Wrappers
 > wc=related
 
 Inside the Collection List Item, you can use all the elements you can find [here](#product-elements).
+
+**The number of related can be managed from the Udesly plugin settings.**
+
 
 ## Product Elements
 

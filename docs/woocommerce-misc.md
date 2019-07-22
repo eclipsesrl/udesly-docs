@@ -62,6 +62,60 @@ will link to the "Edit Account" section of the My account page
 
 `You can find all My Account endpoints on WooCommerce > Settings > Advanced under Account Endpoints`
 
+## Mini Cart
+
+Use Webflow native mini cart, it needs this attribute:
+
+> wc=mini-cart
+
+Hide the native Collection List inside it (it's not exported as HTML) and replace it with a simple List with the attribute:
+
+> item=products-list
+
+Inside the List Item you can insert the following elements: 
+
+- ### Title
+
+    On text elements you can add the following attribute to get the Product Title:
+
+    > item=title
+
+- ### Price
+
+    On text elements you can add the following attribute to get the Product Price:
+
+    > item=price
+
+- ### Total
+
+   On text elements you can add the following attribute to get the Product Total Price:
+
+    > item=total
+
+- ### Quantity
+
+    On text elements you can add the following attribute to get the Product quantity:
+
+    > item=quantity
+
+- ### Link
+
+    On link elements you can add the following attribute to get the Product Link:
+
+    > item=permalink
+
+- ### Remove
+
+    On link elements you can add the following attribute to add the functionality of removing the Product from the cart:
+
+    > item=remove
+
+- ### Featured Image
+
+    On image or div elements you can add the following attribute to get the Product Featured Image:
+
+    > item=featured-image
+
 
 ## Specific Product
 

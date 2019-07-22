@@ -11,11 +11,12 @@ To create a Lost Password Form insert a **Form Block** and add the attribute:
 
 > login-area=lost-password
 
-The form must have the following fields:
+The form needs the following input fields: 
 
-- Type = Plain **Required**
-
-- Type = Submit
+ **Name**             | **Type** | 
+ -------------        | --------------- |
+ |            | Plain | REQUIRED
+  |                         | submit |
 
 Select the form and change the status to **Error**
 Select the error message text block and insert the attribute:
@@ -31,13 +32,13 @@ To create a Reset Password insert a **Form Block** and add the attribute:
 
 > login-area=reset-password
 
-The form must have the following fields:
+The form needs the following input fields: 
 
-- Type = Password Name=password **Required**
-
-- Type = Password Name=password_repeat **Required**
-
-- Type = Submit
+ **Name**             | **Type** | 
+ -------------        | --------------- |
+ | password           | Password | REQUIRED
+ | password_repeat | Password | REQUIRED
+ |                         | submit |
 
 Select the form and change the status to Error
 Select the error message text block and insert the attribute:

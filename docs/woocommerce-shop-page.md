@@ -238,9 +238,7 @@ All the elements you can add in the Collection Item are available below:
 
 - ### Price
 
-    This is the product price, 
-
-    Insert a Text element and add the attribute:
+    This is the product price. Insert a Text element and add the attribute:
 
     > item=price
 

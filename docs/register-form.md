@@ -7,22 +7,18 @@ Insert a **Form** element inside your page and insert the following attributes:
 
 > login-area=register
 
-The form must have the following fields:
+The form needs the following input fields: 
 
-- Type = Plain Name = first_name
+ **Name**             | **Type** | 
+ -------------        | --------------- |
+ | first_name           | Plain |
+ | last_name | Plain |
+ | username | Plain | REQUIRED
+ | email | Email | REQUIRED
+ | password | Password | REQUIRED
+ | password_repeat | Password | REQUIRED
+ |                         | submit |
 
-- Type = Plain Name = last_name
-
-- Type = Plain Name = username       Required
-
-- Type = Email Name = email              Required
-
-- Type = Password Name = password                 Required
-
-- Type = Password Name = password_repeat   Required
-
-- Type = Submit
- 
 
 Select the form and change the status to **Error**
 Select the error message text block and insert the attribute:

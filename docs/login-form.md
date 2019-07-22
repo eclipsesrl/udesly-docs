@@ -7,15 +7,14 @@ Insert a **Form** element inside your page and insert the following attributes:
 
 > login-area=login
 
-The form must have the following fields:
+The form needs the following input fields: 
 
-- Type = Plain  Name = username  Required
-
-- Type = Password  Name = password Required
-
-- Type = Checkbox  Name = remember_me
-
-- Type = Submit
+ **Name**             | **Type** | 
+ -------------        | --------------- |
+ | username           | Plain | REQUIRED
+ | password | Password | REQUIRED
+ | remember_me | Checkbox
+ |                         | submit |
 
 Select the form and change the status to **Error**
 
