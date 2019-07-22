@@ -1,91 +1,105 @@
 ---
-id: woocommerce-shop-page
-title: Shop Page
+id: woocommerce-misc
+title: Shop Misc
 ---
 
-In WooCommerce there are several type of pages that can be used as an archive of products of your Shop. Don't forget to define your page accordingly to the list below:
+The following WooCoomerce items can be inserted everywhere in the site.
 
-## Archive Pages
+## Archive Link
 
-- **Main Archive Page**
+This is the link to the Main Shop Page of your website. Insert the following attribute on link elements:
 
-    This page is used for Main Shop Page and for taxonomies such as: Categories, Tags, Author if not defined otherwise.
+> wc=archive-link
 
-    > page=archive
-    >
-    >post-type=product
+`Don't forget that you have to set your Shop Page in WooCommerce > Settings > General`
 
-- **Category page**
+## Category Link
 
-    This page is used for every category of your WooCommerce Shop. This page must have the following attribute on the Body:
+This is the link to a specific category of your Shop. Insert a link item and add the attribute:
 
-    > page=taxonomy
-    >
-    > post-type=product_cat
+> wc-category-link={category-slug}
 
-- **Tag page**
+## Tag Link
 
-    This page is used for every tag of your WooCommerce Shop. This page must have the following attributes on the Body:
+This is the link to a specific tag of your Shop. Insert a link item and add the attribute:
 
-    > page=taxonomy
-    >
-    > post-type=product_tag
+> wc-tag-link={tag-slug}
 
-- **Specific Category page**
+## Cart Link
 
-    This page is used for a specific category of your WooCommerce Shop. This page must have the following attributes on the Body:
+This is the link to the cart page of your Shop. Insert a link item and add the attribute:
 
-    > page=taxonomy
-    >
-    > post-type=product_cat
-    >
-    > specific={slug of your category or ID of your category}    
+> wc=cart-link
+
+`Don't forget that you have to set your Cart Page in WooCommerce > Settings > Advanced`
 
 
-- **Specific Tag page**
+## Checkout Link
 
-    This page is used for a specific tag of your WooCommerce Shop. This page must have the following attributes on the Body:
+This is the link to the checkout page of your Shop. Insert a link item and add the attribute:
 
-    > page=taxonomy
-    >
-    > post-type=product_tag
-    >
-    > specific={slug of your tag or ID of your tag}
+> wc=checkout-link
 
-*The following list includes all elements you can enter within these pages*
+`Don't forget that you have to set your Checkout Page in WooCommerce > Settings > Advanced`
 
-## Archive Title
+## My Account Link
 
-This is the archive page title (**e.g:** Category: My Category) and it can be added on every text element.
+This is the link to the My Account page of your Shop. Insert a link item and add the attribute:
 
-The attribute to enter is:
+> wc=my-account-link
 
-> wc=archive-title
+`Don't forget that you have to set your My Account Page in WooCommerce > Settings > Advanced`
 
-## Archive Description
+Optionally you can set the attribute
 
-This is the archive page description and it can be added on every text element.
+> endpoint={endpoint slug}
 
-The attribute to enter is:
+to link to a specific endpoint of the my account page, For example
 
-> wc=archive-description
+> endpoint=edit-account
 
-## Archive Image
+will link to the "Edit Account" section of the My account page
 
-To set the image of your Archive page, insert a Image item or a Div to set as background image and enter the attribute:
-
-> wc=archive-image
+`You can find all My Account endpoints on WooCommerce > Settings > Advanced under Account Endpoints`
 
 
-## Archive Products
+## Specific Product
 
-It must be inserted on a Collection List Wrapper and it's the list of archive products. To enable pagination just add the pagination to the collection and you can control the number of products from *Appearance > Customize > WooCommerce >* and change the number of products by row and column.
+It allows to show up a specific product. Insert a Div element with the attribute:
 
-The attribute to enter is:
+> wc:specific-product={slug or id}
 
-> wc=archive-posts
+Inside the Div, you can use all the elements you can find [here](#product-elements).
 
-All the elements you can add in the Collection Item are available below:
+## Queried Products
+
+It's a products collection you selected using Udesly WordPress plugin from posts queries menu. Insert a Collection lists wrapper and, if you want, you can enable pagination and post count.
+Insert the attribute:
+
+> wc:products={slug of the query created in the plugin}`
+
+Inside the Collection List item, you can use all the elements you can find [here](#product-elements).
+
+## Product Slider
+
+It's a products collection you selected using Udesly WordPress plugin from posts queries menu.
+Each slide of the slider will be a product of the selected collection.
+Insert a Slider item and add the attribute:
+
+> wc:slider={slug of the query created in the plugin}
+
+Inside the Slide, you can use all the elements you can find [here](#product-elements).
+
+## Product Elements
+
+These elements below can be used inside:
+
+[**Div of the specific post**](#specific-product)
+
+[**Queried posts collection list item**](#queried-products)
+
+[**Slide of Blog slider**](#product-slider)
+
 - ### Date & Time
     It is the date and the time of publication of the product. Insert a text element and enter the attribute:
 
@@ -303,67 +317,7 @@ All the elements you can add in the Collection Item are available below:
     > item=review-count
 
 - ### Add to Cart
-    It will be automatic and you need to use the default Add to Cart by Webflow.    
-
-## Archive Categories & Tags
-
-Insert a Collection List Wrapper and enter the attributes, respectively for categories and tags:
-
-> wc=categories
-
-> wc=tags
-
-Inside Collection item you can use the following attributes:
-
--  ### Description
-    
-    On Text elements:
-
-    > item=description
-
-
-- ### Title
-
-    On Text or Link:
-
-    > item=title
-
-- ### Permalink 
-
-    On Link elements:
-
-    > item=permalink
-
-- ### Featured Image
-
-    On Div, Link or img elements:
-
-    > item=featured-image
-
-## Breadcrumbs
-
-Insert a List element and add the attribute:
-
-> wc=breadcrumbs
-
-The List element must contain 3 List items: the first one must contain a Link and it represent the breadcrumb to the parent category. The second List item is the separator and the third one is the current product. No attributes are needed on these List items.
-
-## Orderby
-
-This select allows to change the products order in the page. Insert a Form block with the attribute:
-
-> wc=orderby
-
-The Form block must contain one Select item.
-
-## Results Count
-
-This is the result text that shows up on the WooCommerce product archive pages that displays the amount of products you are currently viewing and the total amount of products in your current query.
-
-Insert a Text element and add the attribute:
-
-> wc=results-count
-
+    It will be automatic and you need to use the default Add to Cart by Webflow.   
 
 ---------
 > **Take in Mind**
