@@ -26,20 +26,20 @@ Based on the post type you selected in the previous section, here you can filter
 
 ![](assets/postsquery3.png)
  - Taxonomy: it allows to filter the selected post type based on a specific taxonomy such as categories or tags;
- - Terms: it allows to filter the selected post type based on a specific term contained it the taxonomy you have choosen;
+ - Terms: it allows to filter the selected post type based on a specific term contained it the taxonomy you have chosen;
  - Authors: here you can view all the post types belonging to a specific author;
  - Meta Key: it is the name of a custom field of the post you're searching; 
  - Meta Value: it is the value corresponded to the key you have choosen above.
 
 ## Sort
-This section allows to order post types based on different criteria: date, title, slug, ID and choose to show them in a descending or ascending order.
+This section allows to order posts based on different criteria: date, title, slug, ID and choose to show them in a descending or ascending order.
 
 ![](assets/postsquery4.png)
 
 ## Count
-Here you can define the number of post types to display. By default it is set on 3. 
+Here you can define the number of posts to display. By default it is set on 3. 
 
-Furthermore, the **Offset** option allows to skip a given number of post types, if you need.
+Furthermore, the **Offset** option allows to skip a given number of posts, if you need.
 
 ![](assets/postsquery5.png)
 

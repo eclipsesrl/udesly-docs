@@ -11,7 +11,7 @@ Insert a **Form Block** element and customize it as you prefer.
 
 Select the Form Block from the Navigator and insert this attribute:
 
-> form={any name you want}
+> wordpress=form
 
 
 
