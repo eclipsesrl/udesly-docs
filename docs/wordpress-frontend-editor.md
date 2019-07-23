@@ -3,9 +3,11 @@ id: wordpress-frontend-editor
 title: Frontend Editor
 ---
 
-The Frontend Editor allows to edit some content in your WordPress site visually, without need to access your Webflow theme again.
+The Frontend Editor allows to edit some content in your WordPress site visually, without need to access your Webflow theme again. It is accessible by enabling the Udesly WP plugin.
 
 It automatically takes: images, texts, links, iframes and videos.
+
+![](assets/frontend-editor-2.png)
 
 Each content is referred through the hashing of the content itself.
 

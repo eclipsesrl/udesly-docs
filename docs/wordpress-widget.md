@@ -2,8 +2,11 @@
 id: wordpress-widget
 title: Widgets
 ---
+A WordPress Widget is a small block that performs a specific function. 
 
-To use WordPress widgets, you need to in insert the following attribute:
+![](assets/wordpress-widgets.png)
+
+To use WordPress widgets starting from your Webflow theme, you need to add the following attribute to a Div element:
 
 > widget={your widget slug}
 

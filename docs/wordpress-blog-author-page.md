@@ -2,7 +2,13 @@
 id: wordpress-author-page
 title: Author Posts Page
 ---
-In WordPress that are two type of pages that can be used as an archive of post of a given Author. Don't forget to define your page accordingly to the list below:
+In WordPress that are two type of pages that can be used as an archive of post of a given Author.  Don't forget to define your page accordingly to the list below by adding the correspondent attribute on the body of the page:
+
+<pre>
+<video autoplay muted playsinline="true" loop>
+<source src="/assets/page-type.webm">
+</video>
+</pre>
 
 **Author Page**
  
@@ -23,7 +29,12 @@ If you want to give a different style to a given Author page, you have to set it
 >
 > specific={author nicename or author ID}
 
-All the elements that can populate the Author page are listed below:
+*All the elements that can populate the Author page are listed below.*
+
+> **Tips:**
+> Take a look at our [elements pack](https://preview.webflow.com/preview/webflow-to-shopify-elements?utm_medium=preview_link&utm_source=designer&utm_content=webflow-to-shopify-elements&preview=71280fc62c37d44b2222bbe7b9a3e953&mode=preview). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to Shopify, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
+>
+> Otherwise, if you want to start from scratch, follow the guide below.
 
 ## Author Description
 It display the author description and can be inserted on a Text element with this attribute:

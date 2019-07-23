@@ -3,7 +3,12 @@ id: woocommerce-checkout-page
 title: Checkout Page
 ---
 
-WooCommerce Checkout page shows information such as shipping and payment options.
+WooCommerce Checkout page shows information such as shipping and payment options. This page does not require any attribute in the body.
+
+> **Tips:**
+> Take a look at our [elements pack](https://preview.webflow.com/preview/webflow-to-shopify-elements?utm_medium=preview_link&utm_source=designer&utm_content=webflow-to-shopify-elements&preview=71280fc62c37d44b2222bbe7b9a3e953&mode=preview). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to Shopify, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
+>
+> Otherwise, if you want to start from scratch, follow the guide below.
 
 Insert the following attribute on the default Webflow checkout:
 

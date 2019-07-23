@@ -3,9 +3,11 @@ id: wordpress-conditionals
 title: Conditional Elements
 ---
 
+This kind of attribute can be used **on every element** to show or hide it, based on specific conditions.
+
 ## Generic Conditions
 
-This kind of attribute can be used on every element to show or hide it, based on specific conditions.
+The following attributes represent the basics for defining a given condition.
 
 > show-if={condition}
 

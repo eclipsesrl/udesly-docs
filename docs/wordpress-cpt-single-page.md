@@ -3,7 +3,13 @@ id: wordpress-cpt-single-page
 title: Single Page
 ---
 
-In WordPress that are several type of pages that can display a single post of your Blog. Don't forget to define your page accordingly to the list below:
+In WordPress that are several type of pages that can display a single post of your Blog. Don't forget to define your page accordingly to the list below by adding the correspondent attribute on the body of the page:
+
+<pre>
+<video autoplay muted playsinline="true" loop>
+<source src="/assets/page-type.webm">
+</video>
+</pre>
 
 ## Single Post Pages
 
@@ -38,8 +44,12 @@ In WordPress that are several type of pages that can display a single post of yo
     >
     > post-type={your post type}
 
-*The following list includes all elements you can enter within these pages*
+*The following list includes all elements you can enter within these pages.*
 
+> **Tips:**
+> Take a look at our [elements pack](https://preview.webflow.com/preview/webflow-to-shopify-elements?utm_medium=preview_link&utm_source=designer&utm_content=webflow-to-shopify-elements&preview=71280fc62c37d44b2222bbe7b9a3e953&mode=preview). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to Shopify, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
+>
+> Otherwise, if you want to start from scratch, follow the guide below.
 
 ## Date & Time
 It is the date and the time of publication of the post. Insert a text element and enter the attribute:
