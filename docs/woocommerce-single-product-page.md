@@ -325,6 +325,13 @@ Insert a *Tabs* element inside the page and add the attribute
 Just insert a *Richtext* element inside the first Tab Content.
 Only the first tab will be considered and duplicated based on product tabs that are enabled in WooCommerce. 
    
+## Breadcrumbs
+
+Insert a List element and add the attribute:
+
+> wc=breadcrumbs
+
+The List element must contain 3 List items: the first one must contain a Link and it represent the breadcrumb to the parent category. The second List item is the separator and the third one is the current product. No attributes are needed on these List items.   
 
 ## Upsells
 
@@ -583,24 +590,6 @@ These elements below can be used inside:
 
 - ### Add to Cart
     It will be automatic and you need to use the default Add to Cart by Webflow.   
-
----------
-> **Take in Mind**
->
-> In our documentation you will find custom attributes in 2 formats:
->
-> **name=value** or **name={dynamic-value}**
->
->
-> **Attribute**             | **Meaning** | 
-> -------------             | --------------- |
-> | item=title              | *item* is the *Name* and *title* is the *Value* |
-> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|
-
-
-
-
-
 
 ---------
 > **Take in Mind**
