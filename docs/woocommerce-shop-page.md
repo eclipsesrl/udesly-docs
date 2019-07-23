@@ -83,7 +83,7 @@ It must be inserted on a Collection List Wrapper and it's the list of archive pr
 
 The attribute to enter is:
 
-> wc=archive-posts
+> wc=archive-products
 
 All the elements you can add in the Collection Item are available below:
 - ### Date & Time

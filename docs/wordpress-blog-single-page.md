@@ -177,6 +177,13 @@ Inside a Div you can add:
 > item=excerpt
 
 
+## Breadcrumbs
+
+Insert a List element and add the attribute:
+
+> blog=breadcrumbs
+
+The List element must contain 3 List items: the first one must contain a Link and it represent the breadcrumb to the parent category. The second List item is the separator and the third one is the current post. No attributes are needed on these List items.
 
 
 ---------
