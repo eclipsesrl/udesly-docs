@@ -42,3 +42,12 @@ Now you can upload the converted theme (.zip file) from your WordPress admin pan
 
 **Don't forget to Activate the Theme**
 
+## Import Data
+This is the most important section. After the template upload and activation, you have to synchronize the template content. From the "Import from Webflow" section you can find the "Import data" button to synchronize the Webflow template content with WordPress. You can also delete all the imported pages or frontend editor elements. From the side menu you can check your missed elements and custom fields.
+
+![](assets/wordpress-import-data.png)
+
+Remember to set the homepage and the Posts page of your site following this path: *Settings > Reading > Your homepage displays.*
+
+![](assets/page-setting.png)
+

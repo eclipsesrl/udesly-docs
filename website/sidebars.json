@@ -1,25 +1,23 @@
 {
   "wordpress-docs": {
     "Getting Started": ["wordpress-setup", "wordpress-pages-structure", "wordpress-pages-elements", "wordpress-conversion-steps"],
-    "General": ["wordpress-frontend-editor", "wordpress-sidebar", "wordpress-menu", "wordpress-custom-fields", "wordpress-widget", "wordpress-forms", "wordpress-shortcode", "wordpress-conditionals"],
     "Blog": ["wordpress-blog-overview", "wordpress-blog-archive-page", "wordpress-blog-single-page", "wordpress-blog-misc", "wordpress-author-page"],
     "WooCommerce": ["woocommerce-overview", "woocommerce-shop-page", "woocommerce-single-product-page", "woocommerce-cart-page", "woocommerce-my-account-page", "woocommerce-checkout-page", "woocommerce-misc"],
-    "ACF": ["wordpress-acf-overview", "wordpress-acf-items"],
     "Search Box": ["wordpress-search-page", "wordpress-search-form"],
     "Custom Post Types": ["wordpress-cpt-overview", "wordpress-cpt-archive-page", "wordpress-cpt-single-page", "wordpress-cpt-misc"],
     "Login Area": ["wordpress-login-form", "wordpress-register-form", "wordpress-logout-action", "wordpress-lost-reset-password"],
-    "Page Creator": ["page-creator-overview"],
-    "Social Share": ["wordpress-social-share-links"],
-    "Boxes": ["wordpress-boxes"],
+    "General": ["wordpress-frontend-editor", "wordpress-sidebar", "wordpress-menu", "wordpress-custom-fields", "wordpress-widget", "wordpress-forms", "wordpress-shortcode", "wordpress-conditionals", "wordpress-social-share-links", "wordpress-boxes"],
+    "ACF": ["wordpress-acf-overview", "wordpress-acf-items"],
     "Udesly Plugin": ["wordpress-plugin-webflow-data", "wordpress-plugin-posts-queries", "wordpress-plugin-terms-queries", "wordpress-plugin-boxes", "wordpress-plugin-custom-post-types", "wordpress-plugin-settings", "wordpress-plugin-rules", "wordpress-plugin-hooks"]
+
   },
   "shopify-docs": {
     "Getting Started": ["shopify-setup", "shopify-pages-structure", "shopify-page-elements", "shopify-conversion-steps", "shopify-glossary"],
-    "General": ["shopify-forms", "shopify-page-links", "shopify-sections", "shopify-menu", "shopify-social-share", "shopify-conditional-items", "shopify-page-items", "shopify-optional-filters", "shopify-liquid-elements"],
     "Account": ["shopify-account", "shopify-login", "shopify-activate", "shopify-reset", "shopify-recover", "shopify-register", "shopify-addresses", "shopify-order-page"],
     "Blog":["shopify-blog-page", "shopify-article-page", "shopify-misc-elements"],
     "Shop": ["shopify-collections-list", "shopify-collection-page", "shopify-product-page", "shopify-cart-page", "shopify-gift-card", "shopify-shop-misc"],
     "Search": ["shopify-search-page", "shopify-search-form"],
+    "General": ["shopify-forms", "shopify-page-links", "shopify-sections", "shopify-menu", "shopify-social-share", "shopify-conditional-items", "shopify-page-items", "shopify-optional-filters", "shopify-liquid-elements"],
     "FAQ": ["shopify-faq"]
     
    },
