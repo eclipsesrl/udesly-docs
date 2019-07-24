@@ -15,7 +15,7 @@ class Index extends React.Component {
     const {config} = this.props;
     
     return (
-      <div className="main-container">
+      <div className="main-container home">
         <div className="home-wrapper">
             <img src="/assets/udesly-adapter.svg" />
 

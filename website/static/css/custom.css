@@ -267,7 +267,7 @@ p {
     justify-content: flex-end;
 }
 
-.navPusher > :first-child {
+.navPusher > .main-container.home {
     background: url(/assets/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
