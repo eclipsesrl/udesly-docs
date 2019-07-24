@@ -26,7 +26,7 @@ function Versions(props) {
       <Container className="mainContainer versionsContainer">
         <div className="post">
           <header className="postHeader">
-            <h1>{siteConfig.title} Versions</h1>
+            <h1>Udesly Adapter Versions</h1>
           </header>
           <h3 id="latest">Current version (Stable)</h3>
           <table className="versions">

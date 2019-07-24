@@ -291,7 +291,7 @@ p {
 
 .home-cards-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 16px;
     width: 100%;
     max-width: 1200px;
@@ -310,7 +310,6 @@ p {
     align-content: center;
     padding: 40px;
     border: 1px solid #E6E6E6;
-    min-height: 300px;
 }
 
 .home-card img {
@@ -322,6 +321,27 @@ p {
     background-color: #6F39F8;
     padding: 16px 8px;
     color: white;
+}
+
+@media only screen and (max-width: 1023px) {
+    .home-card {
+            padding: 20px;
+    }
+
+    .nav-footer .copyright {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .nav-footer .footer-links a{
+        font-size: 14px;
+    }
+
+}
+
+video {
+    max-width: 100%;
+    height: auto;
 }
 
 @media only screen and (max-width: 1023px) {
