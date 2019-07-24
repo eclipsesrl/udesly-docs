@@ -31,11 +31,11 @@ body * {
 .headerTitle::after{
     content: "docs";
     position: absolute;
-    top: 8px;
+    top: 6px;
     font-family: "mr-eaves-xl-modern";
-    font-size: 10px;
+    font-size: 12px;
     padding: 4px 8px;
-    background-color: #2f52ff;
+    background-color: #6F39F8;
     border-radius: 4px;
     margin-left: 8px;
     text-transform: uppercase;
@@ -156,7 +156,7 @@ input#search_input_react {
 
   .navSearchWrapper .algolia-docsearch-suggestion--category-header .algolia-docsearch-suggestion--highlight {
     background-color: transparent!important;
-    color: #2f52ff!important;
+    color: #6F39F8!important;
   }
 
   .navSearchWrapper .aa-dropdown-menu {
@@ -191,7 +191,7 @@ input#search_input_react {
   
   /* Highlighted text */
   .navSearchWrapper .algolia-docsearch-suggestion--highlight {
-    color: #2f52ff;
+    color: #6F39F8;
   }
 
   
@@ -208,30 +208,38 @@ p {
 
 .nav-footer {
     background-color: black;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 ::-webkit-scrollbar-button{ display: none; height: 13px; border-radius: 0px; background-color: #bbbbbb; } ::-webkit-scrollbar-button:hover{ background-color: #c2c2c2; } ::-webkit-scrollbar-thumb{ background-color: #afafaf; } ::-webkit-scrollbar-thumb:hover{ background-color: #bbbbbb; } ::-webkit-scrollbar-track{ background-color: #efefef; } ::-webkit-scrollbar-track:hover{ background-color: #CCC; } ::-webkit-scrollbar{ width: 4px; }
 #footer section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
-    align-items: flex-start;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
     grid-gap: 8px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    max-width: 1200px;
+    margin: auto;
 }
 #footer section * {
     color: white;
 }
 
 #footer section a {
-    opacity: 0.75;
+    opacity: 0.9;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     display: block;
+    margin-right: 4px;
+    margin-left: 4px;
 }
 
 #footer section a:hover {
     opacity: 1;
+}
+
+.fixedHeaderContainer header {
+    max-width: 1200px;
+    margin: auto;
 }
 
 .copyright-wrapper {
@@ -245,12 +253,76 @@ p {
 }
 
 .nav-footer .copyright {
-    opacity: 0.7;
-    text-align: center;
-    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+    font-size: 18px;
 }
 
+.nav-footer .footer-links {
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    text-align: right;
+    align-items: flex-end;
+    /* grid-gap: 8px; */
+    justify-content: flex-end;
+}
 
+.navPusher > :first-child {
+    background: url(/assets/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    flex-grow: 1;
+}
+
+.home-wrapper img {
+    width: 170px;
+    height: auto;
+}
+
+.home-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: calc(100vh - 104px);
+    align-items: center;
+    justify-content: center;
+}
+
+.home-cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 16px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.home-card {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 8px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding: 40px;
+    border: 1px solid #E6E6E6;
+    min-height: 300px;
+}
+
+.home-card img {
+    width: 250px;
+    height: auto;
+}
+
+.home-card a.primary-button {
+    background-color: #6F39F8;
+    padding: 16px 8px;
+    color: white;
+}
 
 @media only screen and (max-width: 1023px) {
     .wrapper.homeWrapper {

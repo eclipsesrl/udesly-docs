@@ -1,0 +1,59 @@
+---
+id: version-2.0.0-wordpress-boxes
+title: Boxes
+original_id: wordpress-boxes
+---
+
+With Boxes you can add dynamic contents into your Webflow project and revise them directly from the WordPress admin panel. Any time you create a box, you’ll find a correlate shortcode.
+
+> **Tips:**
+> Take a look at our [elements pack](https://preview.webflow.com/preview/webflow-to-shopify-elements?utm_medium=preview_link&utm_source=designer&utm_content=webflow-to-shopify-elements&preview=71280fc62c37d44b2222bbe7b9a3e953&mode=preview). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to Shopify, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
+>
+> Otherwise, if you want to start from scratch, follow the guide below.
+
+## Dynamic Slider
+You can now use the Webflow Slider and manage images directly from WordPress, through the Boxes feature.
+
+Insert a Slider item into your Webflow project and add this attributes:
+
+> boxes:slider={slug of the box}
+
+**Don't forget to add a Gallery inside the box**
+
+Let's see how to manage images on WordPress.
+
+If you're using Gutenberg, create a new Box or use an already present Dynamic Box and click on "Add gallery" button. Populate the gallery with your images and it's done.
+
+If you're not using Gutenberg, create a new Box or use an already present Dynamic Box and click on "Add media" button and then on "Create gallery". Populate the gallery with your images and it's done.
+
+## Dynamic Lightbox
+To build a Dynamic Lightbox, you can use a Lightbox link or a Lightbox link contained in a Collection List item.
+
+In the first case the Thumbnail (that's the one you create in Webflow) will be clickable and, by clicking on it, the entire gallery will be navigable. 
+
+In the second case (a Lightbox link contained in a Collection List item), all the images of the gallery will be automatically displayed and, by clicking on them, a lightbox will open with all images connected with each other.
+
+In any case, the attribute to insert on the Lightbox link element is:
+
+> boxes:lightbox={slug of the box}
+
+**Don't forget to add a Gallery inside the box**
+
+Let's see how to manage images on WordPress.
+
+If you're using Gutenberg, create a new Box or use an already present Dynamic Box and click on "Add gallery" button. Populate the gallery with your images and it's done.
+
+If you're not using Gutenberg, create a new Box or use an already present Dynamic Box and click on "Add media" button and then on "Create gallery". Populate the gallery with your images and it's done.
+
+---------
+> **Take in Mind**
+>
+> In our documentation you will find custom attributes in 2 formats:
+>
+> **name=value** or **name={dynamic-value}**
+>
+>
+> **Attribute**             | **Meaning** | 
+> -------------             | --------------- |
+> | item=title              | *item* is the *Name* and *title* is the *Value* |
+> | dimension={dimension}   | *dimension* is the *Name* and instead of {dimension} you have to insert one of the accepted value that you'll find indicated each time. For example dimension can be *master*|
