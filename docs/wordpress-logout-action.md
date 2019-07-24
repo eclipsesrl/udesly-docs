@@ -1,36 +1,29 @@
 ---
-id: login-form
-title: Login Form
+id: wordpress-logout-action
+title: Logout Action
 ---
 
-A Login form is used to enter authentication credentials to access a restricted page or form. 
+Logging out ensures that user access and user credentials are safe after the login session.
 
 > **Tips:**
 > Take a look at our [elements pack](https://preview.webflow.com/preview/webflow-to-shopify-elements?utm_medium=preview_link&utm_source=designer&utm_content=webflow-to-shopify-elements&preview=71280fc62c37d44b2222bbe7b9a3e953&mode=preview). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to Shopify, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
 >
 > Otherwise, if you want to start from scratch, follow the guide below.
 
+You can use a **Text Link**, a **Link Block** or a **Button** and insert the attributes:
 
-Insert a **Form** element inside your page and insert the following attributes:
+> login-area=logout
 
-> login-area=login
+With this configuration, the logout will redirect to the Home page. If you need to redirect to another given page, you have to use the attribute **redirect** and set the slug of that page as value. E.g. if you want to redirect to the Contact Us page, you have to insert the attribute:
 
-The form needs the following input fields: 
+> redirect={slug of the contact page}
 
- **Name**             | **Type** | 
- -------------        | --------------- |
- | username           | Plain | REQUIRED
- | password | Password | REQUIRED
- | remember_me | Checkbox
- |                         | submit |
+**Best practice:** it would be preferable to wrap this logout element in a div with attribute:
 
-Select the form and change the status to **Error**
+> show-if=logged-in
 
-Select the error message text block and insert the attribute:
+This configuration hides the logout element if the user is not logged-in.
 
-> item=error-message
-
-This way the error message text will be replaced with the right message automatically.
 
 
 ---------

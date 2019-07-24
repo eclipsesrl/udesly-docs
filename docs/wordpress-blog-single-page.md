@@ -36,6 +36,8 @@ In WordPress that are several type of pages that can display a single post of yo
     > post-type=post
 
 
+![](assets/blog-single-page.png)
+
 *The following list includes all elements you can enter within these pages.*
 
 > **Tips:**

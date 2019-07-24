@@ -4,7 +4,11 @@ title: Pages Structure
 ---
 
 In order to have a Webflow template ready to be converted to a WordPress one, Adapter must understand what kind of pages you created in your Template.
-WordPress usage needs the understanding of his template structure. You can find a review below
+WordPress usage needs the understanding of his template structure. You can find a review below.
+
+<video autoplay muted playsinline="true" loop>
+<source src="/assets/page-type.webm">
+</video>
 
 ## WordPress Pages Hierarchy
 

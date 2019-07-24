@@ -20,6 +20,8 @@ The following elements can be added only in the Webflow page set as **Search Res
 >
 > Otherwise, if you want to start from scratch, follow the guide below.
 
+![](assets/search-page.png)
+
 ## Search Results
 
 Webflow search results cannot be exported, so we suggest to set *"display none"* and insert a **Collection List** element to build your search results structure. It can be paginated and also the count item can be activated.

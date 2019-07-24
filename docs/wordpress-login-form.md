@@ -1,57 +1,38 @@
 ---
-id: lost-reset-password
-title: Lost and Reset Password
+id: wordpress-login-form
+title: Login Form
 ---
 
-Lost Password and Reset Password forms must be inserted in the same page.
+A Login form is used to enter authentication credentials to access a restricted page or form. 
+
+![](assets/wordpress-login-form.png)
 
 > **Tips:**
 > Take a look at our [elements pack](https://preview.webflow.com/preview/webflow-to-shopify-elements?utm_medium=preview_link&utm_source=designer&utm_content=webflow-to-shopify-elements&preview=71280fc62c37d44b2222bbe7b9a3e953&mode=preview). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to Shopify, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
 >
 > Otherwise, if you want to start from scratch, follow the guide below.
 
-## Lost Password Form
 
-To create a Lost Password Form insert a **Form Block** and add the attribute:
+Insert a **Form** element inside your page and insert the following attributes:
 
-> login-area=lost-password
-
-The form needs the following input fields: 
-
- **Name**             | **Type** | 
- -------------        | --------------- |
- |            | Plain | REQUIRED
-  |                         | submit |
-
-Select the form and change the status to **Error**
-Select the error message text block and insert the attribute:
-
-> item=error-message
-
-This way the error message text will be replaced with the right message automatically.
-
-
-## Reset Password Form
-
-To create a Reset Password insert a **Form Block** and add the attribute:
-
-> login-area=reset-password
+> login-area=login
 
 The form needs the following input fields: 
 
  **Name**             | **Type** | 
  -------------        | --------------- |
- | password           | Password | REQUIRED
- | password_repeat | Password | REQUIRED
+ | username           | Plain | REQUIRED
+ | password | Password | REQUIRED
+ | remember_me | Checkbox
  |                         | submit |
 
-Select the form and change the status to Error
+Select the form and change the status to **Error**
+
 Select the error message text block and insert the attribute:
 
 > item=error-message
 
 This way the error message text will be replaced with the right message automatically.
-
 
 
 ---------

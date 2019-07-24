@@ -121,6 +121,7 @@ Inside the List Item you can insert the following elements:
 
     > item=featured-image
 
+![](assets/shopify-mini-cart.png)
 
 ## Specific Product
 

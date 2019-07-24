@@ -42,6 +42,8 @@ In WordPress that are several type of pages that can display a single post of yo
 
 **Webflow allows to include Add to Cart element only in the default product template. For this reason you can include Add to Cart element in a specific Single Product page. This kind of page may be useful for external or coming soon products.**
 
+![](assets/single-product-page.jpg)
+
 *The following list includes all elements you can enter within these pages.*
 
 > **Tips:**

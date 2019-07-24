@@ -74,6 +74,7 @@ In WordPress that are several type of pages that can be used as an archive of po
 
 To see all the elements you can enter in the Author page, check the relative guide [here](wordpress-author-page).
 
+![](assets/blog-archive-page.png)
 
 *The following list includes all elements you can enter within these pages.*
 

@@ -58,6 +58,8 @@ In WooCommerce there are several type of pages that can be used as an archive of
     >
     > specific={slug of your tag or ID of your tag}
 
+![](assets/shop-page.jpg)
+
 *The following list includes all elements you can enter within these pages.*
 
 > **Tips:**
