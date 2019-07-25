@@ -13,7 +13,9 @@ WooCommerce Checkout page shows information such as shipping and payment options
 >
 > Otherwise, if you want to start from scratch, follow the guide below.
 
-Insert the following attribute on the default Webflow checkout:
+Insert the following attribute on the *container* of the Webflow checkout:
+
+![](assets/checkout-container.png)
 
 > wc=checkout
 
