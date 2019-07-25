@@ -22,7 +22,7 @@ Insert a link or a button element and enter the attribute:
 
 ## Blog Articles
 
-This element will create a Blog picker setting where your customer will be able to choose a blog and how many posts to show.
+This element will create a Blog picker setting where your customer will be able to choose a blog and how many posts to show. To set up the blog you need to show for Once converted your Webflow template to Shopify, you’ll be able to choose the Blog and the number of posts to show in this element from *Shopify -> Online Store > Themes > Customize*.
 It can be used everywhere in the project. **Pagination cannot be added.**
 
 The following attribute must be set on a collection lists wrapper:

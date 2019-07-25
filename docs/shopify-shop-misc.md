@@ -118,6 +118,8 @@ It can be used everywhere. The attribute must be set on a Collection lists wrapp
 
 This element will create a Collection picker setting where your customer will be able to choose a Collection and how many products to show.
 
+Once converted your Webflow template to Shopify, you’ll be able to choose the Collection and the number of products to show in this element from *Shopify -> Online Store > Themes > Customize*.
+
 Inside Collection item you can use the following attributes:
 
 - ### Title

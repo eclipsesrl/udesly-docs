@@ -97,11 +97,13 @@ To insert an ACF File field, you have to use a **Button** or **Link** element an
 
 > acf:file={slug}
 
-## Embed
+## oEmbed
 
-To insert an ACF Embed field, you have to use a **Div Block** and insert the following attribute:
+The oEmbed field allows an easy way to embed videos, images, tweets, audio, and other content.
 
-> acf:embed={slug}
+To insert an ACF oEmbed field, you have to use a **Div Block** and insert the following attribute:
+
+> acf:oembed={slug}
 
 ## Repeater
 
