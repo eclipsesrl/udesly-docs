@@ -310,6 +310,7 @@ p {
     align-content: center;
     padding: 40px;
     border: 1px solid #E6E6E6;
+    background-color: white;
 }
 
 .home-card img {

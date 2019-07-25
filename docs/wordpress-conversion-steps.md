@@ -42,6 +42,10 @@ Now you can upload the converted theme (.zip file) from your WordPress admin pan
 
 **Don't forget to Activate the Theme**
 
+> Don't forget that you if you have old Udesly Adapter plugin, you have to delete it before installing the new version
+
+To see how to install the plugin follow this [guide](wordpress-plugin-setup)
+
 ## Import Data
 This is the most important section. After the template upload and activation, you have to synchronize the template content. From the "Import from Webflow" section you can find the "Import data" button to synchronize the Webflow template content with WordPress. You can also delete all the imported pages or frontend editor elements. From the side menu you can check your missed elements and custom fields.
 

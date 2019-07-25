@@ -55,6 +55,7 @@
       "version-2.0.0-wordpress-acf-items"
     ],
     "Udesly Plugin": [
+      "version-2.0.0-wordpress-plugin-setup",
       "version-2.0.0-wordpress-plugin-webflow-data",
       "version-2.0.0-wordpress-plugin-posts-queries",
       "version-2.0.0-wordpress-plugin-terms-queries",
