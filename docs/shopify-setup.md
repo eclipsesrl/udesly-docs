@@ -24,6 +24,6 @@ Find [here](shopify-pages-structure) a complete list of the pages that you need 
 <source src="/assets/custom-attribute.webm">
 </video>
 
-If you’re designing your template from scratch, we suggest using our pre-configured [elements pack](https://preview.webflow.com/preview/webflow-to-shopify-elements?utm_medium=preview_link&utm_source=designer&utm_content=webflow-to-shopify-elements&preview=71280fc62c37d44b2222bbe7b9a3e953&mode=preview) while designing your pages in Webflow. This will help you quicken your workflow because you find the required attributes already added to the element you want to design in your page and ready to be converted to Shopify after you export the HTML project from Webflow. 
+If you’re designing your template from scratch, we suggest using our pre-configured [elements pack](https://webflow.com/website/webflow-to-shopify-elements) while designing your pages in Webflow. This will help you quicken your workflow because you find the required attributes already added to the element you want to design in your page and ready to be converted to Shopify after you export the HTML project from Webflow. 
 
 If you start from a pre-made template, the quicker workflow is to add the custom attributes manually following our doc. 
