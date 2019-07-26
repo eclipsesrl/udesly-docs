@@ -39,7 +39,7 @@ It must be inserted on a Collection List Wrapper and it's the list of archive po
 
 The attribute to enter is:
 
-> blog=archive-posts
+> blog=archive-articles
 
 All the elements you can add in the Collection Item are available below:
 - ### Date
