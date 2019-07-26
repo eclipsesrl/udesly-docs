@@ -33,7 +33,11 @@ Insert a Form block with the following fields:
 - 1 submit with the attribute:
   > item=update
 
-The Form block needs 2 Text elements with these attributes, respectively:
+The Form Block must have this attribute:
+
+> shop=cart
+
+It also needs 2 Text elements with these attributes, respectively:
 
 > item=cart-total
 >
