@@ -4,7 +4,9 @@ title: Search Page
 original_id: wordpress-search-page
 ---
 
-The following elements can be added only in the Webflow page set as **Search Results**, that gets automatically created when you add a search form on a page and inside any pages you have set as **Search page**, using the following attribute on the Body element:
+The following elements can be added only in the Webflow page set as **Search Results**, that gets **automatically** created when you add a search form on a page and inside any pages you have set as **Search page**. So, no attribute is required!
+
+If you want to create a different Search page for a specific Custom Post Type, use the following attribute on the Body element:
 
 > page=search
 >
