@@ -132,7 +132,7 @@ Webflow Add to cart gets automatically converted. Use the default Add to cart an
 You can stylize these label with combo class **"selected"** to define when the variation is selected and with combo class **"soldout"** when the variation is soldout.
 
 
-### Recommended
+## Recommended
 
 
 Insert a Collection List wrapper with the attribute:
