@@ -9,6 +9,9 @@ With the Udesly plugin you can create posts queries easily and this section of t
 - [Blog Slider](wordpress-blog-misc#blog-slider)
 - [CPT queried posts](wordpress-cpt-misc#queried-posts)
 - [CPT Slider](wordpress-cpt-misc#cpt-slider)
+- [WooCommerce queried posts](woocommerce-misc#queried-products)
+- [WooCommerce Slider](woocommerce-misc#product-slider)
+
 
 Click on **Add new post query** button, you'll find several fields helping you to define the post you want to display.
 
