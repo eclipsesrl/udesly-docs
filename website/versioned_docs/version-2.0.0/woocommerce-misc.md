@@ -155,11 +155,11 @@ Inside the Slide, you can use all the elements you can find [here](#product-elem
 
 These elements below can be used inside:
 
-[**Div of the specific post**](#specific-product)
+[**Div of the specific product**](#specific-product)
 
-[**Queried posts collection list item**](#queried-products)
+[**Queried products collection list item**](#queried-products)
 
-[**Slide of Blog slider**](#product-slider)
+[**Slide of Shop slider**](#product-slider)
 
 - ### Date & Time
     It is the date and the time of publication of the product. Insert a text element and enter the attribute:
