@@ -83,6 +83,8 @@ To create a specific post page just add the attributes on the Body element of yo
 >
 > specific = {slug or id of your post}
 
+You can also insert more IDs or slugs separated by commas, in order to have more template pages
+
 For example, if we add the following attributes on the body of a page
 
 > page = single
@@ -116,6 +118,8 @@ This page will be used instead of the Blog Page, for a specific category. To cre
 >
 > specific = {slug or id of your category}
 
+You can also insert more IDs or slugs separated by commas, in order to have more template pages
+
 For example, if we add the following attributes on the body of a page
 
 > page = taxonomy
@@ -141,6 +145,8 @@ This page will be used instead of the Blog Page, for a specific tag. To create a
 > post-type = tag
 >
 > specific = {slug or id of your tag}
+
+You can also insert more IDs or slugs separated by commas, in order to have more template pages
 
 For example, if we add the following attributes on the body of a page
 
@@ -171,6 +177,8 @@ If you want to give a different style to a given Author page, you have to set it
 > post-type=author
 >
 > specific={author nicename or author ID}
+
+You can also insert more IDs or nicenames separated by commas, in order to have more template pages
 
 ## WooCommerce Pages
 
@@ -222,6 +230,8 @@ This page will be used instead of the Archive Product Page, for a specific produ
 >
 > specific = {slug or id of your category}
 
+You can also insert more IDs or slugs separated by commas, in order to have more template pages
+
 For example, if we add the following attributes on the body of a page
 
 > page = taxonomy
@@ -249,6 +259,8 @@ This page will be used instead of the Archive Product Page, for a specific produ
 > post-type = product_tag
 >
 > specific = {slug or id of your tag}
+
+You can also insert more IDs or slugs separated by commas, in order to have more template pages
 
 For example, if we add the following attributes on the body of a page
 
@@ -300,6 +312,8 @@ To create a specific single page just add the attributes on the Body element of 
 >
 > specific = {slug or id of your post}
 
+You can also insert more IDs or slugs separated by commas, in order to have more template pages
+
 For example, if we add the following attributes on the body of a page
 
 > page = single
@@ -344,6 +358,8 @@ This page will be used instead of the Archive Page, for a specific taxonomy. To 
 > post-type = {your taxonomy}
 >
 > specific = {slug or id of your taxonomy}
+
+You can also insert more IDs or slugs separated by commas, in order to have more template pages
 
 For example, if we add the following attributes on the body of a page
 

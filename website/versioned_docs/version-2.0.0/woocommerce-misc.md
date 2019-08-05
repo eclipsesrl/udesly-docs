@@ -378,7 +378,27 @@ These elements below can be used inside:
     > item=review-count
 
 - ### Add to Cart
-    It will be automatic and you need to use the default Add to Cart by Webflow.   
+    It will be automatic and you need to use the default Add to Cart by Webflow.  
+
+## Notices
+
+To enable WooCommerce notices, insert a Div element with the attribute:
+
+> wc=notices
+
+Within it, insert 3 further Divs with the attributes, respectively:
+
+> item=notice
+
+> item=notice-success
+
+> item=notice-error
+
+Within each Div, insert a Text element to show the error message with the attribute:
+
+> item=message
+
+**This feature can be inserted in one - and only one - page of your template.**
 
 ---------
 > **Take in Mind**

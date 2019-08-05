@@ -303,6 +303,8 @@ A Div element with:
 
   Finally, insert a Label (no attributes required for it). It will take the background image of the option or, if not configured, the name of the option itself.
 
+  This label can have a combo class with classes named respectively **selected** and **disabled**  
+
 The Add to Cart as explained above works with 3 kinds of products: simple, external, variable.
 If you want to configure it for **grouped products** as well, follow these steps:
 
