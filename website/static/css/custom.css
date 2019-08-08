@@ -268,10 +268,6 @@ p {
 }
 
 .navPusher > .main-container.home {
-    background: url(/assets/background.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     flex-grow: 1;
 }
 
@@ -291,26 +287,37 @@ p {
 
 .home-cards-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: 1fr 1fr;
     grid-gap: 16px;
     width: 100%;
     max-width: 1200px;
     margin: 40px auto;
 }
 
+@media only screen and (max-width: 1200px) {
+    .home-cards-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .home-card {
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
 .home-card {
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-gap: 8px;
-    justify-items: center;
+    box-shadow: rgba(0,0,0,.06) 0 3px 6px;
+    background: #fff;
+    padding: 80px;
+    min-width: 300px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
+    height: 100%;
     text-align: center;
-    align-content: center;
-    padding: 40px;
-    border: 1px solid #E6E6E6;
-    background-color: white;
 }
 
 .home-card img {
@@ -320,15 +327,12 @@ p {
 
 .home-card a.primary-button {
     background-color: #6F39F8;
-    padding: 16px 8px;
+    padding: 12px 18px;
+    font-size: 18px;
     color: white;
 }
 
 @media only screen and (max-width: 1023px) {
-    .home-card {
-            padding: 20px;
-    }
-
     .nav-footer .copyright {
         text-align: center;
         font-size: 14px;
