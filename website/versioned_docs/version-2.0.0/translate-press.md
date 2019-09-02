@@ -17,9 +17,9 @@ Insert a Link item and add the following attribute:
 
 > translate-press={language-code}
 
-> **E.G.**
->
-> translate-press=en_UK
+--- **E.G**
+
+--- > translate-press=en_UK
 
 
 State "active" will be applied if it's the current language.

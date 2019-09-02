@@ -155,11 +155,11 @@ Inside the Slide, you can use all the elements you can find [here](#product-elem
 
 These elements below can be used inside:
 
-[**Div of the specific product**](#specific-product)
+[**Div of the specific post**](#specific-product)
 
-[**Queried products collection list item**](#queried-products)
+[**Queried posts collection list item**](#queried-products)
 
-[**Slide of Shop slider**](#product-slider)
+[**Slide of Blog slider**](#product-slider)
 
 - ### Date & Time
     It is the date and the time of publication of the product. Insert a text element and enter the attribute:
@@ -378,7 +378,7 @@ These elements below can be used inside:
     > item=review-count
 
 - ### Add to Cart
-    It will be automatic and you need to use the default Add to Cart by Webflow.  
+    It will be automatic and you need to use the default Add to Cart by Webflow.   
 
 ## Notices
 

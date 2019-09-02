@@ -188,7 +188,7 @@ This is a text appearing only if a sale product has been planned for a future da
 
 Insert a Text element and add the attribute:
 
-item=from-sale-date
+> item=from-sale-date
 
 To handle the date format, you can use the following optional attribute:
 
@@ -240,7 +240,7 @@ These elements allows to handle the product dimensions.
 
 Insert Text elements with attributes, respectively:
 
-> item=lenght
+> item=length
 
 > item=weight
 

@@ -31,7 +31,7 @@ In WordPress that are several type of pages that can display a single post of yo
     >
     > specific={slug of your post or ID of your product}
 
-**Webflow allows to include Add to Cart element only in the default product template. For this reason you can include Add to Cart element in a specific Single Product page. This kind of page may be useful for external or coming soon products.**
+**Webflow allows to include Add to Cart element only in the default product template. For this reason you can't include Add to Cart element in a specific Single Product page. This kind of page may be useful for external or coming soon products.**
 
 - **Single Product Template**
 
@@ -41,7 +41,7 @@ In WordPress that are several type of pages that can display a single post of yo
     >
     > post-type=product
 
-**Webflow allows to include Add to Cart element only in the default product template. For this reason you can't include Add to Cart element in a specific Single Product page. This kind of page may be useful for external or coming soon products.**
+**Webflow allows to include Add to Cart element only in the default product template. For this reason you can include Add to Cart element in a specific Single Product page. This kind of page may be useful for external or coming soon products.**
 
 ![](assets/single-product-page.jpg)
 
@@ -189,7 +189,7 @@ This is a text appearing only if a sale product has been planned for a future da
 
 Insert a Text element and add the attribute:
 
-item=from-sale-date
+> item=from-sale-date
 
 To handle the date format, you can use the following optional attribute:
 
@@ -241,7 +241,7 @@ These elements allows to handle the product dimensions.
 
 Insert Text elements with attributes, respectively:
 
-> item=lenght
+> item=length
 
 > item=weight
 
@@ -304,6 +304,7 @@ A Div element with:
   Finally, insert a Label (no attributes required for it). It will take the background image of the option or, if not configured, the name of the option itself.
 
   This label can have a combo class with classes named respectively **selected** and **disabled**  
+
 
 The Add to Cart as explained above works with 3 kinds of products: simple, external, variable.
 If you want to configure it for **grouped products** as well, follow these steps:

@@ -6,7 +6,7 @@
     "Search Box": ["wordpress-search-page", "wordpress-search-form"],
     "Custom Post Types": ["wordpress-cpt-overview", "wordpress-cpt-archive-page", "wordpress-cpt-single-page", "wordpress-cpt-misc"],
     "Login Area": ["wordpress-login-form", "wordpress-register-form", "wordpress-logout-action", "wordpress-lost-reset-password"],
-    "General": ["wordpress-frontend-editor", "wordpress-sidebar", "wordpress-menu", "wordpress-custom-fields", "wordpress-widget", "wordpress-forms", "wordpress-shortcode", "wordpress-conditionals", "wordpress-social-share-links", "wordpress-boxes", "translate-press"],
+    "General": ["wordpress-frontend-editor", "wordpress-sidebar", "wordpress-menu", "wordpress-custom-fields", "wordpress-widget", "wordpress-forms", "wordpress-shortcode", "wordpress-lists", "wordpress-conditionals", "wordpress-social-share-links", "wordpress-boxes", "translate-press", "wordpress-php-elements"],
     "ACF": ["wordpress-acf-overview", "wordpress-acf-items"],
     "Udesly Plugin": ["wordpress-plugin-setup","wordpress-plugin-webflow-data", "wordpress-plugin-posts-queries", "wordpress-plugin-terms-queries", "wordpress-plugin-boxes", "wordpress-plugin-custom-post-types", "wordpress-plugin-settings", "wordpress-plugin-rules", "wordpress-plugin-hooks"]
   },

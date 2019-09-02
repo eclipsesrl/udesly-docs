@@ -46,10 +46,12 @@
       "version-2.0.0-wordpress-widget",
       "version-2.0.0-wordpress-forms",
       "version-2.0.0-wordpress-shortcode",
+      "version-2.0.0-wordpress-lists",
       "version-2.0.0-wordpress-conditionals",
       "version-2.0.0-wordpress-social-share-links",
       "version-2.0.0-wordpress-boxes",
-      "version-2.0.0-translate-press"
+      "version-2.0.0-translate-press",
+      "version-2.0.0-wordpress-php-elements"
     ],
     "ACF": [
       "version-2.0.0-wordpress-acf-overview",
