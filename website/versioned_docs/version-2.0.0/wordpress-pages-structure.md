@@ -379,6 +379,13 @@ If this page is present in your Webflow template, every time you search for a cu
 >
 > post-type = {your custom post type}
 
+### Temporary Page
+
+Insert your under-construction temporary place holder. This page needs the following attribute on the body:
+
+> page = temporary
+
+To enable temporary mode go to **Udesly > Settings > Tools**
 
 ---------
 > **Take in Mind**
