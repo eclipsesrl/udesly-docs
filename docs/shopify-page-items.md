@@ -53,6 +53,9 @@ This is the page content. Insert a richtext item and add the attribute.
 > item=content
 
 
+**IMPORTANT**
+
+You have to create these pages in Shopify and match them with the appropriate template, using the template selector.
 
 ---------
 > **Take in Mind**
