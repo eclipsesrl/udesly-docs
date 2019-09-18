@@ -1,6 +1,7 @@
 ---
-id: wordpress-pages-structure
+id: version-2.0-wordpress-pages-structure
 title: Pages Structure
+original_id: wordpress-pages-structure
 ---
 
 In order to have a Webflow template ready to be converted to a WordPress one, Adapter must understand what kind of pages you created in your Template.

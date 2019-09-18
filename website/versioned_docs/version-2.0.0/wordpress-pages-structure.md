@@ -387,6 +387,19 @@ Insert your under-construction temporary place holder. This page needs the follo
 
 To enable temporary mode go to **Udesly > Settings > Tools**
 
+## Default & Template Page
+
+You can create pages in Webflow that will be used in WordPress to create new pages. 
+
+To define a page as *Default page* add the following attribute on the Body element:
+
+> page=default
+
+To define a page as *Template page* add the following attribute on the Body element:
+
+> page=template
+
+**If you do not select any template from the template selector, it will act as a generic Default page.**
 
 ---------
 > **Take in Mind**

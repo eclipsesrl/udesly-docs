@@ -1,5 +1,5 @@
 ---
-id: version-2.0.0-shopify-page-items
+id: version-2.0-shopify-page-items
 title: Template and Default Pages Items
 original_id: shopify-page-items
 ---
