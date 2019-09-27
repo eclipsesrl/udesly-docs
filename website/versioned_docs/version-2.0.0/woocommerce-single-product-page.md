@@ -178,11 +178,21 @@ To enable the internal pagination of a specific product, insert Link or Button i
 > item=prev-page
 
 ## External Navigation
-To enable the external pagination among products, insert Link or Button items and add the attributes:
+To enable the external pagination among posts, insert a Div and add the attributes:
 
 > item=next-product
 >
 > item=prev-product
+
+Inside the Div you can add the following elements:
+
+> item=title (texts or links)
+>
+> item=permalink (links)
+>
+> item=featured-image (IMG or divs)
+>
+> item=excerpt (texts)
 
 ## From Sale Date
 This is a text appearing only if a sale product has been planned for a future date. It represents the starting date from which the product will be on sale.

@@ -172,23 +172,21 @@ To enable the internal pagination of a specific post, insert Link or Button item
 > item=prev-page
 
 ## External Navigation
-To enable the external pagination among posts, insert Link or Button items and add the attributes:
+To enable the external pagination among posts, insert a Div and add the attributes:
 
 > item=next-post
 >
 > item=prev-post
 
-With the Adapter 2.0 you can paginate not only the link to another post, but also include other elements of the post at issue, such as the featured image or the title, for example.
-Inside a Div you can add:
+Inside the Div you can add the following elements:
 
-> item=title
+> item=title (texts or links)
 >
-> item=permalink
+> item=permalink (links)
 >
-> item=featured-image
+> item=featured-image (IMG or divs)
 >
-> item=excerpt
-
+> item=excerpt (texts)
 
 ## Breadcrumbs
 

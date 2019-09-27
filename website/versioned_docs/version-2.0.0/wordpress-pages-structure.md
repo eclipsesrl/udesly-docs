@@ -379,7 +379,7 @@ If this page is present in your Webflow template, every time you search for a cu
 >
 > post-type = {your custom post type}
 
-### Temporary Page
+## Temporary Page
 
 Insert your under-construction temporary place holder. This page needs the following attribute on the body:
 
@@ -400,6 +400,7 @@ To define a page as *Template page* add the following attribute on the Body elem
 > page=template
 
 **If you do not select any template from the template selector, it will act as a generic Default page.**
+
 
 ---------
 > **Take in Mind**
