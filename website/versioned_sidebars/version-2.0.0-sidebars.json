@@ -57,6 +57,10 @@
       "version-2.0.0-wordpress-acf-overview",
       "version-2.0.0-wordpress-acf-items"
     ],
+    "Multilingual": [
+      "version-2.0.0-translate-press",
+      "version-2.0.0-weglot"
+    ],
     "Udesly Plugin": [
       "version-2.0.0-wordpress-plugin-setup",
       "version-2.0.0-wordpress-plugin-webflow-data",
@@ -67,10 +71,6 @@
       "version-2.0.0-wordpress-plugin-settings",
       "version-2.0.0-wordpress-plugin-rules",
       "version-2.0.0-wordpress-plugin-hooks"
-    ],
-    "Multilingual": [
-      "version-2.0.0-translate-press",
-      "version-2.0.0-weglot"
     ]
   },
   "version-2.0.0-shopify-docs": {
