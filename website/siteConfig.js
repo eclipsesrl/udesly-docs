@@ -35,6 +35,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    {href: 'https://www.udesly.com/', label: 'Udesly.com'},
     {doc: 'wordpress-setup', label: 'Webflow to WordPress'},
     {doc: 'shopify-setup', label: 'Webflow to Shopify'},
     {search: true}
