@@ -36,7 +36,8 @@
     "WooCommerce to Webflow": ["woocommerce-to-webflow"],
     "Shopify to Webflow": ["shopify-to-webflow"]
   },
-  "udesly-styler": {
-    "Udesly Styler": ["styler-overview"]
+  "ghost-doc": {
+    "Getting Starter": ["ghost-overview", "ghost-page-types"],
+    "Blog":["ghost-list-page", "ghost-post-page", "ghost-misc-elements", "ghost-site"]
   }
 }

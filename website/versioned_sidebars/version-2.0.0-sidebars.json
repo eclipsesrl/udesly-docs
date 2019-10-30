@@ -161,9 +161,9 @@
       "version-2.0.0-shopify-to-webflow"
     ]
   },
-  "version-2.0.0-udesly-styler": {
-    "Udesly Styler": [
-      "version-2.0.0-styler-overview"
+  "version-2.0.0-ghost-doc": {
+    "Getting Starter": [
+      "version-2.0.0-ghost-overview"
     ]
   }
 }
