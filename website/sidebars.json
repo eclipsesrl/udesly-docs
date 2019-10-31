@@ -38,6 +38,9 @@
   },
   "ghost-doc": {
     "Getting Starter": ["ghost-overview", "ghost-page-types"],
-    "Blog":["ghost-list-page", "ghost-post-page", "ghost-misc-elements", "ghost-site"]
+    "Blog":["ghost-list-page", "ghost-post-page", "ghost-misc-elements", "ghost-tags-page", "ghost-authors-page"],
+    "@Site":["ghost-site"],
+    "Members":["ghost-members", "ghost-subscriptions"],
+    "General":["ghost-conditional", "ghost-static-pages"]
   }
 }
