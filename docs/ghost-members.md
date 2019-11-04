@@ -5,6 +5,8 @@ title: Members
 
 Ghost makes it possible to launch a membership business, develop a direct relationship with your fans and generate revenue from your creative work.
 
+![](assets/ghost-members.png)
+
 You can create pages and posts reserved to members. Members can be enabled from Ghost **LABS** section.
 
 ![](labs.png)

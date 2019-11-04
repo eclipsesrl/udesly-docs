@@ -5,6 +5,7 @@ title: Authors Page
 
 This is the list of all Authors.
 
+![](assets/ghost-authors.png)
 
 
 > **Tips:**

@@ -3,7 +3,11 @@ id: ghost-list-page
 title: List Page
 ---
 
-The List page is a type of page that must be used as an archive of posts of your Blog. Don't forget to define your page by adding the correspondent attribute on the body of the page in Webflow:
+The List page is a type of page that must be used as an archive of posts of your Blog. 
+
+![](assets/ghost-posts-list.png)
+
+Don't forget to define your page by adding the correspondent attribute on the body of the page in Webflow:
 
 > page=list
 

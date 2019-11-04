@@ -3,7 +3,11 @@ id: ghost-post-page
 title: Post Page
 ---
 
-This page is used for each Post of your Ghost Blog. This page must have the following attribute on the Body:
+This page is used for each Post of your Ghost Blog. 
+
+![](assets/ghost-single-post.png)
+
+This page must have the following attribute on the Body:
 
 > page=post
 

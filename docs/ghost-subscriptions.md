@@ -6,6 +6,8 @@ title: Subscriptions
 You can turn your members into paying subscribers with straightforward subscriptions and start generating predictable revenue.
 Once you have a way for members to sign in to your site, you can then ask them to support your work with recurring subscriptions.
 
+![](assets/ghost-subscription.png)
+
 > **Tips:**
 > Take a look at our [elements pack](https://webflow.com/website/webflow-to-wordpress-elements-pack). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to WordPress, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
 >

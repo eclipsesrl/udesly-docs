@@ -5,6 +5,8 @@ title: Overview
 
 Ghost is a popular open source blogging platform and it provides total control and ownership of your content and strips both open and closed platforms down to their best features and got them into one professional tool.
 
+![](assets/ghost-overview.png)
+
 Ghost comes with powerful features which can be customised and configured based on the needs of each individual site:
 
 - **Membership & Subscriptions:** Ghost supports for member signups and paid subscription commerce.
