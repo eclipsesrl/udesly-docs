@@ -58,7 +58,7 @@ Insert a Collection List Wrapper and add the following attribute:
 
 > item=plan-amount
 
-> item= plan=status
+> item=plan-status
 
 > item=card-digits
 
