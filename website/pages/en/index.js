@@ -17,27 +17,21 @@ class Index extends React.Component {
     return (
       <div className="main-container home">
         <div className="home-wrapper">
-            <img src="/assets/udesly-adapter.svg" />
-
+            <p className="home-subtitle">Choose your favorite <strong>CMS</strong> and follow our documentation to convert your <strong>Webflow</strong> project</p>
             <div className="home-cards-wrapper">
-              <div className="home-card">
-                <img src="/assets/webflow-to-shopify.svg" />
-                <p>
-                  Follow a step by step guide to learn how to convert your Webflow project to a Shopify theme
-                </p>
-                <div className="home-card-actions">
-                    <a href="shopify-setup" className="primary-button">Webflow to Shopify</a>
-                </div>
-              </div>
-              <div className="home-card">
-                <img src="/assets/webflow-to-wordpress.svg" />
-                <p>
-                  Discover how to convert your Webflow project to a Wordpress theme with the Adapter
-                </p>
-                <div className="home-card-actions">
-                <a href="wordpress-setup" className="primary-button">Webflow to WordPress</a>
-                </div>
-              </div>
+              <a className="home-card" href="/shopify-setup">
+                <img src="/assets/shopify-logo.svg" />
+              </a>
+              <a className="home-card" href="/wordpress-setup">
+                <img src="/assets/wordpress-logo.svg" />
+              </a>
+              <a className="home-card" href="/ghost-overview">
+                <img src="/assets/ghost-logo.svg" />
+              </a>
+              <a className="home-card" style={{"opacity": 0.6, "cursor": "not-allowed"}}>
+                <img src="/assets/hugo-logo.svg" />
+                <small>Coming Soon</small>
+              </a>
             </div>
         </div>
       </div>

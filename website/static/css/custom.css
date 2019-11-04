@@ -4,6 +4,10 @@ body * {
     font-size: 18px;
 }
 
+body {
+    background: #fafafa;
+}
+
 .onPageNav a {
     color: #717171;
     font-size: 14px;
@@ -287,14 +291,26 @@ p {
 
 .home-cards-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
     width: 100%;
     max-width: 1200px;
+    padding: 40px;
     margin: 40px auto;
 }
 
 @media only screen and (max-width: 1200px) {
+    .home-cards-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .home-card {
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .home-cards-wrapper {
         display: grid;
         grid-template-columns: 1fr;
@@ -306,23 +322,33 @@ p {
 }
 
 .home-card {
-    box-shadow: rgba(0,0,0,.06) 0 3px 6px;
-    background: #fff;
-    padding: 80px;
-    min-width: 300px;
-    height: 250px;
+    box-shadow: rgba(0,0,0,0.06) 0 3px 6px;
+    background: white;
+    padding: 20px;
+    min-width: 180px;
     position: relative;
+    transition: all 300ms ease-in;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     height: 100%;
-    text-align: center;
+    width: 100%;
 }
 
 .home-card img {
-    width: 250px;
-    height: auto;
+    height: 30px;
+    width: auto;
+    padding: 15px 10px;
+}
+
+.home-card:hover {
+    box-shadow: rgba(0,0,0,0.06) 0 6px 12px;
+    transform: translateY(-2px)
+}
+.home-card:active {
+    box-shadow: rgba(0,0,0,0.06) 0 1px 3px;
+    transform: translateY(-1px)
 }
 
 .home-card a.primary-button {
@@ -401,4 +427,19 @@ blockquote tr {
 article > div > span > blockquote:last-of-type {
     background-color: #fafafa;
     border-left: 8px solid #e6e6e6;
+}
+
+p.home-subtitle {
+    max-width: 60%;
+    text-align: center;
+    margin-bottom: -1.5em;
+    margin-top: 1.5em;
+}
+
+.home-card small {
+    font-size: 12px;
+    text-transform: uppercase;
+    position: absolute;
+    font-weight: bold;
+    bottom: 12px;
 }
