@@ -160,10 +160,5 @@
     "Shopify to Webflow": [
       "version-2.0.0-shopify-to-webflow"
     ]
-  },
-  "version-2.0.0-ghost-doc": {
-    "Getting Starter": [
-      "version-2.0.0-ghost-overview"
-    ]
   }
 }
