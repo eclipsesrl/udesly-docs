@@ -35,7 +35,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {href: 'https://www.udesly.com/', label: 'Home'},
+    {href: 'https://www.udesly.com/', label: 'Back to Udesly'},
     {search: true}
   ],
 
