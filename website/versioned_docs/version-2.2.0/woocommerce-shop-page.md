@@ -1,6 +1,7 @@
 ---
-id: woocommerce-shop-page
+id: version-2.2.0-woocommerce-shop-page
 title: Shop Page
+original_id: woocommerce-shop-page
 ---
 
 In WooCommerce there are several type of pages that can be used as an archive of products of your Shop. Don't forget to define your page accordingly to the list below by adding the correspondent attribute on the body of the page:

@@ -2,7 +2,7 @@
   "wordpress-docs": {
     "Getting Started": ["wordpress-setup", "wordpress-pages-structure", "wordpress-pages-elements", "wordpress-conversion-steps"],
     "Blog": ["wordpress-blog-overview", "wordpress-blog-archive-page", "wordpress-blog-single-page", "wordpress-blog-misc", "wordpress-author-page"],
-    "WooCommerce": ["woocommerce-overview", "woocommerce-shop-page", "woocommerce-single-product-page", "woocommerce-cart-page", "woocommerce-my-account-page", "woocommerce-checkout-page", "woocommerce-misc"],
+    "WooCommerce": ["woocommerce-overview", "woocommerce-shop-page", "woocommerce-single-product-page", "woocommerce-cart-page", "woocommerce-my-account-page", "woocommerce-checkout-page", "woocommerce-misc", "woocommerce-search-results", "woocommerce-order-confirmation"],
     "Search Box": ["wordpress-search-page", "wordpress-search-form"],
     "Custom Post Types": ["wordpress-cpt-overview", "wordpress-cpt-archive-page", "wordpress-cpt-single-page", "wordpress-cpt-misc"],
     "Login Area": ["wordpress-login-form", "wordpress-register-form", "wordpress-logout-action", "wordpress-lost-reset-password"],

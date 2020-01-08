@@ -1,6 +1,7 @@
 ---
-id: wordpress-blog-archive-page
+id: version-2.2.0-wordpress-blog-archive-page
 title: Post Archive Page
+original_id: wordpress-blog-archive-page
 ---
 
 In WordPress that are several type of pages that can be used as an archive of post of your Blog. Don't forget to define your page accordingly to the list below by adding the correspondent attribute on the body of the page:

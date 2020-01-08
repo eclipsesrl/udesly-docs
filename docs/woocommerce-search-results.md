@@ -1,102 +1,19 @@
 ---
-id: woocommerce-shop-page
-title: Shop Page
+id: woocommerce-search-results
+title: Search Results
 ---
 
-In WooCommerce there are several type of pages that can be used as an archive of products of your Shop. Don't forget to define your page accordingly to the list below by adding the correspondent attribute on the body of the page:
+By default, WooCommerce uses the Shop page to show searched products. If you want to create a specific page for product search, this page must have the following attribute attached to the body:
 
-<pre>
-<video autoplay muted playsinline="true" loop>
-<source src="/assets/page-type.webm">
-</video>
-</pre>
+> page=search
+> 
+> post-type=product
 
-## Archive Pages
+## Search Results
 
-- **Main Archive Page**
+Insert a Collection List Wrapper and add the following attribute:
 
-    This page is used for Main Shop Page and for taxonomies such as: Categories, Tags, Author if not defined otherwise.
-
-    > page=archive
-    >
-    >post-type=product
-
-- **Category page**
-
-    This page is used for every category of your WooCommerce Shop. This page must have the following attribute on the Body:
-
-    > page=taxonomy
-    >
-    > post-type=product_cat
-
-- **Tag page**
-
-    This page is used for every tag of your WooCommerce Shop. This page must have the following attributes on the Body:
-
-    > page=taxonomy
-    >
-    > post-type=product_tag
-
-- **Specific Category page**
-
-    This page is used for a specific category of your WooCommerce Shop. This page must have the following attributes on the Body:
-
-    > page=taxonomy
-    >
-    > post-type=product_cat
-    >
-    > specific={slug of your category or ID of your category}    
-
-
-- **Specific Tag page**
-
-    This page is used for a specific tag of your WooCommerce Shop. This page must have the following attributes on the Body:
-
-    > page=taxonomy
-    >
-    > post-type=product_tag
-    >
-    > specific={slug of your tag or ID of your tag}
-
-![](assets/shop-page.jpg)
-
-*The following list includes all elements you can enter within these pages.*
-
-> **Tips:**
-> Take a look at our [elements pack](https://webflow.com/website/webflow-to-wordpress-elements-pack). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to WordPress, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
->
-> Otherwise, if you want to start from scratch, follow the guide below.
-
-## Archive Title
-
-This is the archive page title (**e.g:** Category: My Category) and it can be added on every text element.
-
-The attribute to enter is:
-
-> wc=archive-title
-
-## Archive Description
-
-This is the archive page description and it can be added on every text element.
-
-The attribute to enter is:
-
-> wc=archive-description
-
-## Archive Image
-
-To set the image of your Archive page, insert a Image item or a Div to set as background image and enter the attribute:
-
-> wc=archive-image
-
-
-## Archive Products
-
-It must be inserted on a Collection List Wrapper and it's the list of archive products. To enable pagination just add the pagination to the collection and you can control the number of products from *Appearance > Customize > WooCommerce >* and change the number of products by row and column.
-
-The attribute to enter is:
-
-> wc=archive-products
+> wc=search-results
 
 All the elements you can add in the Collection Item are available below:
 - ### Date & Time
@@ -315,77 +232,6 @@ All the elements you can add in the Collection Item are available below:
 
 - ### Add to Cart
     It will be automatic and you need to use the default Add to Cart by Webflow.    
-
-## Masonry Products
-
-Insert a Div element with the following attribute:
-
-> wc=masonry-products
-
-This Div element must contain several Collection List Wrappers. Each Collection List Wrapper need the attribute:
-
-> limit={number of products you want to display}
-
-Items you can insert within the Collection List Wrappers are the same as the ones available for the Archive Products, as documented above in this guide.     
-
-## Archive Categories & Tags
-
-Insert a Collection List Wrapper and enter the attributes, respectively for categories and tags:
-
-> wc=categories
-
-> wc=tags
-
-Inside Collection item you can use the following attributes:
-
--  ### Description
-    
-    On Text elements:
-
-    > item=description
-
-
-- ### Title
-
-    On Text or Link:
-
-    > item=title
-
-- ### Permalink 
-
-    On Link elements:
-
-    > item=permalink
-
-- ### Featured Image
-
-    On Div, Link or img elements:
-
-    > item=featured-image
-
-## Breadcrumbs
-
-Insert a List element and add the attribute:
-
-> wc=breadcrumbs
-
-The List element must contain 3 List items: the first one must contain a Link and it represent the breadcrumb to the parent category. The second List item is the separator and the third one is the current product. No attributes are needed on these List items.
-
-## Orderby
-
-This select allows to change the products order in the page. Insert a Form block with the attribute:
-
-> wc=orderby
-
-The Form block must contain one Select item.
-
-## Results Count
-
-This is the result text that shows up on the WooCommerce product archive pages that displays the amount of products you are currently viewing and the total amount of products in your current query.
-
-Insert a Text element and add the attribute:
-
-> wc=results-count
 
 
 ---------

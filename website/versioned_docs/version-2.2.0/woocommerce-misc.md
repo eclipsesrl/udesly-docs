@@ -1,104 +1,179 @@
 ---
-id: woocommerce-shop-page
-title: Shop Page
+id: version-2.2.0-woocommerce-misc
+title: Shop Misc
+original_id: woocommerce-misc
 ---
 
-In WooCommerce there are several type of pages that can be used as an archive of products of your Shop. Don't forget to define your page accordingly to the list below by adding the correspondent attribute on the body of the page:
-
-<pre>
-<video autoplay muted playsinline="true" loop>
-<source src="/assets/page-type.webm">
-</video>
-</pre>
-
-## Archive Pages
-
-- **Main Archive Page**
-
-    This page is used for Main Shop Page and for taxonomies such as: Categories, Tags, Author if not defined otherwise.
-
-    > page=archive
-    >
-    >post-type=product
-
-- **Category page**
-
-    This page is used for every category of your WooCommerce Shop. This page must have the following attribute on the Body:
-
-    > page=taxonomy
-    >
-    > post-type=product_cat
-
-- **Tag page**
-
-    This page is used for every tag of your WooCommerce Shop. This page must have the following attributes on the Body:
-
-    > page=taxonomy
-    >
-    > post-type=product_tag
-
-- **Specific Category page**
-
-    This page is used for a specific category of your WooCommerce Shop. This page must have the following attributes on the Body:
-
-    > page=taxonomy
-    >
-    > post-type=product_cat
-    >
-    > specific={slug of your category or ID of your category}    
-
-
-- **Specific Tag page**
-
-    This page is used for a specific tag of your WooCommerce Shop. This page must have the following attributes on the Body:
-
-    > page=taxonomy
-    >
-    > post-type=product_tag
-    >
-    > specific={slug of your tag or ID of your tag}
-
-![](assets/shop-page.jpg)
-
-*The following list includes all elements you can enter within these pages.*
+The following WooCoomerce items can be inserted everywhere in the site.
 
 > **Tips:**
 > Take a look at our [elements pack](https://webflow.com/website/webflow-to-wordpress-elements-pack). It’s a set of all the most used elements with the necessary custom attributes already added. You just need to copy and paste the element in your Webflow page and give it your own style. This will help you quicken the workflow. If you have already completed your design and just want to convert the project to WordPress, maybe the quicker way to proceed is to add the custom attributes manually following our guide.
 >
 > Otherwise, if you want to start from scratch, follow the guide below.
 
-## Archive Title
+## Archive Link
 
-This is the archive page title (**e.g:** Category: My Category) and it can be added on every text element.
+This is the link to the Main Shop Page of your website. Insert the following attribute on link elements:
 
-The attribute to enter is:
+> wc=archive-link
 
-> wc=archive-title
+`Don't forget that you have to set your Shop Page in WooCommerce > Settings > General`
 
-## Archive Description
+## Category Link
 
-This is the archive page description and it can be added on every text element.
+This is the link to a specific category of your Shop. Insert a link item and add the attribute:
 
-The attribute to enter is:
+> wc-category-link={category-slug}
 
-> wc=archive-description
+## Tag Link
 
-## Archive Image
+This is the link to a specific tag of your Shop. Insert a link item and add the attribute:
 
-To set the image of your Archive page, insert a Image item or a Div to set as background image and enter the attribute:
+> wc-tag-link={tag-slug}
 
-> wc=archive-image
+## Cart Link
+
+This is the link to the cart page of your Shop. Insert a link item and add the attribute:
+
+> wc=cart-link
+
+`Don't forget that you have to set your Cart Page in WooCommerce > Settings > Advanced`
 
 
-## Archive Products
+## Checkout Link
 
-It must be inserted on a Collection List Wrapper and it's the list of archive products. To enable pagination just add the pagination to the collection and you can control the number of products from *Appearance > Customize > WooCommerce >* and change the number of products by row and column.
+This is the link to the checkout page of your Shop. Insert a link item and add the attribute:
 
-The attribute to enter is:
+> wc=checkout-link
 
-> wc=archive-products
+`Don't forget that you have to set your Checkout Page in WooCommerce > Settings > Advanced`
 
-All the elements you can add in the Collection Item are available below:
+## My Account Link
+
+This is the link to the My Account page of your Shop. Insert a link item and add the attribute:
+
+> wc=my-account-link
+
+`Don't forget that you have to set your My Account Page in WooCommerce > Settings > Advanced`
+
+Optionally you can set the attribute
+
+> endpoint={endpoint slug}
+
+to link to a specific endpoint of the my account page, For example
+
+> endpoint=edit-account
+
+will link to the "Edit Account" section of the My account page
+
+`You can find all My Account endpoints on WooCommerce > Settings > Advanced under Account Endpoints`
+
+## Mini Cart
+
+Use Webflow native mini cart, it needs this attribute:
+
+> wc=mini-cart
+
+Hide the native Collection List inside it (it's not exported as HTML) and replace it with a simple List with the attribute:
+
+> item=products-list
+
+Inside the List Item you can insert the following elements: 
+
+- ### Title
+
+    On text elements you can add the following attribute to get the Product Title:
+
+    > item=title
+
+- ### Price
+
+    On text elements you can add the following attribute to get the Product Price:
+
+    > item=price
+
+- ### Total
+
+   On text elements you can add the following attribute to get the Product Total Price:
+
+    > item=total
+
+- ### Quantity
+
+    On text elements you can add the following attribute to get the Product quantity:
+
+    > item=quantity
+
+- ### Link
+
+    On link elements you can add the following attribute to get the Product Link:
+
+    > item=permalink
+
+- ### Remove
+
+    On link elements you can add the following attribute to add the functionality of removing the Product from the cart:
+
+    > item=remove
+
+- ### Featured Image
+
+    On image or div elements you can add the following attribute to get the Product Featured Image:
+
+    > item=featured-image
+
+![](assets/shopify-mini-cart.png)
+
+## Specific Product
+
+It allows to show up a specific product. Insert a Div element with the attribute:
+
+> wc:specific-product={slug or id}
+
+Inside the Div, you can use all the elements you can find [here](#product-elements).
+
+## Queried Products
+
+It's a products collection you selected using Udesly WordPress plugin from posts queries menu. Insert a Collection lists wrapper and, if you want, you can enable pagination and post count.
+Insert the attribute:
+
+> wc:products={slug of the query created in the plugin}`
+
+Inside the Collection List item, you can use all the elements you can find [here](#product-elements).
+
+## Masonry Queried Products
+
+It's a products collection in masonry fashion you selected using Udesly WordPress plugin from posts queries menu. Insert a Collection lists wrapper and, if you want, you can enable pagination and post count.
+Insert a Div element with the following attribute:
+
+> wc:masonry-products={slug of the query created in the plugin}
+
+This Div element must contain several Collection List Wrappers. Each Collection List Wrapper need the attribute:
+
+> limit={number of products you want to display}
+
+Inside the Collection List item, you can use all the elements you can find [here](#product-elements).
+
+## Product Slider
+
+It's a products collection you selected using Udesly WordPress plugin from posts queries menu.
+Each slide of the slider will be a product of the selected collection.
+Insert a Slider item and add the attribute:
+
+> wc:slider={slug of the query created in the plugin}
+
+Inside the Slide, you can use all the elements you can find [here](#product-elements).
+
+## Product Elements
+
+These elements below can be used inside:
+
+[**Div of the specific post**](#specific-product)
+
+[**Queried posts collection list item**](#queried-products)
+
+[**Slide of Blog slider**](#product-slider)
+
 - ### Date & Time
     It is the date and the time of publication of the product. Insert a text element and enter the attribute:
 
@@ -251,7 +326,9 @@ All the elements you can add in the Collection Item are available below:
 
 - ### Price
 
-    This is the product price. Insert a Text element and add the attribute:
+    This is the product price, 
+
+    Insert a Text element and add the attribute:
 
     > item=price
 
@@ -314,79 +391,27 @@ All the elements you can add in the Collection Item are available below:
     > item=review-count
 
 - ### Add to Cart
-    It will be automatic and you need to use the default Add to Cart by Webflow.    
+    It will be automatic and you need to use the default Add to Cart by Webflow.   
 
-## Masonry Products
+## Notices
 
-Insert a Div element with the following attribute:
+To enable WooCommerce notices, insert a Div element with the attribute:
 
-> wc=masonry-products
+> wc=notices
 
-This Div element must contain several Collection List Wrappers. Each Collection List Wrapper need the attribute:
+Within it, insert 3 further Divs with the attributes, respectively:
 
-> limit={number of products you want to display}
+> item=notice
 
-Items you can insert within the Collection List Wrappers are the same as the ones available for the Archive Products, as documented above in this guide.     
+> item=notice-success
 
-## Archive Categories & Tags
+> item=notice-error
 
-Insert a Collection List Wrapper and enter the attributes, respectively for categories and tags:
+Within each Div, insert a Text element to show the error message with the attribute:
 
-> wc=categories
+> item=message
 
-> wc=tags
-
-Inside Collection item you can use the following attributes:
-
--  ### Description
-    
-    On Text elements:
-
-    > item=description
-
-
-- ### Title
-
-    On Text or Link:
-
-    > item=title
-
-- ### Permalink 
-
-    On Link elements:
-
-    > item=permalink
-
-- ### Featured Image
-
-    On Div, Link or img elements:
-
-    > item=featured-image
-
-## Breadcrumbs
-
-Insert a List element and add the attribute:
-
-> wc=breadcrumbs
-
-The List element must contain 3 List items: the first one must contain a Link and it represent the breadcrumb to the parent category. The second List item is the separator and the third one is the current product. No attributes are needed on these List items.
-
-## Orderby
-
-This select allows to change the products order in the page. Insert a Form block with the attribute:
-
-> wc=orderby
-
-The Form block must contain one Select item.
-
-## Results Count
-
-This is the result text that shows up on the WooCommerce product archive pages that displays the amount of products you are currently viewing and the total amount of products in your current query.
-
-Insert a Text element and add the attribute:
-
-> wc=results-count
-
+**This feature can be inserted in one - and only one - page of your template.**
 
 ---------
 > **Take in Mind**

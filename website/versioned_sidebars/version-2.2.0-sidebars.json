@@ -20,7 +20,9 @@
       "version-2.2.0-woocommerce-cart-page",
       "version-2.2.0-woocommerce-my-account-page",
       "version-2.2.0-woocommerce-checkout-page",
-      "version-2.2.0-woocommerce-misc"
+      "version-2.2.0-woocommerce-misc",
+      "version-2.2.0-woocommerce-search-results",
+      "version-2.2.0-woocommerce-order-confirmation"
     ],
     "Search Box": [
       "version-2.2.0-wordpress-search-page",

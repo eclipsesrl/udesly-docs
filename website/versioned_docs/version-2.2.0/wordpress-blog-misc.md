@@ -1,6 +1,7 @@
 ---
-id: wordpress-blog-misc
+id: version-2.2.0-wordpress-blog-misc
 title: Blog Misc
+original_id: wordpress-blog-misc
 ---
 
 The following Blog items can be inserted everywhere in the site.

@@ -140,6 +140,19 @@ Insert the attribute:
 
 Inside the Collection List item, you can use all the elements you can find [here](#product-elements).
 
+## Masonry Queried Products
+
+It's a products collection in masonry fashion you selected using Udesly WordPress plugin from posts queries menu. Insert a Collection lists wrapper and, if you want, you can enable pagination and post count.
+Insert a Div element with the following attribute:
+
+> wc:masonry-products={slug of the query created in the plugin}
+
+This Div element must contain several Collection List Wrappers. Each Collection List Wrapper need the attribute:
+
+> limit={number of products you want to display}
+
+Inside the Collection List item, you can use all the elements you can find [here](#product-elements).
+
 ## Product Slider
 
 It's a products collection you selected using Udesly WordPress plugin from posts queries menu.
