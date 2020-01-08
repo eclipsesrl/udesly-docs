@@ -44,6 +44,6 @@
     "General":["ghost-conditional", "ghost-static-pages"]
   },
   "netlify-doc": {
-    "Setup Guide": ["netlify-how-it-works", "webflow-custom-attributes", "use-case"]
+    "Setup Guide": ["netlify-how-it-works", "netlify-custom-attributes", "use-case"]
       }
 }
