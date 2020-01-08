@@ -29,8 +29,7 @@ class Index extends React.Component {
                 <img src="/assets/ghost-logo.svg" />
               </a>
               <a className="home-card" style={{"opacity": 0.6, "cursor": "not-allowed"}}>
-                <img src="/assets/hugo-logo.svg" />
-                <small>Coming Soon</small>
+                <img src="/assets/netlify-logo-home.svg" />
               </a>
             </div>
         </div>
