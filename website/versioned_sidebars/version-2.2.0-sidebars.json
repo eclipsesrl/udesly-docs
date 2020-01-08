@@ -186,14 +186,9 @@
     ]
   },
   "version-2.2.0-netlify-doc": {
-    "Getting Starter": [
-      "version-2.2.0-how-does-it-work",
-      "version-2.2.0-11ty-overview",
-      "version-2.2.0-netlify-overview",
-      "version-2.2.0-create-github-account"
-    ],
-    "Conversion Process": [
-      "version-2.2.0-attributes",
+    "Setup Guide": [
+      "version-2.2.0-netlify-how-it-works",
+      "version-2.2.0-netlify-custom-attributes",
       "version-2.2.0-use-case"
     ]
   }
