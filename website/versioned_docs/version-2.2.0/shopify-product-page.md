@@ -1,6 +1,7 @@
 ---
-id: shopify-product-page
+id: version-2.2.0-shopify-product-page
 title: Product Page
+original_id: shopify-product-page
 ---
 
 This template renders a detailed page for an individual product. 

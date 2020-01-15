@@ -1,6 +1,7 @@
 ---
-id: shopify-sections
+id: version-2.2.0-shopify-sections
 title: Sections
+original_id: shopify-sections
 ---
 
 Sections are customizable blocks of content that can be added in Shopify. In each section you can add Options to customize the Section content or style.
