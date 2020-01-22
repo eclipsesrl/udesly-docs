@@ -1,6 +1,7 @@
 ---
-id: shopify-collection-page
+id: version-2.2.0-shopify-collection-page
 title: Collection Page
+original_id: shopify-collection-page
 ---
 
 This section will show how to setup and manage the single Collection page and the whole range of items you can insert in it.

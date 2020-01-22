@@ -9,11 +9,9 @@ Netlify is an All-in-one platform for automating modern webproject. With the Ude
 ![](assets/jamstack.svg)
 
 Design your template in Webflow and insert all the custom attributes you need to make it manageable with Netlify.
-Check this guide to see attributes available! (LINK)
+Check this [guide](https://docs.udesly.com/netlify-custom-attributes) to see attributes available!
 
 Remember to export CSV of your CMS data. 
-
-![](assets/netlify-export-csv.png)
 
 You are now ready to export the Webflow template.
 
@@ -21,7 +19,9 @@ You are now ready to export the Webflow template.
 
 Once everything is ready on Webflow side, take the template through the Udesly Adapter and start the conversion, including exported CSVs as well.
 
-![](assets/netlify-convert.png)
+Also, you find **Additional Files** field in which the Adapter will put together the 11ty exported .zip file with some external files (.zip format) you want to add in it. For example a Markdown file of some of your posts or Netlify lambda functions directly.
+
+![](assets/netlify-export-csv.png)
 
 Once converted, you have 2 different options available:
 

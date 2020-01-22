@@ -106,9 +106,12 @@ It can be set on an Image, Div, Slider, Lightbox and on a Lightbox contained in 
 
 > item=product-images
 
-Also, if you need to show more images, you can handle the count ofimages through this attribute:
+## Product Image
+You can select one image amongst additional images of your product. It can be set on an Image, Div with this attribute:
 
-> index={number of images}
+> item=product-image
+
+> index={index of the image}
 
 ## Add to Cart
 Webflow Add to cart gets automatically converted. Use the default Add to cart and enter these elements inside it:
