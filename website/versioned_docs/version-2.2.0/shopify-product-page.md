@@ -181,7 +181,17 @@ Inside the Collection item you can only put limited fields:
 
    > item=featured-image
 
+## Different templates 
 
+To give different templates to specific Product pages, the body of these pages must contain the following attribute:
+
+> page=product-template
+
+![](assets/shopify-different-product.png)
+
+**Once in Shopify, remember to select the corresponding template from the template selector.**
+
+![](assets/shopify-template-selector.png)
 
 ---------
 > **Take in Mind**

@@ -176,6 +176,17 @@ You can select one image amongst additional images of your product. It can be se
    > index={index of the image}
 
 
+## Different templates 
+
+To give different templates to specific Collection pages, the body of these pages must contain the following attribute:
+
+> page=collection-template
+
+![](assets/shopify-different-collection.png)
+
+**Once in Shopify, remember to select the corresponding template from the template selector.**
+
+![](assets/shopify-template-selector.png)
 
 ---------
 > **Take in Mind**

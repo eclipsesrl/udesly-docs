@@ -1,6 +1,7 @@
 ---
-id: shopify-article-page
+id: version-2.2.0-shopify-article-page
 title: Article Page
+original_id: shopify-article-page
 ---
 
 Here you can find a list of all elements you can enter within the **Single Article** page of your Shopify site.

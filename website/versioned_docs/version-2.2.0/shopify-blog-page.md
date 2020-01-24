@@ -1,6 +1,7 @@
 ---
-id: shopify-blog-page
+id: version-2.2.0-shopify-blog-page
 title: Blog Page
+original_id: shopify-blog-page
 ---
 
 This guide shows how to add the attributes in Webflow to configure the blog and have it ready to convert to Shopify through the Udesly Adapter.
